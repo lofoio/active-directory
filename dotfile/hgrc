@@ -1,9 +1,16 @@
-##default = https://roover.wd:wR6jG2XD2aT9@code.google.com/p/roover-learning-python/
 ##  hg clone https://roover.wd@code.google.com/p/helloworld-justlearning/
+## hg add
 ## hg com -m "your commit message"
-## hg push https://roover.wd:wR6jG2XD2aT9@code.google.com/p/helloworld-justlearning/
+## hg push
+
 ##[ui]
 ##username = Andy Wang <roover.wd@gmail.com>
 ## [http_proxy]
 ## host=127.0.0.1:8086
 
+[paths]
+default = https://roover.wd:wR6jG2XD2aT9@code.google.com/p/active-directory/
+[ui]
+username = wangdian@WDSL400
+[hostfingerprints]
+code.google.com = ca:5e:a3:f8:40:90:6b:ea:25:19:6f:a8:a1:82:bb:6c:6b:2d:96:85
