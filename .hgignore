@@ -1,0 +1,15 @@
+syntax: glob
+*.orig
+*.rej
+*~
+*.o
+*.obj
+*.bak
+tests/*.err
+*.elc
+*.pyc
+doc/*
+gitignore
+
+syntax: regexp
+.*\#.*\#$

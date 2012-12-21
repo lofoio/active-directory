@@ -1,0 +1,4634 @@
+﻿1
+00:00:02,947 --> 00:00:07,046
+<font color=#00FF00>National Geographic</font>
+<font color=#00FFFF>Earth: Making of a Planet</font>
+Original Air Date on March 6, 2011
+
+2
+00:00:07,071 --> 00:00:11,071
+-- sync, corrected by <font color=#00ff00>elderman</font> --
+
+3
+00:00:14,563 --> 00:00:18,133
+<i>Narrator: The Earth, as</i>
+<i>far as we know it's the</i>
+
+4
+00:00:18,201 --> 00:00:22,973
+<i>only home to life</i>
+<i>in the universe.</i>
+
+5
+00:00:23,041 --> 00:00:29,380
+<i>So what makes our</i>
+<i>planet so special?</i>
+
+6
+00:00:30,249 --> 00:00:36,389
+<i>To find answers, we</i>
+<i>must travel back in time.</i>
+
+7
+00:00:36,457 --> 00:00:40,460
+<i>See the first humans</i>
+<i>walk the Earth.</i>
+
+8
+00:00:40,528 --> 00:00:44,598
+<i>Ride each colliding</i>
+<i>continent.</i>
+
+9
+00:00:44,666 --> 00:00:50,570
+<i>Face killer dinosaurs.</i>
+
+10
+00:00:50,638 --> 00:00:56,778
+<i>Dive into oceans full</i>
+<i>of bizarre life forms.</i>
+
+11
+00:00:56,846 --> 00:01:00,683
+<i>Feel the bitter chill</i>
+<i>of global ice ages.</i>
+
+12
+00:01:00,751 --> 00:01:04,855
+<i>And experience the fury of</i>
+<i>cosmic missile attacks.</i>
+
+13
+00:01:12,330 --> 00:01:14,532
+<i>By travelling</i>
+<i>back in time,</i>
+
+14
+00:01:14,599 --> 00:01:17,034
+<i>we can piece together</i>
+<i>our planet's incredible</i>
+
+15
+00:01:17,102 --> 00:01:18,836
+<i>story.</i>
+
+16
+00:01:18,904 --> 00:01:23,374
+<i>And discover why all of</i>
+<i>this, and all of us,</i>
+
+17
+00:01:23,441 --> 00:01:24,975
+<i>are here.</i>
+
+18
+00:01:42,262 --> 00:01:44,497
+<i>The journey starts</i>
+<i>almost five billion</i>
+
+19
+00:01:44,565 --> 00:01:48,035
+<i>years ago.</i>
+
+20
+00:01:48,736 --> 00:01:53,074
+<i>There's no sign of</i>
+<i>Earth just yet.</i>
+
+21
+00:01:55,310 --> 00:01:59,980
+<i>Only the Sun, a newborn</i>
+<i>star surrounded by dust.</i>
+
+22
+00:02:05,754 --> 00:02:09,991
+<i>The Earth hasn't</i>
+<i>formed yet.</i>
+
+23
+00:02:19,102 --> 00:02:21,938
+<i>But through time,</i>
+<i>gravity pulls the dust</i>
+
+24
+00:02:22,005 --> 00:02:24,607
+<i>into tiny rocks.</i>
+
+25
+00:02:38,992 --> 00:02:41,927
+<i>To our surprise,</i>
+<i>something as complex as</i>
+
+26
+00:02:41,995 --> 00:02:45,364
+<i>a planet is made from</i>
+<i>nothing more than dust</i>
+
+27
+00:02:45,432 --> 00:02:48,168
+<i>and rocks.</i>
+
+28
+00:02:49,971 --> 00:02:53,006
+<i>Over millions of years,</i>
+<i>gravity pulls these</i>
+
+29
+00:02:53,074 --> 00:02:56,642
+<i>rocks together to</i>
+<i>form the Earth,</i>
+
+30
+00:02:56,710 --> 00:02:58,511
+<i>one of at least a</i>
+<i>hundred planets</i>
+
+31
+00:02:58,578 --> 00:03:01,080
+<i>circling the sun.</i>
+
+32
+00:03:31,041 --> 00:03:33,742
+<i>But four and a half</i>
+<i>billion years ago,</i>
+
+33
+00:03:33,810 --> 00:03:37,813
+<i>Earth looks more</i>
+<i>like hell than home.</i>
+
+34
+00:03:41,717 --> 00:03:43,751
+<i>Up close the</i>
+<i>temperature is over</i>
+
+35
+00:03:43,819 --> 00:03:47,888
+<i>2,000 degrees</i>
+<i>Fahrenheit.</i>
+
+36
+00:03:47,956 --> 00:03:50,924
+<i>There's no air, just</i>
+<i>carbon dioxide,</i>
+
+37
+00:03:50,992 --> 00:03:54,427
+<i>nitrogen</i>
+<i>and water vapor.</i>
+
+38
+00:03:54,629 --> 00:03:57,164
+<i>It's so hot and toxic</i>
+<i>that if we got any</i>
+
+39
+00:03:57,232 --> 00:03:59,700
+<i>closer we'd be</i>
+<i>incinerated and</i>
+
+40
+00:03:59,768 --> 00:04:03,638
+<i>suffocated in seconds.</i>
+
+41
+00:04:13,784 --> 00:04:16,052
+<i>This newborn planet</i>
+<i>is a boiling ball of</i>
+
+42
+00:04:16,120 --> 00:04:17,720
+<i>liquid rock;</i>
+
+43
+00:04:24,828 --> 00:04:28,630
+<i>an endless ocean of lava.</i>
+
+44
+00:04:37,974 --> 00:04:40,242
+<i>A young planet called</i>
+<i>Theia is heading</i>
+
+45
+00:04:40,310 --> 00:04:45,115
+<i>straight for Earth.</i>
+
+46
+00:04:45,383 --> 00:04:48,318
+<i>The size of Mars, it</i>
+<i>travels nearly 10 miles</i>
+
+47
+00:04:48,386 --> 00:04:51,255
+<i>per second, twenty</i>
+<i>times faster than a</i>
+
+48
+00:04:51,323 --> 00:04:52,924
+<i>bullet.</i>
+
+49
+00:05:01,366 --> 00:05:04,168
+<i>The intruder's gravity</i>
+<i>distorts the Earth's surface.</i>
+
+50
+00:05:33,569 --> 00:05:36,604
+<i>The blast wave races</i>
+<i>around the planet.</i>
+
+51
+00:05:37,239 --> 00:05:40,508
+<i>It's as though both young</i>
+<i>planets turn to liquid,</i>
+
+52
+00:05:50,920 --> 00:05:52,888
+<i>trillions of</i>
+<i>tons of debris blast</i>
+
+53
+00:05:52,955 --> 00:05:56,492
+<i>out into space.</i>
+
+54
+00:06:13,178 --> 00:06:15,745
+<i>But over the course</i>
+<i>of a thousand years,</i>
+
+55
+00:06:15,813 --> 00:06:18,581
+<i>gravity turns the</i>
+<i>rubble into a ring of</i>
+
+56
+00:06:18,649 --> 00:06:24,286
+<i>red hot dust and rock</i>
+<i>that circles the Earth.</i>
+
+57
+00:06:29,424 --> 00:06:32,226
+<i>From this ring,</i>
+<i>a ball forms,</i>
+
+58
+00:06:32,294 --> 00:06:37,231
+<i>over two thousand</i>
+<i>miles wide.</i>
+
+59
+00:06:41,971 --> 00:06:46,174
+<i>It's the birth</i>
+<i>of our moon.</i>
+
+60
+00:06:51,547 --> 00:06:55,151
+<i>But it's much closer</i>
+<i>than the moon today,</i>
+
+61
+00:06:55,218 --> 00:06:58,721
+<i>just 14,000 miles away</i>
+<i>instead of a quarter of</i>
+
+62
+00:06:58,789 --> 00:07:02,359
+<i>a million miles.</i>
+
+63
+00:07:18,312 --> 00:07:20,947
+<i>The sun rises over</i>
+<i>a cooling Earth.</i>
+
+64
+00:07:21,014 --> 00:07:27,152
+<i>And sets just</i>
+<i>three hours later.</i>
+
+65
+00:07:27,287 --> 00:07:29,555
+<i>The Earth is spinning</i>
+<i>so fast that an entire</i>
+
+66
+00:07:29,623 --> 00:07:34,593
+<i>day lasts six hours.</i>
+
+67
+00:07:34,861 --> 00:07:37,162
+<i>The days may pass</i>
+<i>quickly but the Earth</i>
+
+68
+00:07:37,230 --> 00:07:41,366
+<i>changes slowly.</i>
+
+69
+00:07:41,568 --> 00:07:44,136
+<i>To understand the</i>
+<i>making of our planet we</i>
+
+70
+00:07:44,204 --> 00:07:48,974
+<i>need to fast foard</i>
+<i>through millions of years.</i>
+
+71
+00:08:12,367 --> 00:08:14,936
+<i>3.9 billion</i>
+<i>years ago,</i>
+
+72
+00:08:15,003 --> 00:08:19,174
+<i>a hail of meteors</i>
+<i>attack the Earth.</i>
+
+73
+00:08:19,642 --> 00:08:21,944
+<i>It's debris left over</i>
+<i>from the solar system's</i>
+
+74
+00:08:22,012 --> 00:08:25,448
+<i>formation.</i>
+
+75
+00:08:32,458 --> 00:08:35,026
+<i>Inside the meteors are</i>
+<i>crystals that look like</i>
+
+76
+00:08:35,094 --> 00:08:39,831
+<i>grains of salt.</i>
+
+77
+00:08:40,099 --> 00:08:43,401
+<i>And inside the crystals</i>
+<i>are minute droplets of</i>
+
+78
+00:08:43,469 --> 00:08:45,303
+<i>water.</i>
+
+79
+00:08:52,243 --> 00:08:54,945
+<i>These deadly missiles</i>
+<i>could contain the vital</i>
+
+80
+00:08:55,013 --> 00:08:57,714
+<i>ingredient for</i>
+<i>life on Earth.</i>
+
+81
+00:09:11,794 --> 00:09:14,429
+<i>Only a small amount of</i>
+<i>water exists inside</i>
+
+82
+00:09:14,497 --> 00:09:17,699
+<i>each meteorite, but as</i>
+<i>they bombard the Earth</i>
+
+83
+00:09:17,766 --> 00:09:20,201
+<i>for over 20</i>
+<i>million years,</i>
+
+84
+00:09:20,268 --> 00:09:23,605
+<i>pools of water grow.</i>
+
+85
+00:09:26,075 --> 00:09:28,310
+<i>The Earth's core</i>
+<i>remains molten,</i>
+
+86
+00:09:28,377 --> 00:09:30,479
+<i>but its surface has</i>
+<i>cooled enough to form a</i>
+
+87
+00:09:30,546 --> 00:09:32,347
+<i>crust.</i>
+
+88
+00:09:32,415 --> 00:09:36,818
+<i>The air is around</i>
+<i>170 degrees.</i>
+
+89
+00:09:39,154 --> 00:09:41,089
+<i>In the future, there's</i>
+<i>a chance we could</i>
+
+90
+00:09:41,157 --> 00:09:44,659
+<i>swallow</i>
+<i>this very water.</i>
+
+91
+00:09:44,727 --> 00:09:46,661
+<i>Every sip,</i>
+<i>every puddle,</i>
+
+92
+00:09:46,729 --> 00:09:49,831
+<i>every drop of water</i>
+<i>in every ocean,</i>
+
+93
+00:09:49,898 --> 00:09:53,034
+<i>is billions</i>
+<i>of years old.</i>
+
+94
+00:09:53,836 --> 00:09:55,703
+<i>And it may have</i>
+<i>travelled millions of</i>
+
+95
+00:09:55,770 --> 00:09:59,073
+<i>miles to reach us,</i>
+<i>carried inside a</i>
+
+96
+00:09:59,141 --> 00:10:01,976
+<i>meteor.</i>
+
+97
+00:10:03,979 --> 00:10:06,179
+<i>The Earth looks</i>
+<i>more familiar,</i>
+
+98
+00:10:06,247 --> 00:10:11,418
+<i>but it's still a</i>
+<i>dangerous place.</i>
+
+99
+00:10:11,586 --> 00:10:13,520
+<i>Winds are faster than</i>
+<i>the most destructive</i>
+
+100
+00:10:13,588 --> 00:10:15,989
+<i>hurricanes today.</i>
+
+101
+00:10:16,057 --> 00:10:18,125
+<i>It's a mega storm,</i>
+<i>whipped up by the</i>
+
+102
+00:10:18,193 --> 00:10:22,330
+<i>planet's rapid</i>
+<i>rotation.</i>
+
+103
+00:10:32,074 --> 00:10:34,910
+<i>The moon is so close to</i>
+<i>Earth that its gravity</i>
+
+104
+00:10:34,977 --> 00:10:38,212
+<i>is overwhelmed,</i>
+<i>creating huge tides</i>
+
+105
+00:10:38,280 --> 00:10:42,083
+<i>that race across the</i>
+<i>planet's surface.</i>
+
+106
+00:11:13,882 --> 00:11:16,684
+<i>But over time, the</i>
+<i>moon moves away,</i>
+
+107
+00:11:16,751 --> 00:11:21,221
+<i>the waves calm down</i>
+<i>and the planet spins slower.</i>
+
+108
+00:11:26,226 --> 00:11:29,562
+<i>700 million years after</i>
+<i>the planet's birth,</i>
+
+109
+00:11:29,629 --> 00:11:33,766
+<i>life-giving water</i>
+<i>covers its surface.</i>
+
+110
+00:11:35,035 --> 00:11:37,303
+<i>And scattered</i>
+<i>throughout are tiny</i>
+
+111
+00:11:37,371 --> 00:11:40,106
+<i>islands.</i>
+
+112
+00:11:45,514 --> 00:11:49,951
+<i>They seem to have</i>
+<i>appeared from nowhere.</i>
+
+113
+00:11:51,854 --> 00:11:55,823
+<i>So how did</i>
+<i>they get here?</i>
+
+114
+00:12:00,463 --> 00:12:02,330
+<i>Molten rock bursts</i>
+<i>through the Earth's</i>
+
+115
+00:12:02,398 --> 00:12:07,668
+<i>crust and rises up</i>
+<i>through the ocean.</i>
+
+116
+00:12:09,371 --> 00:12:11,306
+<i>Over time the</i>
+<i>lava cools,</i>
+
+117
+00:12:11,374 --> 00:12:14,509
+<i>forming a</i>
+<i>volcanic island.</i>
+
+118
+00:12:19,748 --> 00:12:22,016
+<i>In the future, these</i>
+<i>islands will join</i>
+
+119
+00:12:22,084 --> 00:12:27,288
+<i>together to form the</i>
+<i>first continents.</i>
+
+120
+00:12:27,956 --> 00:12:31,992
+<i>Earth now has</i>
+<i>water and land.</i>
+
+121
+00:12:32,060 --> 00:12:34,762
+<i>It's beginning to look like</i>
+<i>the planet we call home.</i>
+
+122
+00:12:37,465 --> 00:12:40,066
+<i>But the atmosphere is</i>
+<i>still toxic and the</i>
+
+123
+00:12:40,134 --> 00:12:43,068
+<i>temperature</i>
+<i>is scorching.</i>
+
+124
+00:12:43,136 --> 00:12:45,037
+<i>Life here is</i>
+<i>impossible.</i>
+
+125
+00:12:55,691 --> 00:12:57,759
+<i>Narrator: Since the</i>
+<i>planet's formation,</i>
+
+126
+00:12:57,827 --> 00:13:01,763
+<i>meteors have been</i>
+<i>pummeling Earth.</i>
+
+127
+00:13:02,365 --> 00:13:06,668
+<i>But now, 3.8</i>
+<i>billion years ago,</i>
+
+128
+00:13:06,735 --> 00:13:09,904
+<i>the assault enters a</i>
+<i>violent new phase.</i>
+
+129
+00:13:09,972 --> 00:13:12,039
+<i>Something's disturbed</i>
+<i>the orbits of these</i>
+
+130
+00:13:12,106 --> 00:13:16,042
+<i>meteorites.</i>
+
+131
+00:13:18,078 --> 00:13:20,313
+<i>In addition to water,</i>
+<i>the meteors carry</i>
+
+132
+00:13:20,381 --> 00:13:23,582
+<i>something else.</i>
+
+133
+00:13:32,491 --> 00:13:35,026
+<i>As they dissolve, the</i>
+<i>meteorites release</i>
+
+134
+00:13:35,094 --> 00:13:36,461
+<i>minerals.</i>
+
+135
+00:13:36,529 --> 00:13:39,030
+<i>Carbon and primitive</i>
+<i>proteins made of amino</i>
+
+136
+00:13:39,098 --> 00:13:42,400
+<i>acids are transported</i>
+<i>from outer space to the</i>
+
+137
+00:13:42,468 --> 00:13:45,336
+<i>bottom of the ocean.</i>
+
+138
+00:13:50,475 --> 00:13:54,211
+<i>Thousands of feet below</i>
+<i>the waves, it is dark,</i>
+
+139
+00:13:54,278 --> 00:13:57,947
+<i>and close to freezing.</i>
+
+140
+00:14:13,031 --> 00:14:17,768
+<i>But a dramatic illusion</i>
+<i>is taking shape.</i>
+
+141
+00:14:19,438 --> 00:14:25,010
+<i>Underwater chimneys,</i>
+<i>spewing hot liquid.</i>
+
+142
+00:14:28,447 --> 00:14:31,082
+<i>Seawater seeps down</i>
+<i>into the Earth through</i>
+
+143
+00:14:31,150 --> 00:14:33,852
+<i>cracks in the crust,</i>
+<i>collecting minerals and</i>
+
+144
+00:14:33,920 --> 00:14:36,588
+<i>gases along the way.</i>
+
+145
+00:14:36,656 --> 00:14:39,323
+<i>This potent mixture is</i>
+<i>released back out into</i>
+
+146
+00:14:39,391 --> 00:14:44,027
+<i>the ocean, building</i>
+<i>these towers.</i>
+
+147
+00:14:48,399 --> 00:14:50,067
+<i>Combined with the</i>
+<i>minerals and chemicals</i>
+
+148
+00:14:50,134 --> 00:14:52,602
+<i>from the meteorites,</i>
+<i>the water becom a</i>
+
+149
+00:14:52,670 --> 00:14:54,804
+<i>chemical soup.</i>
+
+150
+00:14:57,008 --> 00:14:59,843
+<i>It's impossible to</i>
+<i>know how or when,</i>
+
+151
+00:14:59,911 --> 00:15:02,279
+<i>but somehow these</i>
+<i>chemicals come together</i>
+
+152
+00:15:02,347 --> 00:15:06,284
+<i>to create life.</i>
+
+153
+00:15:07,519 --> 00:15:09,521
+<i>The water is now</i>
+<i>full of microscopic</i>
+
+154
+00:15:09,588 --> 00:15:11,289
+<i>organisms.</i>
+
+155
+00:15:11,357 --> 00:15:13,859
+<i>These single-celled</i>
+<i>bacteria are the</i>
+
+156
+00:15:13,926 --> 00:15:18,431
+<i>earliest forms</i>
+<i>of life on Earth.</i>
+
+157
+00:15:22,103 --> 00:15:25,338
+<i>This is a defining</i>
+<i>moment in the making of</i>
+
+158
+00:15:25,406 --> 00:15:27,340
+<i>the planet.</i>
+
+159
+00:15:29,310 --> 00:15:33,013
+<i>Microscopic life</i>
+<i>is underway.</i>
+
+160
+00:15:43,391 --> 00:15:45,693
+<i>For hundreds of</i>
+<i>millions of years</i>
+
+161
+00:15:45,761 --> 00:15:47,662
+<i>nothing changes.</i>
+
+162
+00:15:50,900 --> 00:15:55,905
+<i>The only life is</i>
+<i>single-celled bacteria.</i>
+
+163
+00:16:04,347 --> 00:16:06,482
+<i>To find more</i>
+<i>complex life,</i>
+
+164
+00:16:06,550 --> 00:16:11,720
+<i>we need to fast forward</i>
+<i>to 3.5 billion years ago,</i>
+
+165
+00:16:15,158 --> 00:16:18,961
+<i>and a</i>
+<i>shallow ocean.</i>
+
+166
+00:16:25,068 --> 00:16:29,138
+<i>These look like rocks,</i>
+<i>or even plants,</i>
+
+167
+00:16:29,206 --> 00:16:33,809
+<i>growing out of</i>
+<i>the sea bed.</i>
+
+168
+00:16:34,644 --> 00:16:37,847
+<i>Each mound is a colony</i>
+<i>of living bacteria</i>
+
+169
+00:16:37,915 --> 00:16:40,683
+<i>called a stromatolite.</i>
+
+170
+00:16:45,322 --> 00:16:48,590
+<i>These bacteria turn</i>
+<i>sunlight into food,</i>
+
+171
+00:16:48,658 --> 00:16:51,893
+<i>a process called</i>
+<i>photosynthesis.</i>
+
+172
+00:16:51,961 --> 00:16:54,829
+<i>It uses the power of</i>
+<i>sunlight to traform</i>
+
+173
+00:16:54,897 --> 00:16:58,399
+<i>carbon dioxide and</i>
+<i>water into glucose,</i>
+
+174
+00:16:58,467 --> 00:17:00,902
+<i>a simple form of sugar.</i>
+
+175
+00:17:15,386 --> 00:17:18,688
+<i>And this magical</i>
+<i>transformation releases</i>
+
+176
+00:17:18,756 --> 00:17:23,361
+<i>a by-product, a</i>
+<i>gas called oxygen.</i>
+
+177
+00:17:27,399 --> 00:17:30,034
+<i>Underwater, the</i>
+<i>stromatolites slowly</i>
+
+178
+00:17:30,102 --> 00:17:34,171
+<i>fill the oceans</i>
+<i>with oxygen.</i>
+
+179
+00:17:37,442 --> 00:17:40,643
+<i>The oxygen then turns</i>
+<i>traces of iron into</i>
+
+180
+00:17:40,711 --> 00:17:43,846
+<i>rust, which fall</i>
+<i>to the ocean floor,</i>
+
+181
+00:17:43,914 --> 00:17:47,717
+<i>to form deposits</i>
+<i>of iron rich rock.</i>
+
+182
+00:17:47,785 --> 00:17:50,220
+<i>It's this mineral that</i>
+<i>will one day be used to</i>
+
+183
+00:17:50,287 --> 00:17:55,126
+<i>build bridges, ships,</i>
+<i>and skyscrapers.</i>
+
+184
+00:18:05,439 --> 00:18:08,374
+<i>Above the waves, the</i>
+<i>oxygen transforms the</i>
+
+185
+00:18:08,442 --> 00:18:10,577
+<i>atmosphere.</i>
+
+186
+00:18:10,644 --> 00:18:12,812
+<i>These stromatolites</i>
+<i>are creating the most</i>
+
+187
+00:18:12,880 --> 00:18:16,883
+<i>important element</i>
+<i>for life on earth.</i>
+
+188
+00:18:16,950 --> 00:18:19,853
+<i>Without them, virtually</i>
+<i>every living thing</i>
+
+189
+00:18:19,920 --> 00:18:22,122
+<i>wouldn't exist.</i>
+
+190
+00:18:30,265 --> 00:18:32,600
+<i>Over the next two</i>
+<i>billion years oxygen</i>
+
+191
+00:18:32,668 --> 00:18:35,204
+<i>levels continue</i>
+<i>to rise,</i>
+
+192
+00:18:35,271 --> 00:18:37,740
+<i>and as the planet's</i>
+<i>spin slows,</i>
+
+193
+00:18:37,808 --> 00:18:43,880
+<i>the days get longer,</i>
+<i>lasting at least 16 hours.</i>
+
+194
+00:18:53,557 --> 00:18:56,725
+<i>3 billion years after</i>
+<i>the planet's birth,</i>
+
+195
+00:18:56,792 --> 00:18:59,160
+<i>there's still no</i>
+<i>complex life,</i>
+
+196
+00:18:59,228 --> 00:19:05,466
+<i>no plants, no</i>
+<i>dinosaurs, no humans.</i>
+
+197
+00:19:06,234 --> 00:19:08,669
+<i>But the Earth has</i>
+<i>something unlike any</i>
+
+198
+00:19:08,737 --> 00:19:11,439
+<i>other planet in</i>
+<i>this solar system,</i>
+
+199
+00:19:11,507 --> 00:19:14,943
+<i>a force with the power</i>
+<i>to change everything.</i>
+
+200
+00:19:23,316 --> 00:19:24,650
+<i>Narrator: One and</i>
+<i>a half billion</i>
+
+201
+00:19:24,717 --> 00:19:29,255
+<i>years ago, the Earth is</i>
+<i>a beautiful blue ball,</i>
+
+202
+00:19:29,323 --> 00:19:33,559
+<i>dotted with</i>
+<i>volcanic islands.</i>
+
+203
+00:19:33,827 --> 00:19:37,063
+<i>Over millions of years,</i>
+<i>a mysterious force</i>
+
+204
+00:19:37,131 --> 00:19:40,099
+<i>rearranges</i>
+<i>these islands.</i>
+
+205
+00:19:40,167 --> 00:19:41,700
+<i>Hidden beneath</i>
+<i>the ocean,</i>
+
+206
+00:19:41,768 --> 00:19:44,369
+<i>the Earth's crust</i>
+<i>breaks into vast</i>
+
+207
+00:19:44,437 --> 00:19:46,438
+<i>plates.</i>
+
+208
+00:19:46,706 --> 00:19:50,574
+<i>But even deeper, the</i>
+<i>Earth's core is so hot</i>
+
+209
+00:19:50,642 --> 00:19:52,977
+<i>that it generates</i>
+<i>movement in the rock</i>
+
+210
+00:19:53,044 --> 00:19:56,646
+<i>beneath the crust.</i>
+
+211
+00:19:57,014 --> 00:19:59,482
+<i>These movements push</i>
+<i>and pull the plates</i>
+
+212
+00:19:59,550 --> 00:20:02,886
+<i>around the globe,</i>
+<i>carrying the oceans and</i>
+
+213
+00:20:02,954 --> 00:20:05,856
+<i>islands with them.</i>
+
+214
+00:20:06,625 --> 00:20:09,827
+<i>Millions of</i>
+<i>years race by,</i>
+
+215
+00:20:09,895 --> 00:20:14,065
+<i>our planet is alive,</i>
+<i>and changing.</i>
+
+216
+00:20:15,968 --> 00:20:19,169
+<i>Over 400 million years</i>
+<i>a vast new super</i>
+
+217
+00:20:19,237 --> 00:20:21,372
+<i>continent takes shape.</i>
+
+218
+00:20:21,439 --> 00:20:25,543
+<i>It's called Rodinia.</i>
+
+219
+00:20:29,748 --> 00:20:32,583
+<i>In the shallow waters</i>
+<i>surrounding Rodinia,</i>
+
+220
+00:20:32,651 --> 00:20:34,852
+<i>stromatolites work</i>
+<i>their magic for more</i>
+
+221
+00:20:34,920 --> 00:20:38,789
+<i>than two billion years,</i>
+<i>pumping oxygen into the</i>
+
+222
+00:20:38,857 --> 00:20:40,957
+<i>atmosphere.</i>
+
+223
+00:20:42,127 --> 00:20:45,195
+<i>The temperature</i>
+<i>is 85 degrees.</i>
+
+224
+00:20:45,530 --> 00:20:49,467
+<i>And the days are</i>
+<i>18 hours long.</i>
+
+225
+00:20:56,842 --> 00:21:00,379
+<i>But this planet looks</i>
+<i>more like Mars than Earth.</i>
+
+226
+00:21:05,552 --> 00:21:09,056
+<i>To find life, we must</i>
+<i>fast forward through time.</i>
+
+227
+00:21:21,968 --> 00:21:27,772
+<i>Washington State: 750</i>
+<i>million years ago.</i>
+
+228
+00:21:27,840 --> 00:21:30,909
+<i>A force deep inside the</i>
+<i>planet rips the crust</i>
+
+229
+00:21:30,976 --> 00:21:33,310
+<i>to pieces.</i>
+
+230
+00:21:33,378 --> 00:21:34,879
+<i>It's as though the</i>
+<i>world is breaking</i>
+
+231
+00:21:34,946 --> 00:21:36,847
+<i>apart.</i>
+
+232
+00:21:38,517 --> 00:21:40,218
+<i>And there's only one</i>
+<i>force powerful enough</i>
+
+233
+00:21:40,285 --> 00:21:44,389
+<i>to do this, heat.</i>
+
+234
+00:21:45,157 --> 00:21:47,926
+<i>It escapes from the</i>
+<i>Earth's molten core,</i>
+
+235
+00:21:47,993 --> 00:21:52,463
+<i>stretching and</i>
+<i>weakening the crust.</i>
+
+236
+00:21:52,531 --> 00:21:55,566
+<i>Inch by inch,</i>
+<i>year by year,</i>
+
+237
+00:21:55,634 --> 00:21:56,867
+<i>the great</i>
+<i>super-continent is</i>
+
+238
+00:21:56,935 --> 00:22:00,671
+<i>splitting in two.</i>
+
+239
+00:22:38,046 --> 00:22:41,014
+<i>The intense geological</i>
+<i>activity spawns a mass</i>
+
+240
+00:22:41,082 --> 00:22:43,417
+<i>of volcanoes.</i>
+
+241
+00:22:43,685 --> 00:22:45,185
+<i>They pump carbon</i>
+<i>dioxide into the</i>
+
+242
+00:22:45,253 --> 00:22:47,988
+<i>atmosphere.</i>
+
+243
+00:23:04,741 --> 00:23:07,176
+<i>The carbon dioxide</i>
+<i>mixes with water,</i>
+
+244
+00:23:07,244 --> 00:23:10,746
+<i>and creates acid rain.</i>
+
+245
+00:23:20,957 --> 00:23:23,024
+<i>When the continent</i>
+<i>tore apart,</i>
+
+246
+00:23:23,092 --> 00:23:29,063
+<i>many rocks</i>
+<i>were exposed.</i>
+
+247
+00:23:29,665 --> 00:23:32,800
+<i>These rocks absorb</i>
+<i>the acid rain,</i>
+
+248
+00:23:32,868 --> 00:23:35,536
+<i>including its</i>
+<i>carbon dioxide.</i>
+
+249
+00:23:35,604 --> 00:23:38,806
+<i>Vast quantities of CO 2</i>
+<i>are absorbed out of the</i>
+
+250
+00:23:38,874 --> 00:23:41,309
+<i>atmosphere.</i>
+
+251
+00:23:48,585 --> 00:23:51,221
+<i>Now, there's not enough</i>
+<i>carbon dioxide in the</i>
+
+252
+00:23:51,288 --> 00:23:56,426
+<i>air to trap the sun's</i>
+<i>heat around the planet.</i>
+
+253
+00:23:57,061 --> 00:23:59,129
+<i>In just a few</i>
+<i>thousand years,</i>
+
+254
+00:23:59,197 --> 00:24:01,565
+<i>the temperature</i>
+<i>plummets to around</i>
+
+255
+00:24:01,632 --> 00:24:05,601
+<i>minus 60 degrees.</i>
+
+256
+00:24:05,836 --> 00:24:08,837
+<i>This frozen wasteland</i>
+<i>is Southern Australia,</i>
+
+257
+00:24:08,905 --> 00:24:13,675
+<i>650 million years ago.</i>
+
+258
+00:24:13,743 --> 00:24:16,978
+<i>It's the start of what</i>
+<i>some scientists call</i>
+
+259
+00:24:17,046 --> 00:24:20,682
+<i>Snowball Earth, a</i>
+<i>period they believe to</i>
+
+260
+00:24:20,750 --> 00:24:24,353
+<i>be the longest, coldest</i>
+<i>ice age ever to grip</i>
+
+261
+00:24:24,421 --> 00:24:25,321
+<i>the planet.</i>
+
+262
+00:24:30,495 --> 00:24:33,397
+<i>A vast wall of ice</i>
+<i>looms thousands of feet</i>
+
+263
+00:24:33,465 --> 00:24:35,066
+<i>high.</i>
+
+264
+00:24:37,002 --> 00:24:40,805
+<i>And it's unstoppable.</i>
+
+265
+00:24:41,073 --> 00:24:43,541
+<i>The more ice there is</i>
+<i>the more sunlight it</i>
+
+266
+00:24:43,608 --> 00:24:45,776
+<i>reflects away</i>
+<i>from the planet,</i>
+
+267
+00:24:45,844 --> 00:24:49,579
+<i>and the faster</i>
+<i>the ice spreads.</i>
+
+268
+00:24:50,447 --> 00:24:55,617
+<i>Nearby is a second ice</i>
+<i>sheet just as high.</i>
+
+269
+00:24:55,685 --> 00:24:58,220
+<i>The two sheets spread</i>
+<i>away from the poles,</i>
+
+270
+00:24:58,288 --> 00:25:00,789
+<i>toward each other to</i>
+<i>meet at the Equator.</i>
+
+271
+00:25:24,714 --> 00:25:27,082
+<i>Now an ice</i>
+<i>sheet up to 10,000</i>
+
+272
+00:25:27,150 --> 00:25:33,056
+<i>feet thick covers</i>
+<i>the entire planet.</i>
+
+273
+00:25:34,525 --> 00:25:38,295
+<i>Earth first began as a</i>
+<i>molten ball of fire,</i>
+
+274
+00:25:38,363 --> 00:25:42,499
+<i>now it's a frozen</i>
+<i>ball of ice.</i>
+
+275
+00:25:45,970 --> 00:25:49,073
+<i>Virtually all the sun's</i>
+<i>light, and warmth,</i>
+
+276
+00:25:49,140 --> 00:25:54,245
+<i>reflects back</i>
+<i>into space.</i>
+
+277
+00:26:01,320 --> 00:26:03,221
+<i>And it seems as</i>
+<i>though nothing,</i>
+
+278
+00:26:03,289 --> 00:26:06,625
+<i>not even the Sun can</i>
+<i>rescue the planet now.</i>
+
+279
+00:26:19,393 --> 00:26:22,094
+<i>Narrator: 650</i>
+<i>million years ago,</i>
+
+280
+00:26:22,162 --> 00:26:25,432
+<i>ice entombs the planet.</i>
+
+281
+00:26:25,499 --> 00:26:28,302
+<i>For 15 million years,</i>
+<i>the Earth is a vast</i>
+
+282
+00:26:28,369 --> 00:26:31,171
+<i>frozen snowball.</i>
+
+283
+00:26:33,275 --> 00:26:35,243
+<i>But it can't</i>
+<i>last forever;</i>
+
+284
+00:26:35,311 --> 00:26:37,646
+<i>something must release</i>
+<i>the Earth from this</i>
+
+285
+00:26:37,713 --> 00:26:41,250
+<i>frozen prison.</i>
+
+286
+00:26:41,318 --> 00:26:43,653
+<i>And when it does, who</i>
+<i>knows whether life has</i>
+
+287
+00:26:43,720 --> 00:26:46,956
+<i>survived</i>
+<i>beneath the ice.</i>
+
+288
+00:26:47,024 --> 00:26:49,993
+<i>The surface is frozen</i>
+<i>but the core is still</i>
+
+289
+00:26:50,060 --> 00:26:53,962
+<i>hotter than the</i>
+<i>sun's surface.</i>
+
+290
+00:26:59,568 --> 00:27:01,235
+<i>Volcanoes have been</i>
+<i>erupting since the</i>
+
+291
+00:27:01,302 --> 00:27:03,837
+<i>world began to freeze.</i>
+
+292
+00:27:03,905 --> 00:27:07,373
+<i>But up until now even</i>
+<i>their heat and power</i>
+
+293
+00:27:07,441 --> 00:27:11,344
+<i>made no impact</i>
+<i>on the ice.</i>
+
+294
+00:27:13,648 --> 00:27:16,016
+<i>Volcanoes pump out</i>
+<i>billions of tons of</i>
+
+295
+00:27:16,084 --> 00:27:19,687
+<i>carbon dioxide.</i>
+
+296
+00:27:19,954 --> 00:27:22,590
+<i>Before the big freeze,</i>
+<i>the Earth's rocks</i>
+
+297
+00:27:22,657 --> 00:27:27,195
+<i>absorbed most</i>
+<i>of the CO2.</i>
+
+298
+00:27:27,530 --> 00:27:30,632
+<i>But now, with the rocks</i>
+<i>smothered in ice,</i>
+
+299
+00:27:30,700 --> 00:27:33,168
+<i>there's nothing to</i>
+<i>absorb the gas.</i>
+
+300
+00:27:33,236 --> 00:27:36,639
+<i>So it fills the</i>
+<i>atmosphere.</i>
+
+301
+00:27:43,447 --> 00:27:46,149
+<i>Like a blanket, it</i>
+<i>traps the sun's warmth</i>
+
+302
+00:27:46,217 --> 00:27:47,884
+<i>around the planet,</i>
+<i>allowing the</i>
+
+303
+00:27:47,952 --> 00:27:51,921
+<i>temperatures to rise.</i>
+
+304
+00:27:52,223 --> 00:27:55,725
+<i>Now, after 15</i>
+<i>million years,</i>
+
+305
+00:27:55,793 --> 00:27:58,861
+<i>the ice begins to melt.</i>
+
+306
+00:28:21,321 --> 00:28:23,822
+<i>It's thought that</i>
+<i>during Snowball Earth</i>
+
+307
+00:28:23,890 --> 00:28:26,524
+<i>the ice pushed</i>
+<i>the crust down.</i>
+
+308
+00:28:26,592 --> 00:28:31,029
+<i>But now, as it melts,</i>
+<i>the crust bounces up,</i>
+
+309
+00:28:31,097 --> 00:28:35,099
+<i>creating fissures</i>
+<i>and weak spots,</i>
+
+310
+00:28:35,167 --> 00:28:37,769
+<i>and more volcanoes.</i>
+
+311
+00:28:42,742 --> 00:28:45,844
+<i>The volcanoes release</i>
+<i>more carbon dioxide and</i>
+
+312
+00:28:45,912 --> 00:28:50,049
+<i>push the temperature</i>
+<i>up even higher.</i>
+
+313
+00:28:50,450 --> 00:28:54,887
+<i>The melt gathers</i>
+<i>momentum.</i>
+
+314
+00:28:54,955 --> 00:28:58,859
+<i>And oxygen levels rise.</i>
+
+315
+00:28:59,628 --> 00:29:02,363
+<i>Through a series of</i>
+<i>chemical reactions the</i>
+
+316
+00:29:02,431 --> 00:29:05,867
+<i>ice has created oxygen.</i>
+
+317
+00:29:06,168 --> 00:29:08,002
+<i>While the planet</i>
+<i>was frozen,</i>
+
+318
+00:29:08,070 --> 00:29:11,439
+<i>the Sun's ultraviolet</i>
+<i>rays reacted with water</i>
+
+319
+00:29:11,506 --> 00:29:14,709
+<i>molecules in the ice,</i>
+<i>to produce hydrogen</i>
+
+320
+00:29:14,777 --> 00:29:18,679
+<i>peroxide, a chemical</i>
+<i>rich in oxygen.</i>
+
+321
+00:29:30,726 --> 00:29:34,262
+<i>Now, as the ice melts,</i>
+<i>the hydrogen peroxide</i>
+
+322
+00:29:34,330 --> 00:29:36,398
+<i>breaks down and</i>
+<i>releases massive</i>
+
+323
+00:29:36,465 --> 00:29:41,102
+<i>amounts of oxygen.</i>
+
+324
+00:29:47,176 --> 00:29:51,046
+<i>The Earth is waking</i>
+<i>up, and it's a very</i>
+
+325
+00:29:51,114 --> 00:29:53,215
+<i>different place.</i>
+
+326
+00:30:30,985 --> 00:30:33,919
+<i>600 million years ago,</i>
+<i>the atmosphere is</i>
+
+327
+00:30:33,987 --> 00:30:37,857
+<i>warmer, like</i>
+<i>a summer day.</i>
+
+328
+00:30:39,926 --> 00:30:45,163
+<i>And the days are</i>
+<i>about 22 hours long.</i>
+
+329
+00:30:50,203 --> 00:30:54,140
+<i>Add all this water and</i>
+<i>it's the perfect recipe</i>
+
+330
+00:30:54,208 --> 00:30:56,142
+<i>for life.</i>
+
+331
+00:31:00,448 --> 00:31:03,050
+<i>Before Snowball Earth,</i>
+<i>primitive bacteria</i>
+
+332
+00:31:03,118 --> 00:31:06,387
+<i>emerged in the oceans.</i>
+
+333
+00:31:06,455 --> 00:31:08,623
+<i>But surely they</i>
+<i>couldn't have survived</i>
+
+334
+00:31:08,691 --> 00:31:12,593
+<i>an ice age 75 times</i>
+<i>longer than the entire</i>
+
+335
+00:31:12,661 --> 00:31:15,995
+<i>span of human history.</i>
+
+336
+00:31:16,197 --> 00:31:18,131
+<i>If something</i>
+<i>has survived,</i>
+
+337
+00:31:18,198 --> 00:31:21,600
+<i>then life may be found</i>
+<i>where it was last seen,</i>
+
+338
+00:31:21,668 --> 00:31:24,069
+<i>in the oceans.</i>
+
+339
+00:31:28,308 --> 00:31:31,677
+<i>Now, 540 million</i>
+<i>years ago,</i>
+
+340
+00:31:31,745 --> 00:31:33,913
+<i>in an ocean</i>
+<i>full of oxygen,</i>
+
+341
+00:31:33,981 --> 00:31:38,551
+<i>those primitive</i>
+<i>bacteria have evolved.</i>
+
+342
+00:31:38,853 --> 00:31:40,387
+<i>A handful must have</i>
+<i>clung on through the</i>
+
+343
+00:31:40,455 --> 00:31:43,490
+<i>big freeze.</i>
+
+344
+00:31:43,557 --> 00:31:45,192
+<i>There are plants</i>
+<i>scattered on the sea</i>
+
+345
+00:31:45,260 --> 00:31:49,663
+<i>floor.</i>
+
+346
+00:31:49,998 --> 00:31:54,868
+<i>And something else.</i>
+
+347
+00:31:55,103 --> 00:31:57,771
+<i>What looks like an</i>
+<i>armored slug takes up</i>
+
+348
+00:31:57,839 --> 00:31:59,873
+<i>residence.</i>
+
+349
+00:31:59,941 --> 00:32:04,077
+<i>It's called Wiwaxia,</i>
+<i>a new generation of</i>
+
+350
+00:32:04,145 --> 00:32:08,781
+<i>complex multi-celled</i>
+<i>organisms.</i>
+
+351
+00:32:09,016 --> 00:32:10,617
+<i>The Earth enters one</i>
+<i>of the most dynamic</i>
+
+352
+00:32:10,685 --> 00:32:17,691
+<i>periods in its history,</i>
+<i>the Cambrian explosion.</i>
+
+353
+00:32:17,758 --> 00:32:20,460
+<i>Increased oxygen levels</i>
+<i>allow creatures to grow</i>
+
+354
+00:32:20,528 --> 00:32:26,867
+<i>larger and develop</i>
+<i>bony skeletons.</i>
+
+355
+00:32:27,035 --> 00:32:33,840
+<i>There are</i>
+<i>worms, sponges,</i>
+
+356
+00:32:33,908 --> 00:32:37,810
+<i>and these trilobites:</i>
+<i>distant relatives of</i>
+
+357
+00:32:37,878 --> 00:32:42,681
+<i>insects, lobsters,</i>
+<i>even scorpions.</i>
+
+358
+00:32:51,090 --> 00:32:55,760
+<i>Life in the</i>
+<i>oceans blossoms.</i>
+
+359
+00:32:56,696 --> 00:33:02,834
+<i>From microscopic</i>
+<i>bacteria, to monsters.</i>
+
+360
+00:33:12,410 --> 00:33:15,946
+<i>This is Anomalocaris.</i>
+
+361
+00:33:16,013 --> 00:33:20,850
+<i>Nearly two feet long,</i>
+<i>it has large eyes,</i>
+
+362
+00:33:20,918 --> 00:33:25,588
+<i>razor sharp teeth</i>
+<i>and grasping limbs.</i>
+
+363
+00:33:43,409 --> 00:33:48,046
+<i>All it has to do,</i>
+<i>is take its pick.</i>
+
+364
+00:33:56,322 --> 00:33:58,556
+<i>The trilobite can't</i>
+<i>right itself,</i>
+
+365
+00:33:58,624 --> 00:34:02,861
+<i>its soft belly</i>
+<i>is exposed.</i>
+
+366
+00:34:16,978 --> 00:34:19,813
+<i>Also found in the</i>
+<i>sea is Pikaia.</i>
+
+367
+00:34:19,881 --> 00:34:22,116
+<i>Only an inch</i>
+<i>and a half long,</i>
+
+368
+00:34:22,183 --> 00:34:27,621
+<i>they may be the first</i>
+<i>organism with a spine.</i>
+
+369
+00:34:31,559 --> 00:34:34,795
+<i>Over millions of years,</i>
+<i>this simple structure</i>
+
+370
+00:34:34,863 --> 00:34:37,965
+<i>will evolve into the</i>
+<i>spine that keeps us</i>
+
+371
+00:34:38,033 --> 00:34:40,468
+<i>standing.</i>
+
+372
+00:34:57,319 --> 00:34:59,854
+<i>Expecting to find</i>
+<i>life in ruins,</i>
+
+373
+00:34:59,922 --> 00:35:05,093
+<i>the oceans are in</i>
+<i>fact full of life.</i>
+
+374
+00:35:06,028 --> 00:35:09,797
+<i>Where trilobites</i>
+<i>scavenge and monsters</i>
+
+375
+00:35:09,865 --> 00:35:12,366
+<i>prowl.</i>
+
+376
+00:35:12,434 --> 00:35:14,235
+<i>And where creatures</i>
+<i>begin to take on</i>
+
+377
+00:35:14,302 --> 00:35:16,537
+<i>familiar forms.</i>
+
+378
+00:35:19,441 --> 00:35:22,376
+<i>Beneath the waves there</i>
+<i>are already tens of</i>
+
+379
+00:35:22,444 --> 00:35:27,314
+<i>thousands of plant</i>
+<i>and animal species.</i>
+
+380
+00:35:27,382 --> 00:35:30,718
+<i>The advance of life</i>
+<i>seems unstoppable.</i>
+
+381
+00:35:47,265 --> 00:35:49,867
+<i>Narrator: 460</i>
+<i>million years ago,</i>
+
+382
+00:35:49,934 --> 00:35:53,537
+<i>the plates have</i>
+<i>been moving, again.</i>
+
+383
+00:35:53,772 --> 00:35:59,143
+<i>A new continent now</i>
+<i>exists, Gondwana.</i>
+
+384
+00:36:00,979 --> 00:36:03,648
+<i>It's 90 degrees and</i>
+<i>oxygen levels are close</i>
+
+385
+00:36:03,715 --> 00:36:06,684
+<i>to what they are today.</i>
+
+386
+00:36:08,587 --> 00:36:10,888
+<i>The land should be</i>
+<i>covered with plants and</i>
+
+387
+00:36:10,955 --> 00:36:13,557
+<i>crawling with</i>
+<i>creatures.</i>
+
+388
+00:36:13,625 --> 00:36:15,592
+<i>But there's</i>
+<i>not much here,</i>
+
+389
+00:36:15,660 --> 00:36:18,796
+<i>besides a few</i>
+<i>patches of algae.</i>
+
+390
+00:36:27,238 --> 00:36:36,146
+<i>There's only one</i>
+<i>explanation, the Sun.</i>
+
+391
+00:36:40,085 --> 00:36:46,391
+<i>It blasts the surface</i>
+<i>with deadly radiation,</i>
+
+392
+00:36:46,459 --> 00:36:48,494
+<i>so the complex life in</i>
+<i>the ocean doesn't stand</i>
+
+393
+00:36:48,562 --> 00:36:50,796
+<i>a chance on land.</i>
+
+394
+00:36:54,668 --> 00:36:57,136
+<i>But 30 miles up, where</i>
+<i>the rays enter the</i>
+
+395
+00:36:57,204 --> 00:37:02,074
+<i>Earth's atmosphere,</i>
+<i>something is happening.</i>
+
+396
+00:37:04,177 --> 00:37:06,813
+<i>When oxygen meets</i>
+<i>the sun's radiation,</i>
+
+397
+00:37:06,880 --> 00:37:09,081
+<i>it turns into</i>
+<i>another kind of gas,</i>
+
+398
+00:37:09,149 --> 00:37:11,951
+<i>call ozone.</i>
+
+399
+00:37:13,754 --> 00:37:15,689
+<i>This gas forms a</i>
+<i>blanket around the</i>
+
+400
+00:37:15,756 --> 00:37:19,392
+<i>planet and absorbs</i>
+<i>the lethal radiation.</i>
+
+401
+00:37:22,163 --> 00:37:25,699
+<i>Over 120 million years,</i>
+<i>the ozone layer gets</i>
+
+402
+00:37:25,767 --> 00:37:28,936
+<i>thicker and prevents</i>
+<i>more and more radiation</i>
+
+403
+00:37:29,003 --> 00:37:32,105
+<i>from reaching the</i>
+<i>Earth's surface.</i>
+
+404
+00:37:32,173 --> 00:37:34,942
+<i>Without this layer,</i>
+<i>life on land simply</i>
+
+405
+00:37:35,009 --> 00:37:37,110
+<i>wouldn't exist.</i>
+
+406
+00:37:37,511 --> 00:37:39,946
+<i>Now, shielded</i>
+<i>from radiation,</i>
+
+407
+00:37:40,013 --> 00:37:43,082
+<i>life takes off.</i>
+
+408
+00:37:46,519 --> 00:37:52,224
+<i>Small mossy lumps are</i>
+<i>the first land plants.</i>
+
+409
+00:37:52,759 --> 00:37:56,261
+<i>They pump out</i>
+<i>even more oxygen.</i>
+
+410
+00:37:56,329 --> 00:38:00,766
+<i>Levels soar.</i>
+
+411
+00:38:06,941 --> 00:38:11,011
+<i>375 million years ago,</i>
+<i>a new species lives in</i>
+
+412
+00:38:11,079 --> 00:38:14,648
+<i>the water, swimming.</i>
+
+413
+00:38:26,395 --> 00:38:31,566
+<i>It's a strange fish</i>
+<i>called a Tiktaalik.</i>
+
+414
+00:38:53,622 --> 00:38:58,192
+<i>It uses its neck to</i>
+<i>raise itself up.</i>
+
+415
+00:39:12,374 --> 00:39:14,442
+<i>And its fins</i>
+<i>function as legs,</i>
+
+416
+00:39:18,780 --> 00:39:22,049
+<i>allowing it to move</i>
+<i>out of the water.</i>
+
+417
+00:39:34,063 --> 00:39:36,598
+<i>This is one of the most</i>
+<i>important moments in</i>
+
+418
+00:39:36,666 --> 00:39:39,567
+<i>the making of</i>
+<i>our planet.</i>
+
+419
+00:39:40,269 --> 00:39:43,605
+<i>Over 15 million years,</i>
+<i>creatures like these</i>
+
+420
+00:39:43,673 --> 00:39:45,374
+<i>evolve.</i>
+
+421
+00:39:46,843 --> 00:39:49,145
+<i>They grow stronger</i>
+<i>limbs and spend more</i>
+
+422
+00:39:49,213 --> 00:39:52,214
+<i>time out of the water,</i>
+<i>where plant life is</i>
+
+423
+00:39:52,282 --> 00:39:54,650
+<i>exploding.</i>
+
+424
+00:39:55,018 --> 00:39:58,587
+<i>Until, 360 million</i>
+<i>years ago,</i>
+
+425
+00:39:58,655 --> 00:40:01,456
+<i>their relatives,</i>
+<i>called tetrapods,</i>
+
+426
+00:40:01,524 --> 00:40:04,660
+<i>make the land</i>
+<i>their home.</i>
+
+427
+00:40:04,828 --> 00:40:07,429
+<i>From tetrapods, four</i>
+<i>legged vertebrates</i>
+
+428
+00:40:07,497 --> 00:40:10,399
+<i>evolve into</i>
+<i>dinosaurs, birds,</i>
+
+429
+00:40:10,467 --> 00:40:15,504
+<i>mammals and</i>
+<i>eventually humans.</i>
+
+430
+00:40:18,875 --> 00:40:22,011
+<i>There are mosses and</i>
+<i>ferns everywhere,</i>
+
+431
+00:40:22,079 --> 00:40:26,582
+<i>some at least a</i>
+<i>hundred feet tall.</i>
+
+432
+00:40:26,984 --> 00:40:29,285
+<i>A seed is carried</i>
+<i>by the wind.</i>
+
+433
+00:40:35,326 --> 00:40:36,626
+<i>Until now,</i>
+
+434
+00:40:36,694 --> 00:40:39,395
+<i>plants reproduced</i>
+<i>using spores,</i>
+
+435
+00:40:39,463 --> 00:40:41,831
+<i>single-celled particles</i>
+<i>that need plenty of</i>
+
+436
+00:40:41,899 --> 00:40:44,800
+<i>water to grow.</i>
+
+437
+00:40:46,236 --> 00:40:50,339
+<i>But this seed is</i>
+<i>miles from water.</i>
+
+438
+00:40:52,776 --> 00:40:55,344
+<i>This embryonic plant</i>
+<i>has its own food and</i>
+
+439
+00:40:55,411 --> 00:40:58,780
+<i>water supply.</i>
+
+440
+00:40:58,848 --> 00:41:02,083
+<i>Unlike a spore, this</i>
+<i>seed can survive far</i>
+
+441
+00:41:02,151 --> 00:41:06,620
+<i>from water for</i>
+<i>months, even years.</i>
+
+442
+00:41:19,165 --> 00:41:22,501
+<i>The humble seed spreads</i>
+<i>life across the planet.</i>
+
+443
+00:41:22,569 --> 00:41:25,437
+<i>And each tree and plant</i>
+<i>pumps out even more</i>
+
+444
+00:41:25,505 --> 00:41:27,706
+<i>oxygen.</i>
+
+445
+00:41:41,589 --> 00:41:45,692
+<i>It's an environment</i>
+<i>very much like today.</i>
+
+446
+00:42:02,675 --> 00:42:05,343
+<i>The planet has</i>
+<i>come a long way,</i>
+
+447
+00:42:05,411 --> 00:42:08,479
+<i>from a lump of burning</i>
+<i>rock and dust,</i>
+
+448
+00:42:08,547 --> 00:42:11,315
+<i>to a blue and green</i>
+<i>world bursting with</i>
+
+449
+00:42:11,382 --> 00:42:13,017
+<i>life.</i>
+
+450
+00:42:19,023 --> 00:42:27,598
+<i>There are now fish,</i>
+<i>plants, and this,</i>
+
+451
+00:42:29,301 --> 00:42:31,402
+<i>the dragonfly.</i>
+
+452
+00:42:34,272 --> 00:42:37,008
+<i>It's called Meganeura.</i>
+
+453
+00:42:37,710 --> 00:42:41,812
+<i>This insect is the</i>
+<i>size of an eagle.</i>
+
+454
+00:42:41,879 --> 00:42:43,948
+<i>What were once legs</i>
+<i>have evolved into</i>
+
+455
+00:42:44,015 --> 00:42:47,051
+<i>wings, extending the</i>
+<i>dragonfly's hunting</i>
+
+456
+00:42:47,119 --> 00:42:51,089
+<i>territory over</i>
+<i>a vast area.</i>
+
+457
+00:42:54,860 --> 00:42:56,894
+<i>There are also</i>
+<i>millipedes,</i>
+
+458
+00:42:56,962 --> 00:43:00,732
+<i>and spiders down there.</i>
+
+459
+00:43:04,937 --> 00:43:08,173
+<i>These creatures,</i>
+<i>called arthropod,</i>
+
+460
+00:43:08,240 --> 00:43:10,541
+<i>were among the first</i>
+<i>to set foot on land</i>
+
+461
+00:43:10,609 --> 00:43:13,277
+<i>hundreds of millions</i>
+<i>of years ago.</i>
+
+462
+00:43:13,612 --> 00:43:16,080
+<i>They look almost</i>
+<i>identical to the bugs</i>
+
+463
+00:43:16,148 --> 00:43:18,883
+<i>that invade our</i>
+<i>homes today.</i>
+
+464
+00:43:18,951 --> 00:43:21,418
+<i>Except for one</i>
+<i>big difference.</i>
+
+465
+00:43:21,486 --> 00:43:25,823
+<i>Like the Meganeura,</i>
+<i>they're monsters.</i>
+
+466
+00:43:25,991 --> 00:43:28,058
+<i>It's a world</i>
+<i>full of giants,</i>
+
+467
+00:43:28,126 --> 00:43:31,028
+<i>where millipedes</i>
+<i>are 6 feet long,</i>
+
+468
+00:43:31,095 --> 00:43:36,867
+<i>andcorpions are</i>
+<i>the size of wolves.</i>
+
+469
+00:43:38,336 --> 00:43:40,637
+<i>This is because the</i>
+<i>oxygen level is much</i>
+
+470
+00:43:40,705 --> 00:43:42,705
+<i>higher than it is</i>
+<i>today,</i>
+
+471
+00:43:42,773 --> 00:43:45,041
+<i>which allows their</i>
+<i>respiratory systems to</i>
+
+472
+00:43:45,108 --> 00:43:47,676
+<i>be more efficient,</i>
+<i>fueling thier bodies to</i>
+
+473
+00:43:47,744 --> 00:43:50,179
+<i>grow larger.</i>
+
+474
+00:43:59,788 --> 00:44:02,256
+<i>So far, animals have</i>
+<i>been laying their eggs</i>
+
+475
+00:44:02,324 --> 00:44:05,993
+<i>in the water.</i>
+
+476
+00:44:06,194 --> 00:44:07,928
+<i>But a lizard-like</i>
+<i>creature,</i>
+
+477
+00:44:07,996 --> 00:44:11,832
+<i>called the hylonomus,</i>
+<i>prefers land.</i>
+
+478
+00:44:12,601 --> 00:44:15,737
+<i>Its eggs contain all</i>
+<i>the water and nutrients</i>
+
+479
+00:44:15,804 --> 00:44:18,973
+<i>that the developing</i>
+<i>fetus needs.</i>
+
+480
+00:44:19,041 --> 00:44:20,342
+<i>The babies grow</i>
+<i>in their own</i>
+
+481
+00:44:20,409 --> 00:44:23,011
+<i>self-contained pond.</i>
+
+482
+00:44:23,079 --> 00:44:25,147
+<i>The egg is a major</i>
+<i>evolutionary</i>
+
+483
+00:44:25,215 --> 00:44:27,517
+<i>breakthrough.</i>
+
+484
+00:44:28,252 --> 00:44:31,387
+<i>Allowing animals to</i>
+<i>leave the water behind,</i>
+
+485
+00:44:31,455 --> 00:44:34,190
+<i>and conquer land.</i>
+
+486
+00:44:46,168 --> 00:44:51,305
+<i>This baby hylonomus</i>
+<i>leads the advance,</i>
+
+487
+00:44:52,807 --> 00:44:56,577
+<i>as a new creature,</i>
+<i>the reptile.</i>
+
+488
+00:45:10,493 --> 00:45:14,997
+<i>Inevitably, with</i>
+<i>life, comes death.</i>
+
+489
+00:45:15,598 --> 00:45:18,233
+<i>Dead plant matter</i>
+<i>builds up and decays</i>
+
+490
+00:45:18,301 --> 00:45:22,370
+<i>into dense</i>
+<i>soggy layers.</i>
+
+491
+00:45:22,438 --> 00:45:24,072
+<i>Over hundreds of</i>
+<i>millions of years,</i>
+
+492
+00:45:24,140 --> 00:45:26,441
+<i>rocks cover</i>
+<i>these layers.</i>
+
+493
+00:45:26,508 --> 00:45:27,942
+<i>And heat from the</i>
+<i>Earth's core and</i>
+
+494
+00:45:28,010 --> 00:45:30,144
+<i>pressure from the</i>
+<i>overlying rocks</i>
+
+495
+00:45:30,212 --> 00:45:34,783
+<i>transform these layers</i>
+<i>into seams of coal.</i>
+
+496
+00:45:36,385 --> 00:45:39,221
+<i>Each lump of coal</i>
+<i>burned today is made of</i>
+
+497
+00:45:39,289 --> 00:45:44,294
+<i>plants that died 300</i>
+<i>million years ago.</i>
+
+498
+00:45:55,774 --> 00:45:58,475
+<i>Amidst the decay,</i>
+<i>hidden from sight,</i>
+
+499
+00:45:58,542 --> 00:46:01,077
+<i>life is stirring.</i>
+
+500
+00:46:01,412 --> 00:46:03,713
+<i>Soon seeds will</i>
+<i>germinate,</i>
+
+501
+00:46:03,781 --> 00:46:06,349
+<i>plants will grow, and</i>
+<i>this wasteland will</i>
+
+502
+00:46:06,417 --> 00:46:08,552
+<i>live again.</i>
+
+503
+00:46:08,620 --> 00:46:12,322
+<i>Life seems to have</i>
+<i>conquered the planet.</i>
+
+504
+00:46:12,389 --> 00:46:13,823
+<i>But will it last?</i>
+
+505
+00:46:29,703 --> 00:46:31,304
+<i>Narrator: A herd of</i>
+<i>creatures graze</i>
+
+506
+00:46:31,371 --> 00:46:37,743
+<i>the Siberian plains,</i>
+<i>and they are big.</i>
+
+507
+00:46:44,952 --> 00:46:48,521
+<i>Evolution takes a</i>
+<i>huge leap forward,</i>
+
+508
+00:46:48,589 --> 00:46:53,426
+<i>small lizards are</i>
+<i>now giant reptiles.</i>
+
+509
+00:46:54,061 --> 00:46:57,630
+<i>These scutosaurs are</i>
+<i>distant relatives of</i>
+
+510
+00:46:57,698 --> 00:47:01,234
+<i>turtles.</i>
+
+511
+00:47:03,871 --> 00:47:06,806
+<i>If these plant eaters</i>
+<i>look this tough,</i>
+
+512
+00:47:06,873 --> 00:47:11,777
+<i>the carnivores must</i>
+<i>be seriously mean.</i>
+
+513
+00:47:15,849 --> 00:47:19,184
+<i>Like this gorgonopsid.</i>
+
+514
+00:47:19,252 --> 00:47:21,754
+<i>A perfectly engineered</i>
+<i>pre-historic killing</i>
+
+515
+00:47:21,821 --> 00:47:23,389
+<i>machine.</i>
+
+516
+00:47:41,677 --> 00:47:44,579
+<i>The gorgonopsid's sabre-teeth</i>
+<i>wound the scutosaur.</i>
+
+517
+00:47:56,457 --> 00:47:58,124
+<i>The predator watches,</i>
+
+518
+00:47:58,192 --> 00:48:01,661
+<i>as its prey grows</i>
+<i>weak from blood loss.</i>
+
+519
+00:48:03,264 --> 00:48:09,570
+<i>But before it can</i>
+<i>make its final move,</i>
+
+520
+00:48:09,638 --> 00:48:12,841
+<i>something</i>
+<i>strange happens.</i>
+
+521
+00:48:12,908 --> 00:48:17,046
+<i>The ground gets hot.</i>
+
+522
+00:48:22,787 --> 00:48:25,488
+<i>Enormous pressure builds</i>
+<i>beneath the surface,</i>
+
+523
+00:48:25,556 --> 00:48:28,524
+<i>and lava spews</i>
+<i>into the air.</i>
+
+524
+00:48:57,858 --> 00:49:01,861
+<i>But the lava isn't from</i>
+<i>one single volcano,</i>
+
+525
+00:49:01,929 --> 00:49:05,264
+<i>the entire landscape</i>
+<i>is erupting.</i>
+
+526
+00:49:07,467 --> 00:49:09,868
+<i>It's a flood</i>
+<i>basalt eruption.</i>
+
+527
+00:49:09,936 --> 00:49:12,704
+<i>A massive plume of</i>
+<i>mantle rises up from</i>
+
+528
+00:49:12,772 --> 00:49:16,007
+<i>deep inside the Earth,</i>
+<i>and pushes molten rock</i>
+
+529
+00:49:16,074 --> 00:49:21,812
+<i>out through fissures</i>
+<i>in the Earth's crust.</i>
+
+530
+00:49:24,249 --> 00:49:28,152
+<i>The lush paradise is</i>
+<i>now a lifeless hell.</i>
+
+531
+00:49:28,220 --> 00:49:33,125
+<i>The scutosaurs and the</i>
+<i>gorgonopsids are dead.</i>
+
+532
+00:49:33,560 --> 00:49:35,561
+<i>They're the first</i>
+<i>casualties in the</i>
+
+533
+00:49:35,629 --> 00:49:37,830
+<i>greatest mass</i>
+<i>extinction the world</i>
+
+534
+00:49:37,898 --> 00:49:42,603
+<i>has ever seen, the</i>
+<i>Permian Extinction.</i>
+
+535
+00:49:53,480 --> 00:49:56,215
+<i>On the other side of</i>
+<i>the continent Gondwana,</i>
+
+536
+00:49:56,282 --> 00:50:00,885
+<i>nothing's changed, yet.</i>
+
+537
+00:50:09,796 --> 00:50:11,997
+<i>It appears to</i>
+<i>be snowing,</i>
+
+538
+00:50:12,065 --> 00:50:17,169
+<i>but the temperature</i>
+<i>is about 70 degrees.</i>
+
+539
+00:50:17,237 --> 00:50:19,372
+<i>It's actually ash,</i>
+<i>fallout from the</i>
+
+540
+00:50:19,440 --> 00:50:23,543
+<i>eruptions some</i>
+<i>10,000 miles away.</i>
+
+541
+00:50:28,384 --> 00:50:31,185
+<i>The ash burns and</i>
+<i>suffocates the animals,</i>
+
+542
+00:50:31,253 --> 00:50:34,055
+<i>killing them</i>
+<i>around the world.</i>
+
+543
+00:50:45,934 --> 00:50:48,769
+<i>Sulphur dioxide from</i>
+<i>the eruptions fills the</i>
+
+544
+00:50:48,837 --> 00:50:51,505
+<i>atmosphere.</i>
+
+545
+00:50:52,040 --> 00:50:55,141
+<i>As it rains, the gas</i>
+<i>turns to sulphuric</i>
+
+546
+00:50:55,209 --> 00:50:59,211
+<i>acid, and burns</i>
+<i>everything it falls on.</i>
+
+547
+00:51:02,917 --> 00:51:06,486
+<i>What was a local</i>
+<i>disaster has now turned</i>
+
+548
+00:51:06,554 --> 00:51:08,355
+<i>global.</i>
+
+549
+00:51:20,570 --> 00:51:22,972
+<i>The Siberian eruptions</i>
+<i>increase the Earth's</i>
+
+550
+00:51:23,040 --> 00:51:26,042
+<i>carbon dioxide levels.</i>
+
+551
+00:51:26,110 --> 00:51:28,878
+<i>The atmosphere</i>
+<i>gets hotter.</i>
+
+552
+00:51:28,946 --> 00:51:32,849
+<i>Water evaporates.</i>
+
+553
+00:51:32,917 --> 00:51:34,985
+<i>And vegetation dies.</i>
+
+554
+00:51:45,664 --> 00:51:52,269
+<i>Around the world, life</i>
+<i>on land is being wiped out.</i>
+
+555
+00:51:52,337 --> 00:51:54,104
+<i>And life</i>
+<i>in the oceans,</i>
+
+556
+00:51:54,172 --> 00:51:56,574
+<i>has also been</i>
+<i>compromised.</i>
+
+557
+00:51:58,510 --> 00:52:03,948
+<i>The waters turn pink.</i>
+
+558
+00:52:07,286 --> 00:52:11,656
+<i>Plants, trilobites, and</i>
+<i>predators, disappear.</i>
+
+559
+00:52:20,831 --> 00:52:22,999
+<i>The new, hotter</i>
+<i>atmosphere heated the</i>
+
+560
+00:52:23,067 --> 00:52:27,170
+<i>oceans and stripped</i>
+<i>them of oxygen.</i>
+
+561
+00:52:27,438 --> 00:52:29,973
+<i>Now, this pink algae</i>
+<i>is one of the few life</i>
+
+562
+00:52:30,041 --> 00:52:34,745
+<i>forms that can survive</i>
+<i>in the stagnant water.</i>
+
+563
+00:52:34,913 --> 00:52:37,848
+<i>The Siberian eruptions</i>
+<i>transform the entire</i>
+
+564
+00:52:37,916 --> 00:52:40,918
+<i>planet, nothing, not</i>
+<i>even the deepest ocean</i>
+
+565
+00:52:40,986 --> 00:52:45,623
+<i>floor, is beyond</i>
+<i>their reach.</i>
+
+566
+00:52:52,564 --> 00:52:55,132
+<i>Bubbles of methane gas</i>
+<i>escape from beneath the</i>
+
+567
+00:52:55,200 --> 00:52:57,401
+<i>sea bed.</i>
+
+568
+00:53:01,506 --> 00:53:04,108
+<i>Methane is a</i>
+<i>greenhouse gas,</i>
+
+569
+00:53:04,175 --> 00:53:07,679
+<i>at least twenty times</i>
+<i>deadlier than carbon dioxide.</i>
+
+570
+00:53:09,782 --> 00:53:12,817
+<i>Until now, the gas</i>
+<i>has been frozen.</i>
+
+571
+00:53:12,885 --> 00:53:15,220
+<i>But as the sea</i>
+<i>temperature rises,</i>
+
+572
+00:53:15,288 --> 00:53:18,123
+<i>it begins to melt.</i>
+
+573
+00:53:31,470 --> 00:53:33,305
+<i>Released into</i>
+<i>the atmosphere,</i>
+
+574
+00:53:33,372 --> 00:53:35,940
+<i>this powerful gas</i>
+<i>pushes up temperatures</i>
+
+575
+00:53:36,008 --> 00:53:39,643
+<i>even further.</i>
+
+576
+00:53:39,878 --> 00:53:42,880
+<i>It's now almost</i>
+<i>105 degrees,</i>
+
+577
+00:53:42,948 --> 00:53:45,282
+<i>11 degrees hotter than</i>
+<i>before the Siberian</i>
+
+578
+00:53:45,350 --> 00:53:47,318
+<i>eruptions.</i>
+
+579
+00:53:51,924 --> 00:53:54,793
+<i>Creatures that survive</i>
+<i>the initial destruction</i>
+
+580
+00:53:54,861 --> 00:53:58,464
+<i>now face a new and</i>
+<i>deadly environment.</i>
+
+581
+00:53:58,532 --> 00:54:02,435
+<i>Few will live.</i>
+
+582
+00:54:02,870 --> 00:54:05,471
+<i>It's been five hundred</i>
+<i>thousand years since</i>
+
+583
+00:54:05,539 --> 00:54:07,740
+<i>the eruptions</i>
+<i>first began,</i>
+
+584
+00:54:07,808 --> 00:54:11,377
+<i>And all this time, the</i>
+<i>lava's been pouring out.</i>
+
+585
+00:54:13,280 --> 00:54:16,082
+<i>By now, it covers an</i>
+<i>area the size of the</i>
+
+586
+00:54:16,150 --> 00:54:18,785
+<i>United States with a</i>
+<i>layer of molten rock</i>
+
+587
+00:54:18,852 --> 00:54:24,156
+<i>nearly 4 miles deep.</i>
+
+588
+00:54:26,392 --> 00:54:32,030
+<i>95 per cent of the</i>
+<i>species are gone.</i>
+
+589
+00:54:32,665 --> 00:54:36,167
+<i>A few survive by eating</i>
+<i>anything they can find</i>
+
+590
+00:54:36,235 --> 00:54:41,172
+<i>and living in</i>
+<i>burrows underground.</i>
+
+591
+00:54:44,344 --> 00:54:49,649
+<i>But everything</i>
+<i>else, is dead.</i>
+
+592
+00:54:49,716 --> 00:54:53,553
+<i>250 million years ago,</i>
+<i>the Earth reverts back</i>
+
+593
+00:54:53,621 --> 00:54:56,890
+<i>to an almost</i>
+<i>lifeless planet.</i>
+
+594
+00:54:56,958 --> 00:55:00,093
+<i>But that's about</i>
+<i>to change, again.</i>
+
+595
+00:55:06,436 --> 00:55:08,036
+<i>Narrator: It's</i>
+<i>been fifty million</i>
+
+596
+00:55:08,104 --> 00:55:10,739
+<i>years since virtually</i>
+<i>all life on Earth was</i>
+
+597
+00:55:10,806 --> 00:55:13,575
+<i>wiped out.</i>
+
+598
+00:55:13,776 --> 00:55:16,677
+<i>And the planet has</i>
+<i>been transformed.</i>
+
+599
+00:55:19,748 --> 00:55:23,217
+<i>It's now 200</i>
+<i>million years ago,</i>
+
+600
+00:55:23,285 --> 00:55:26,287
+<i>and just one</i>
+<i>supercontinent, Pangea,</i>
+
+601
+00:55:26,354 --> 00:55:30,057
+<i>stretches from</i>
+<i>pole to pole.</i>
+
+602
+00:55:35,865 --> 00:55:38,433
+<i>After the trauma of</i>
+<i>the mass extinction,</i>
+
+603
+00:55:38,501 --> 00:55:41,303
+<i>the planet heals.</i>
+
+604
+00:55:41,371 --> 00:55:44,740
+<i>Temperatures stabilize;</i>
+<i>the acid rain</i>
+
+605
+00:55:44,807 --> 00:55:48,210
+<i>neutralizes and</i>
+<i>vegetation returns.</i>
+
+606
+00:55:50,080 --> 00:55:52,448
+<i>With 95 per cent of all</i>
+<i>life on Earth wiped</i>
+
+607
+00:55:52,516 --> 00:55:56,419
+<i>out, the field opens</i>
+<i>for a new species to</i>
+
+608
+00:55:56,487 --> 00:55:58,288
+<i>emerge.</i>
+
+609
+00:55:58,522 --> 00:56:00,790
+<i>One that will dominate</i>
+<i>the planet like no</i>
+
+610
+00:56:00,858 --> 00:56:02,725
+<i>other.</i>
+
+611
+00:56:09,398 --> 00:56:13,467
+<i>The dinosaurs.</i>
+
+612
+00:56:13,602 --> 00:56:17,105
+<i>These are called</i>
+<i>Ammosaurs.</i>
+
+613
+00:56:17,172 --> 00:56:19,341
+<i>Like all dinos, they</i>
+<i>evolved from the</i>
+
+614
+00:56:19,408 --> 00:56:25,880
+<i>reptiles that survived</i>
+<i>the Permian Extinction.</i>
+
+615
+00:56:26,349 --> 00:56:30,151
+<i>At 15 feet tall, their</i>
+<i>size makes them slow,</i>
+
+616
+00:56:30,219 --> 00:56:33,188
+<i>and vulnerable.</i>
+
+617
+00:56:39,994 --> 00:56:46,599
+<i>Nearby is the</i>
+<i>dilophosaurus.</i>
+
+618
+00:56:49,502 --> 00:56:54,539
+<i>It's small,</i>
+
+619
+00:56:54,607 --> 00:56:56,742
+<i>and fast.</i>
+
+620
+00:57:17,667 --> 00:57:19,734
+<i>The ammosaurus is too</i>
+<i>big a meal for one</i>
+
+621
+00:57:19,801 --> 00:57:22,403
+<i>dilophosaurus.</i>
+
+622
+00:57:22,471 --> 00:57:24,438
+<i>But not for two.</i>
+
+623
+00:57:39,155 --> 00:57:42,191
+<i>The dinosaurs have</i>
+<i>repopulated the Earth.</i>
+
+624
+00:57:42,826 --> 00:57:45,962
+<i>But no species can</i>
+<i>tame this restless,</i>
+
+625
+00:57:46,029 --> 00:57:48,197
+<i>volatile planet.</i>
+
+626
+00:57:54,105 --> 00:57:56,073
+<i>The earth's crust</i>
+<i>is thinning.</i>
+
+627
+00:57:56,140 --> 00:57:58,041
+<i>It's releasing lava</i>
+<i>and shaking with</i>
+
+628
+00:57:58,109 --> 00:58:01,144
+<i>earthquakes, as if</i>
+<i>being stretched by some</i>
+
+629
+00:58:01,212 --> 00:58:03,413
+<i>unseen force.</i>
+
+630
+00:58:09,585 --> 00:58:11,920
+<i>It's also happening</i>
+<i>near what will become</i>
+
+631
+00:58:11,988 --> 00:58:16,224
+<i>North America's</i>
+<i>eastern seaboard.</i>
+
+632
+00:58:24,399 --> 00:58:28,302
+<i>The Earth's plates are</i>
+<i>on the move again.</i>
+
+633
+00:58:28,370 --> 00:58:30,371
+<i>190 million years</i>
+<i>ago, the great</i>
+
+634
+00:58:30,439 --> 00:58:34,174
+<i>super-continent of</i>
+<i>Pangea tears apart.</i>
+
+635
+00:58:39,114 --> 00:58:41,081
+<i>A vast slab of</i>
+<i>land breaks away,</i>
+
+636
+00:58:41,149 --> 00:58:44,284
+<i>creating a chasm.</i>
+
+637
+00:58:44,352 --> 00:58:47,620
+<i>It fills with a new</i>
+<i>ocean called the Tethys</i>
+
+638
+00:58:47,688 --> 00:58:51,791
+<i>over what will one day</i>
+<i>be the Middle East.</i>
+
+639
+00:58:57,397 --> 00:58:59,365
+<i>Currents push</i>
+<i>nutrients up into</i>
+
+640
+00:58:59,433 --> 00:59:04,838
+<i>the coastal waters.</i>
+
+641
+00:59:04,905 --> 00:59:07,407
+<i>And the nutrients</i>
+<i>attract fish,</i>
+
+642
+00:59:07,475 --> 00:59:14,348
+<i>in the millions.</i>
+
+643
+00:59:14,415 --> 00:59:22,522
+<i>But again, with so much</i>
+<i>life, also comes death.</i>
+
+644
+00:59:22,590 --> 00:59:28,194
+<i>Dead fish and plankton</i>
+<i>carpet the ocean floor.</i>
+
+645
+00:59:28,261 --> 00:59:30,496
+<i>Over the next 10</i>
+<i>million years,</i>
+
+646
+00:59:30,564 --> 00:59:33,232
+<i>layers of rock</i>
+<i>will bury and heat</i>
+
+647
+00:59:33,299 --> 00:59:35,967
+<i>the dead creatures.</i>
+
+648
+00:59:36,035 --> 00:59:37,369
+<i>Ancient fish and</i>
+
+649
+00:59:37,436 --> 00:59:43,409
+<i>plankton will</i>
+<i>become oil.</i>
+
+650
+00:59:55,823 --> 00:59:58,926
+<i>Every gallon of</i>
+<i>gas in our cars,</i>
+
+651
+00:59:58,993 --> 01:00:01,896
+<i>every piece of plastic</i>
+<i>on the planet,</i>
+
+652
+01:00:01,963 --> 01:00:04,465
+<i>the paint on our walls,</i>
+<i>the carpet under our</i>
+
+653
+01:00:04,533 --> 01:00:08,203
+<i>feet, even the</i>
+<i>soap we wash with,</i>
+
+654
+01:00:08,271 --> 01:00:17,079
+<i>almost all originated</i>
+<i>in this way.</i>
+
+655
+01:00:24,320 --> 01:00:27,455
+<i>180 million years ago,</i>
+<i>the North American</i>
+
+656
+01:00:27,522 --> 01:00:30,424
+<i>plate is still moving</i>
+<i>away from the European</i>
+
+657
+01:00:30,492 --> 01:00:39,733
+<i>and Asian plate.</i>
+
+658
+01:00:39,801 --> 01:00:42,570
+<i>It's shifting about</i>
+<i>one inch each year,</i>
+
+659
+01:00:42,638 --> 01:00:49,444
+<i>the same speed at which</i>
+<i>our fingernails grow.</i>
+
+660
+01:00:49,512 --> 01:00:52,715
+<i>But fast forward 35</i>
+<i>million years and a new</i>
+
+661
+01:00:52,783 --> 01:00:58,954
+<i>ocean forms, as well</i>
+<i>as new continents.</i>
+
+662
+01:00:59,022 --> 01:01:00,889
+<i>The United States</i>
+<i>breaks away from</i>
+
+663
+01:01:00,957 --> 01:01:05,660
+<i>Africa.</i>
+
+664
+01:01:05,728 --> 01:01:08,963
+<i>The world as we</i>
+<i>know it takes shape.</i>
+
+665
+01:01:09,030 --> 01:01:11,965
+<i>The chasm between the</i>
+<i>two continents fills,</i>
+
+666
+01:01:12,033 --> 01:01:19,205
+<i>creating the</i>
+<i>Atlantic Ocean.</i>
+
+667
+01:01:22,843 --> 01:01:29,949
+<i>And in the middle,</i>
+<i>lies a volcano.</i>
+
+668
+01:01:30,017 --> 01:01:32,785
+<i>Like before, currents</i>
+<i>deep beneath the</i>
+
+669
+01:01:32,852 --> 01:01:41,394
+<i>Earth's crust move</i>
+<i>the plates again.</i>
+
+670
+01:01:54,940 --> 01:01:58,209
+<i>The entire sea floor</i>
+<i>tears in two and is</i>
+
+671
+01:01:58,277 --> 01:01:59,945
+<i>pushed up into</i>
+<i>a ridge of</i>
+
+672
+01:02:00,012 --> 01:02:05,151
+<i>mountains and volcanoes.</i>
+
+673
+01:02:05,219 --> 01:02:07,387
+<i>It grows higher</i>
+<i>than the Himalayas,</i>
+
+674
+01:02:07,454 --> 01:02:10,391
+<i>and longer than</i>
+<i>the Rockies.</i>
+
+675
+01:02:10,458 --> 01:02:15,330
+<i>The water here is hot,</i>
+<i>as molten lava forces</i>
+
+676
+01:02:15,398 --> 01:02:22,204
+<i>its way out from deep</i>
+<i>inside the earth.</i>
+
+677
+01:02:22,271 --> 01:02:25,274
+<i>As the lava cools, it</i>
+<i>creates a new range of</i>
+
+678
+01:02:25,342 --> 01:02:32,214
+<i>volcanic mountains,</i>
+<i>and a new ocean floor.</i>
+
+679
+01:02:32,282 --> 01:02:35,651
+<i>Pangea breaks apart,</i>
+<i>and our world</i>
+
+680
+01:02:35,719 --> 01:02:44,127
+<i>rearranges again.</i>
+
+681
+01:02:56,142 --> 01:02:59,043
+<i>It's this geological</i>
+<i>activity that makes the</i>
+
+682
+01:02:59,111 --> 01:03:04,782
+<i>Earth restless,</i>
+<i>creative and unique.</i>
+
+683
+01:03:04,850 --> 01:03:06,884
+<i>And every time the</i>
+<i>planet reinvents</i>
+
+684
+01:03:06,952 --> 01:03:15,526
+<i>itself, its inhabitants</i>
+<i>adapt and evolve.</i>
+
+685
+01:03:19,598 --> 01:03:24,904
+<i>Like the ichthyosaurs.</i>
+
+686
+01:03:24,971 --> 01:03:27,840
+<i>Their reptile ancestors</i>
+<i>lived on land,</i>
+
+687
+01:03:27,908 --> 01:03:29,976
+<i>but as the</i>
+<i>planet changed,</i>
+
+688
+01:03:30,044 --> 01:03:32,312
+<i>so did these</i>
+<i>animals.</i>
+
+689
+01:03:32,380 --> 01:03:33,981
+<i>They grew fins and</i>
+<i>moved into the newly</i>
+
+690
+01:03:34,048 --> 01:03:41,889
+<i>formed Atlantic Ocean.</i>
+
+691
+01:03:41,957 --> 01:03:44,292
+<i>This one is</i>
+<i>20 feet long,</i>
+
+692
+01:03:44,359 --> 01:03:53,534
+<i>and can travel at a</i>
+<i>quick 25 miles an hour.</i>
+
+693
+01:03:55,337 --> 01:03:57,772
+<i>It's the ocean's</i>
+<i>fastest creature and</i>
+
+694
+01:03:57,840 --> 01:03:59,707
+<i>most efficient</i>
+<i>predator.</i>
+
+695
+01:03:59,775 --> 01:04:08,216
+<i>It rules the oceans</i>
+<i>for 50 million years.</i>
+
+696
+01:04:19,429 --> 01:04:28,003
+<i>But now, there's</i>
+<i>a new contender.</i>
+
+697
+01:04:37,313 --> 01:04:42,984
+<i>The pliosaur.</i>
+
+698
+01:04:43,052 --> 01:04:46,521
+<i>Longer than a bus, and</i>
+<i>as heavy as a truck,</i>
+
+699
+01:04:46,589 --> 01:04:49,524
+<i>its jaws are eight</i>
+<i>times more powerful</i>
+
+700
+01:04:49,592 --> 01:04:52,094
+<i>than a great</i>
+<i>white sharks',</i>
+
+701
+01:04:52,161 --> 01:05:00,502
+<i>with teeth 12</i>
+<i>inches long.</i>
+
+702
+01:05:08,512 --> 01:05:10,947
+<i>The Earth, and</i>
+<i>its inhabitants,</i>
+
+703
+01:05:11,014 --> 01:05:13,883
+<i>have changed beyond</i>
+<i>recognition.</i>
+
+704
+01:05:13,951 --> 01:05:16,785
+<i>This was once</i>
+<i>solid ground,</i>
+
+705
+01:05:16,853 --> 01:05:20,456
+<i>now it's the</i>
+<i>Atlantic Ocean.</i>
+
+706
+01:05:20,524 --> 01:05:23,326
+<i>The very spot where</i>
+<i>ammosaurs grazed and</i>
+
+707
+01:05:23,394 --> 01:05:26,829
+<i>dilophosaurs</i>
+<i>stalked their prey.</i>
+
+708
+01:05:26,897 --> 01:05:29,432
+<i>The dinosaurs' world</i>
+<i>may be different,</i>
+
+709
+01:05:29,500 --> 01:05:32,101
+<i>but they're as</i>
+<i>dominant as ever.</i>
+
+710
+01:05:32,169 --> 01:05:35,071
+<i>They appear invincible.</i>
+
+711
+01:05:45,280 --> 01:05:46,580
+<i>Narrator: They're one</i>
+<i>of the planet's most</i>
+
+712
+01:05:46,648 --> 01:05:49,216
+<i>successful species.</i>
+
+713
+01:05:49,284 --> 01:05:52,685
+<i>They've survived</i>
+<i>volcanic eruptions,</i>
+
+714
+01:05:52,753 --> 01:05:55,154
+<i>earthquakes, and entire</i>
+<i>continents splitting</i>
+
+715
+01:05:55,222 --> 01:06:01,493
+<i>apart, The dinosaurs</i>
+<i>have thrived for 165</i>
+
+716
+01:06:01,561 --> 01:06:09,934
+<i>million years.</i>
+
+717
+01:06:10,002 --> 01:06:12,670
+<i>A number of mammals</i>
+<i>have also survived,</i>
+
+718
+01:06:12,738 --> 01:06:21,246
+<i>like this</i>
+<i>shrew-like animal.</i>
+
+719
+01:06:21,313 --> 01:06:24,015
+<i>They're prey to</i>
+<i>the dinosaurs.</i>
+
+720
+01:06:24,083 --> 01:06:26,551
+<i>So they live in trees</i>
+<i>or underground,</i>
+
+721
+01:06:26,618 --> 01:06:30,855
+<i>and venture out</i>
+<i>only at night.</i>
+
+722
+01:06:30,922 --> 01:06:39,796
+<i>Mammals pose no threat</i>
+<i>to the dinosaurs.</i>
+
+723
+01:06:41,265 --> 01:06:43,233
+<i>Nothing on Earth</i>
+<i>can challenge their</i>
+
+724
+01:06:43,300 --> 01:06:52,142
+<i>dominance.</i>
+
+725
+01:06:56,381 --> 01:07:03,188
+<i>Nothing, on Earth.</i>
+
+726
+01:07:03,255 --> 01:07:05,224
+<i>A large piece</i>
+<i>of space rock,</i>
+
+727
+01:07:05,292 --> 01:07:13,999
+<i>heads toward Earth.</i>
+
+728
+01:07:14,067 --> 01:07:17,570
+<i>This asteroid is at</i>
+<i>least 6 miles across,</i>
+
+729
+01:07:17,637 --> 01:07:21,908
+<i>and travelling over</i>
+<i>40,000 miles an hour.</i>
+
+730
+01:07:21,976 --> 01:07:30,950
+<i>It's bigger than</i>
+<i>Mount Everest,</i>
+
+731
+01:07:31,952 --> 01:07:41,661
+<i>and heads straight for</i>
+<i>the Gulf of Mexico.</i>
+
+732
+01:07:46,200 --> 01:07:49,335
+<i>It travels so fast that</i>
+<i>its impact would be</i>
+
+733
+01:07:49,403 --> 01:07:56,275
+<i>missed in a</i>
+<i>blink of an eye.</i>
+
+734
+01:07:56,343 --> 01:08:03,749
+<i>A split second changes</i>
+<i>the world forever.</i>
+
+735
+01:08:07,587 --> 01:08:09,955
+<i>At impact, the</i>
+<i>asteroid's back edge</i>
+
+736
+01:08:10,023 --> 01:08:19,697
+<i>stands at 35,000 feet.</i>
+
+737
+01:08:30,309 --> 01:08:33,177
+<i>It strikes with such</i>
+<i>immense force that it</i>
+
+738
+01:08:33,245 --> 01:08:42,422
+<i>destroys</i>
+<i>everything it hits.</i>
+
+739
+01:08:53,201 --> 01:09:01,676
+<i>The asteroid itself</i>
+<i>instantly vaporizes,</i>
+
+740
+01:09:01,744 --> 01:09:03,778
+<i>unleashing the</i>
+<i>energy of millions</i>
+
+741
+01:09:03,846 --> 01:09:11,619
+<i>of nuclear weapons.</i>
+
+742
+01:09:11,687 --> 01:09:13,288
+<i>Nowhere is safe,</i>
+
+743
+01:09:13,356 --> 01:09:20,763
+<i>with debris flying</i>
+<i>everywhere.</i>
+
+744
+01:09:20,831 --> 01:09:23,499
+<i>Debris as big as</i>
+<i>entire city blocks</i>
+
+745
+01:09:23,567 --> 01:09:32,708
+<i>circle the Earth.</i>
+
+746
+01:09:40,951 --> 01:09:44,086
+<i>The blastwave races out</i>
+<i>from the impact zone</i>
+
+747
+01:09:44,154 --> 01:09:52,595
+<i>like shrapnel from</i>
+<i>an exploding bomb.</i>
+
+748
+01:10:22,893 --> 01:10:25,327
+<i>Minutes after impact,</i>
+<i>hundreds of miles</i>
+
+749
+01:10:25,395 --> 01:10:27,663
+<i>from where the</i>
+<i>asteroid struck,</i>
+
+750
+01:10:27,730 --> 01:10:36,172
+<i>the earth is</i>
+<i>under attack.</i>
+
+751
+01:10:36,240 --> 01:10:44,649
+<i>Boulders rain down.</i>
+
+752
+01:10:44,716 --> 01:10:51,922
+<i>Earthquakes</i>
+<i>shake the ground.</i>
+
+753
+01:10:51,990 --> 01:10:59,796
+<i>And tsunamis</i>
+<i>batter the coasts.</i>
+
+754
+01:11:08,071 --> 01:11:12,274
+<i>But the onslaught</i>
+<i>has only just begun.</i>
+
+755
+01:11:12,342 --> 01:11:14,877
+<i>The plume of molten</i>
+<i>rock and dust spreads</i>
+
+756
+01:11:14,945 --> 01:11:19,315
+<i>out, and engulfs</i>
+<i>the planet.</i>
+
+757
+01:11:19,383 --> 01:11:27,757
+<i>The entire sky acts</i>
+<i>like a giant lamp,</i>
+
+758
+01:11:27,825 --> 01:11:28,891
+<i>heating the</i>
+<i>Earth's surface to</i>
+
+759
+01:11:28,959 --> 01:11:32,562
+<i>over 500 degrees.</i>
+
+760
+01:11:32,630 --> 01:11:41,773
+<i>Vegetation</i>
+<i>spontaneously ignites.</i>
+
+761
+01:11:47,714 --> 01:11:49,882
+<i>Even months</i>
+<i>after the impact,</i>
+
+762
+01:11:49,950 --> 01:11:51,817
+<i>smoke and ash</i>
+<i>still block out</i>
+
+763
+01:11:51,885 --> 01:11:55,287
+<i>the sun's rays.</i>
+
+764
+01:11:55,355 --> 01:11:58,423
+<i>And with less sunlight,</i>
+<i>plants die and the</i>
+
+765
+01:11:58,491 --> 01:12:07,968
+<i>animals starve.</i>
+
+766
+01:12:16,310 --> 01:12:18,511
+<i>65 million years ago,</i>
+
+767
+01:12:18,578 --> 01:12:20,847
+<i>the impact has blasted,</i>
+
+768
+01:12:20,914 --> 01:12:29,555
+<i>stoned and burnt</i>
+<i>the dinosaurs.</i>
+
+769
+01:12:31,424 --> 01:12:40,666
+<i>Their 165 million year</i>
+<i>reign is over.</i>
+
+770
+01:12:44,271 --> 01:12:46,439
+<i>But the dinosaur's</i>
+<i>demise brings</i>
+
+771
+01:12:46,506 --> 01:12:53,945
+<i>opportunity for</i>
+<i>another species.</i>
+
+772
+01:12:54,013 --> 01:12:58,950
+<i>A mammal.</i>
+
+773
+01:12:59,018 --> 01:13:01,787
+<i>By living underground,</i>
+<i>mammals have avoided</i>
+
+774
+01:13:01,854 --> 01:13:04,690
+<i>the heat and fires.</i>
+
+775
+01:13:04,758 --> 01:13:08,061
+<i>And by eating anything,</i>
+<i>they thrive while more</i>
+
+776
+01:13:08,129 --> 01:13:14,869
+<i>selective eaters die.</i>
+
+777
+01:13:14,936 --> 01:13:17,271
+<i>They're the unlikely</i>
+<i>inheritors of the</i>
+
+778
+01:13:17,339 --> 01:13:26,047
+<i>dinosaurs' crown.</i>
+
+779
+01:13:27,750 --> 01:13:30,018
+<i>And as one story ends.</i>
+
+780
+01:13:30,086 --> 01:13:32,087
+<i>Another begins.</i>
+
+781
+01:13:32,154 --> 01:13:34,622
+<i>With the dinosaurs</i>
+<i>out of the way,</i>
+
+782
+01:13:34,690 --> 01:13:38,859
+<i>our ancestors' may now</i>
+<i>have a chance, at life.</i>
+
+783
+01:13:56,837 --> 01:14:00,405
+<i>Narrator: The dinosaurs</i>
+<i>are long dead.</i>
+
+784
+01:14:00,807 --> 01:14:07,011
+<i>The planet is peaceful.</i>
+
+785
+01:14:07,079 --> 01:14:09,279
+<i>In this new</i>
+<i>world, our mammal</i>
+
+786
+01:14:09,347 --> 01:14:16,820
+<i>ancestors are evolving.</i>
+
+787
+01:14:23,063 --> 01:14:26,198
+<i>47 million years</i>
+<i>ago, this lake,</i>
+
+788
+01:14:26,266 --> 01:14:28,635
+<i>in what will one</i>
+<i>day be Germany,</i>
+
+789
+01:14:28,702 --> 01:14:37,977
+<i>is the perfect</i>
+<i>place to spot them.</i>
+
+790
+01:14:47,487 --> 01:14:49,988
+<i>Unlike earlier</i>
+<i>mammals, its eyes and</i>
+
+791
+01:14:50,056 --> 01:14:54,459
+<i>brain are bigger.</i>
+
+792
+01:14:54,527 --> 01:14:59,765
+<i>This is Darwinius</i>
+<i>Massilae, or Ida.</i>
+
+793
+01:14:59,833 --> 01:15:02,301
+<i>She looks nothing</i>
+<i>like humans,</i>
+
+794
+01:15:02,369 --> 01:15:04,937
+<i>but fossil evidence</i>
+<i>today indicates that</i>
+
+795
+01:15:05,005 --> 01:15:08,208
+<i>these creatures might</i>
+<i>evolve into monkeys,</i>
+
+796
+01:15:08,276 --> 01:15:15,784
+<i>apes, and</i>
+<i>eventually humans.</i>
+
+797
+01:15:15,851 --> 01:15:18,553
+<i>Looking back through</i>
+<i>47 million years of</i>
+
+798
+01:15:18,620 --> 01:15:21,589
+<i>evolution might reveal</i>
+<i>one of our earliest</i>
+
+799
+01:15:21,657 --> 01:15:26,629
+<i>known ancestors.</i>
+
+800
+01:15:26,696 --> 01:15:30,266
+<i>The lake sits on a</i>
+<i>volcanic crater.</i>
+
+801
+01:15:30,334 --> 01:15:35,405
+<i>It belches out</i>
+<i>noxious gas,</i>
+
+802
+01:15:35,473 --> 01:15:43,713
+<i>that eventually</i>
+<i>kills Ida.</i>
+
+803
+01:15:47,051 --> 01:15:48,551
+<i>The lake preserves</i>
+<i>her in its</i>
+
+804
+01:15:48,619 --> 01:15:54,624
+<i>oxygen depleted depths.</i>
+
+805
+01:15:54,691 --> 01:15:57,960
+<i>One day, when the water</i>
+<i>is gone and Ida's</i>
+
+806
+01:15:58,028 --> 01:16:03,966
+<i>fossil is found, this</i>
+<i>primitive primate could</i>
+
+807
+01:16:04,034 --> 01:16:07,002
+<i>help piece together the</i>
+<i>beginning of our own</i>
+
+808
+01:16:07,070 --> 01:16:15,644
+<i>story, the story</i>
+<i>of human life.</i>
+
+809
+01:16:15,711 --> 01:16:17,613
+<i>We're closer to</i>
+<i>understanding how</i>
+
+810
+01:16:17,680 --> 01:16:20,650
+<i>everything we've seen,</i>
+<i>from ocean bacteria,</i>
+
+811
+01:16:20,717 --> 01:16:23,186
+<i>through walking fish</i>
+<i>and subterranean</i>
+
+812
+01:16:23,254 --> 01:16:27,658
+<i>rodents, leads to us.</i>
+
+813
+01:16:27,726 --> 01:16:29,427
+<i>And to understanding</i>
+<i>how our</i>
+
+814
+01:16:29,494 --> 01:16:35,267
+<i>planet was made.</i>
+
+815
+01:16:35,335 --> 01:16:38,370
+<i>47 million years</i>
+<i>ago, the atmosphere</i>
+
+816
+01:16:38,438 --> 01:16:45,177
+<i>is much like today.</i>
+
+817
+01:16:45,245 --> 01:16:48,680
+<i>The temperature</i>
+<i>is 75 degrees.</i>
+
+818
+01:16:48,748 --> 01:16:50,716
+<i>And a day lasts</i>
+<i>just under</i>
+
+819
+01:16:50,784 --> 01:16:53,652
+<i>twenty four hours.</i>
+
+820
+01:16:53,720 --> 01:16:56,288
+<i>The Earth is now</i>
+<i>almost identical to</i>
+
+821
+01:16:56,356 --> 01:16:59,324
+<i>the planet we call home.</i>
+
+822
+01:16:59,392 --> 01:17:07,833
+<i>Almost.</i>
+
+823
+01:17:17,010 --> 01:17:23,616
+<i>The Earth's plates are</i>
+<i>on the move again.</i>
+
+824
+01:17:23,684 --> 01:17:32,057
+<i>India moves north</i>
+<i>toward Asia.</i>
+
+825
+01:17:40,401 --> 01:17:42,802
+<i>The Indian and Asian</i>
+<i>plates are locked</i>
+
+826
+01:17:42,870 --> 01:17:52,147
+<i>in a titanic struggle,</i>
+
+827
+01:17:53,783 --> 01:17:58,520
+<i>and neither plate</i>
+<i>is winning.</i>
+
+828
+01:17:58,588 --> 01:18:01,057
+<i>As they buckle, the</i>
+<i>ocean floor contorts</i>
+
+829
+01:18:01,124 --> 01:18:09,267
+<i>upward along a</i>
+<i>1,500 mile line.</i>
+
+830
+01:18:12,237 --> 01:18:14,271
+<i>A vast mountain</i>
+<i>range rises up</i>
+
+831
+01:18:14,339 --> 01:18:23,047
+<i>over 27,000 feet.</i>
+
+832
+01:18:38,296 --> 01:18:46,970
+<i>These are the</i>
+<i>Himalayas.</i>
+
+833
+01:18:50,708 --> 01:18:53,209
+<i>And the highest</i>
+<i>mountain of all,</i>
+
+834
+01:18:53,277 --> 01:19:01,951
+<i>Mount Everest.</i>
+
+835
+01:19:02,019 --> 01:19:03,920
+<i>Its summit reaches</i>
+<i>up into the</i>
+
+836
+01:19:03,988 --> 01:19:06,523
+<i>Earth's jet stream,</i>
+<i>the same altitude</i>
+
+837
+01:19:06,591 --> 01:19:16,166
+<i>where planes fly.</i>
+
+838
+01:19:32,614 --> 01:19:34,881
+<i>When the snow on</i>
+<i>the peaks melts,</i>
+
+839
+01:19:34,949 --> 01:19:38,285
+<i>it feeds rivers like</i>
+<i>the Ganges, Indus,</i>
+
+840
+01:19:38,353 --> 01:19:46,560
+<i>Yellow and Yangtze.</i>
+
+841
+01:19:46,627 --> 01:19:49,830
+<i>The Himalayas are like</i>
+<i>a vast water tower.</i>
+
+842
+01:19:49,898 --> 01:19:52,533
+<i>One day, their rivers</i>
+<i>will supply water for</i>
+
+843
+01:19:52,600 --> 01:20:00,742
+<i>almost half the</i>
+<i>world's population.</i>
+
+844
+01:20:10,621 --> 01:20:16,360
+<i>20 million years ago,</i>
+<i>this is our planet,</i>
+
+845
+01:20:16,427 --> 01:20:18,462
+<i>with every continent,</i>
+<i>and every ocean</i>
+
+846
+01:20:18,529 --> 01:20:25,635
+<i>as we know it.</i>
+
+847
+01:20:25,703 --> 01:20:28,872
+<i>Except one thing</i>
+<i>is still missing,</i>
+
+848
+01:20:28,939 --> 01:20:35,512
+<i>the human race.</i>
+
+849
+01:20:35,580 --> 01:20:37,815
+<i>And for humans</i>
+<i>to evolve,</i>
+
+850
+01:20:37,882 --> 01:20:41,418
+<i>something needs</i>
+<i>to change.</i>
+
+851
+01:20:57,998 --> 01:20:59,266
+<i>Narrator:</i>
+<i>Along the African</i>
+
+852
+01:20:59,333 --> 01:21:06,941
+<i>coast, a great</i>
+<i>rift opens up.</i>
+
+853
+01:21:09,745 --> 01:21:18,353
+<i>It stretches</i>
+<i>nearly 4,000 miles,</i>
+
+854
+01:21:19,055 --> 01:21:27,829
+<i>with mountains growing</i>
+<i>along its edge.</i>
+
+855
+01:21:40,476 --> 01:21:43,478
+<i>This ape-like creature</i>
+<i>may stay in these trees</i>
+
+856
+01:21:43,546 --> 01:21:50,353
+<i>forever, but its</i>
+<i>world is changing.</i>
+
+857
+01:21:50,421 --> 01:21:53,423
+<i>The growing mountains</i>
+<i>act like a wall,</i>
+
+858
+01:21:53,491 --> 01:21:55,792
+<i>prohibiting moisture</i>
+<i>from the Indian Ocean</i>
+
+859
+01:21:55,860 --> 01:21:59,396
+<i>from passing</i>
+<i>over the land.</i>
+
+860
+01:21:59,463 --> 01:22:03,299
+<i>It's getting</i>
+<i>hotter, and drier.</i>
+
+861
+01:22:03,367 --> 01:22:05,801
+<i>The lush rainforest</i>
+<i>becomes an arid</i>
+
+862
+01:22:05,869 --> 01:22:09,872
+<i>savannah.</i>
+
+863
+01:22:09,939 --> 01:22:12,574
+<i>The new hotter climate</i>
+<i>changes the creatures'</i>
+
+864
+01:22:12,642 --> 01:22:15,410
+<i>habitat, forcing them</i>
+<i>to search further for</i>
+
+865
+01:22:15,478 --> 01:22:19,715
+<i>food, soon, they stop</i>
+<i>dragging their knuckles</i>
+
+866
+01:22:19,783 --> 01:22:21,449
+<i>like apes.</i>
+
+867
+01:22:21,517 --> 01:22:27,189
+<i>And begin to stand,</i>
+<i>and walk on two feet.</i>
+
+868
+01:22:27,256 --> 01:22:28,957
+<i>It's the most</i>
+<i>important step in</i>
+
+869
+01:22:29,025 --> 01:22:36,166
+<i>the human story.</i>
+
+870
+01:22:36,233 --> 01:22:38,768
+<i>This mountain range</i>
+<i>could be the reason</i>
+
+871
+01:22:38,836 --> 01:22:46,909
+<i>humans</i>
+<i>walk on two feet.</i>
+
+872
+01:22:48,411 --> 01:22:51,580
+<i>The random movement of</i>
+<i>two plates may have</i>
+
+873
+01:22:51,648 --> 01:22:54,149
+<i>kick-started a chain of</i>
+<i>events that leads to</i>
+
+874
+01:22:54,217 --> 01:22:59,954
+<i>the first humans.</i>
+
+875
+01:23:11,701 --> 01:23:13,468
+<i>A man and child.</i>
+
+876
+01:23:13,536 --> 01:23:16,237
+<i>A scene very</i>
+<i>much like today.</i>
+
+877
+01:23:16,305 --> 01:23:20,976
+<i>But it's one and a half</i>
+<i>million years ago.</i>
+
+878
+01:23:21,043 --> 01:23:24,079
+<i>They are an early</i>
+<i>species of human called</i>
+
+879
+01:23:24,146 --> 01:23:28,149
+<i>Homo Erectus.</i>
+
+880
+01:23:28,217 --> 01:23:30,852
+<i>And these are the first</i>
+<i>footprints like our</i>
+
+881
+01:23:30,919 --> 01:23:38,259
+<i>own; civilizations</i>
+<i>past and present,</i>
+
+882
+01:23:38,326 --> 01:23:41,061
+<i>everyone that's</i>
+<i>ever lived,</i>
+
+883
+01:23:41,129 --> 01:23:43,265
+<i>the greatest</i>
+<i>inventions,</i>
+
+884
+01:23:43,333 --> 01:23:45,834
+<i>the most</i>
+<i>brilliant ideas.</i>
+
+885
+01:23:45,902 --> 01:23:49,272
+<i>Human history, in all</i>
+<i>its complexity and</i>
+
+886
+01:23:49,339 --> 01:23:58,281
+<i>splendor, begins</i>
+<i>here and now.</i>
+
+887
+01:24:10,694 --> 01:24:13,062
+<i>The climate</i>
+<i>changes again.</i>
+
+888
+01:24:13,130 --> 01:24:17,767
+<i>70,000 years ago</i>
+<i>sea levels fall.</i>
+
+889
+01:24:17,835 --> 01:24:20,203
+<i>And the gap between</i>
+<i>Africa and Arabia</i>
+
+890
+01:24:20,271 --> 01:24:28,679
+<i>shrinks to just</i>
+<i>eight miles.</i>
+
+891
+01:24:28,747 --> 01:24:31,381
+<i>The Red Sea is now</i>
+<i>narrow and shallow</i>
+
+892
+01:24:31,449 --> 01:24:34,318
+<i>enough for a small</i>
+<i>group to cross,</i>
+
+893
+01:24:34,385 --> 01:24:38,456
+<i>out of Africa.</i>
+
+894
+01:24:38,523 --> 01:24:41,259
+<i>They're another later</i>
+<i>species of human,</i>
+
+895
+01:24:41,326 --> 01:24:49,767
+<i>called Homo Sapiens.</i>
+
+896
+01:24:59,409 --> 01:25:02,711
+<i>Scientists believe that</i>
+<i>the entire world beyond</i>
+
+897
+01:25:02,779 --> 01:25:05,881
+<i>Africa was populated</i>
+<i>from descendants of</i>
+
+898
+01:25:05,949 --> 01:25:12,153
+<i>these two hundred</i>
+<i>individuals.</i>
+
+899
+01:25:12,221 --> 01:25:15,457
+<i>Over time our ancestors</i>
+<i>multiply and spread</i>
+
+900
+01:25:15,524 --> 01:25:24,033
+<i>out; to India, onto</i>
+<i>Asia and into Europe.</i>
+
+901
+01:25:36,047 --> 01:25:38,248
+<i>But while humans</i>
+<i>head north,</i>
+
+902
+01:25:38,315 --> 01:25:47,524
+<i>a giant wall of</i>
+<i>ice travels south.</i>
+
+903
+01:25:47,591 --> 01:25:51,294
+<i>Europe, 40,000</i>
+<i>years ago.</i>
+
+904
+01:25:51,362 --> 01:25:54,831
+<i>Homo sapiens arrive,</i>
+<i>only to find a world</i>
+
+905
+01:25:54,899 --> 01:25:57,900
+<i>that's quickly</i>
+<i>changing.</i>
+
+906
+01:25:57,968 --> 01:26:00,036
+<i>It should be the</i>
+<i>height of summer,</i>
+
+907
+01:26:00,104 --> 01:26:02,139
+<i>but it's</i>
+<i>getting colder.</i>
+
+908
+01:26:02,206 --> 01:26:03,974
+<i>The plants are</i>
+<i>frostbitten,</i>
+
+909
+01:26:04,042 --> 01:26:08,179
+<i>and the rivers</i>
+<i>are frozen.</i>
+
+910
+01:26:08,247 --> 01:26:10,582
+<i>Natural changes in</i>
+<i>the Earth's orbit,</i>
+
+911
+01:26:10,649 --> 01:26:13,752
+<i>CO2 levels, and the</i>
+<i>flow of warm water</i>
+
+912
+01:26:13,819 --> 01:26:16,188
+<i>around the planet</i>
+<i>conspire to lower the</i>
+
+913
+01:26:16,256 --> 01:26:18,624
+<i>Earth's temperature.</i>
+
+914
+01:26:18,692 --> 01:26:20,860
+<i>The Earth, and</i>
+<i>its inhabitants,</i>
+
+915
+01:26:20,927 --> 01:26:23,963
+<i>enter an ice age.</i>
+
+916
+01:26:24,031 --> 01:26:27,333
+<i>Glaciers as high as</i>
+<i>skyscrapers creep over</i>
+
+917
+01:26:27,401 --> 01:26:32,738
+<i>the northern hemisphere</i>
+<i>about a foot every day,</i>
+
+918
+01:26:32,806 --> 01:26:35,741
+<i>Slow, and powerful,</i>
+<i>they sculpt the</i>
+
+919
+01:26:35,809 --> 01:26:41,247
+<i>landscape, gouging out</i>
+<i>great depressions.</i>
+
+920
+01:26:41,315 --> 01:26:48,856
+<i>The planet will never</i>
+<i>look the same again.</i>
+
+921
+01:26:48,924 --> 01:26:51,826
+<i>Now, around twenty</i>
+<i>thousand years ago,</i>
+
+922
+01:26:51,893 --> 01:26:55,496
+<i>they grind to a halt.</i>
+
+923
+01:26:55,564 --> 01:26:57,965
+<i>Much of the northern</i>
+<i>hemisphere is covered</i>
+
+924
+01:26:58,033 --> 01:27:07,141
+<i>by ice sheets up to one</i>
+<i>and a half miles thick.</i>
+
+925
+01:27:09,744 --> 01:27:12,046
+<i>With trillions of</i>
+<i>gallons of water locked</i>
+
+926
+01:27:12,114 --> 01:27:18,619
+<i>up as ice, sea</i>
+<i>levels fall.</i>
+
+927
+01:27:18,687 --> 01:27:21,255
+<i>A strip of land emerges</i>
+<i>from the ocean between</i>
+
+928
+01:27:21,323 --> 01:27:29,832
+<i>Siberia and Alaska.</i>
+
+929
+01:27:29,899 --> 01:27:34,604
+<i>It's a bridge between</i>
+<i>two vast continents,</i>
+
+930
+01:27:34,672 --> 01:27:38,107
+<i>a gateway that takes</i>
+<i>humans from Asia to a</i>
+
+931
+01:27:38,175 --> 01:27:43,245
+<i>new world,</i>
+<i>the Americas.</i>
+
+932
+01:27:43,313 --> 01:27:45,381
+<i>They're the last great</i>
+<i>continents to be</i>
+
+933
+01:27:45,448 --> 01:27:49,985
+<i>colonized, the last</i>
+<i>great human migration,</i>
+
+934
+01:27:50,053 --> 01:27:57,826
+<i>and the first</i>
+<i>Americans.</i>
+
+935
+01:28:04,234 --> 01:28:07,703
+<i>Now, 14,000 years</i>
+<i>ago, the changes that</i>
+
+936
+01:28:07,771 --> 01:28:12,541
+<i>triggered the</i>
+<i>ice age reverse.</i>
+
+937
+01:28:12,609 --> 01:28:15,344
+<i>As the ice retreats,</i>
+<i>it reveals a very</i>
+
+938
+01:28:15,412 --> 01:28:19,148
+<i>different northern</i>
+<i>hemisphere.</i>
+
+939
+01:28:19,215 --> 01:28:21,217
+<i>The huge depressions</i>
+<i>that the glaciers</i>
+
+940
+01:28:21,284 --> 01:28:23,986
+<i>create fill with</i>
+<i>water to become North</i>
+
+941
+01:28:24,054 --> 01:28:33,197
+<i>America's Great Lakes.</i>
+
+942
+01:28:40,338 --> 01:28:43,540
+<i>6,000 years ago, the</i>
+<i>ice retreats back to</i>
+
+943
+01:28:43,608 --> 01:28:52,682
+<i>the poles, toward the</i>
+<i>Arctic and Antarctic.</i>
+
+944
+01:29:05,030 --> 01:29:08,099
+<i>After a four and a half</i>
+<i>billion year journey,</i>
+
+945
+01:29:08,167 --> 01:29:12,438
+<i>we're, finally home.</i>
+
+946
+01:29:12,505 --> 01:29:18,844
+<i>This is our</i>
+<i>world, our time.</i>
+
+947
+01:29:18,912 --> 01:29:21,447
+<i>The planet's incredible</i>
+<i>story helps us</i>
+
+948
+01:29:21,514 --> 01:29:25,050
+<i>understand how and why</i>
+<i>everything around us is</i>
+
+949
+01:29:25,118 --> 01:29:32,690
+<i>here today.</i>
+
+950
+01:29:32,757 --> 01:29:39,997
+<i>From the skies above.</i>
+
+951
+01:29:40,065 --> 01:29:47,640
+<i>To water, the essential</i>
+<i>ingredient for life.</i>
+
+952
+01:29:47,707 --> 01:29:56,383
+<i>To the ground</i>
+<i>beneath our feet.</i>
+
+953
+01:29:56,450 --> 01:30:03,856
+<i>And finally life,</i>
+<i>a chain of catastrophes</i>
+
+954
+01:30:03,924 --> 01:30:06,291
+<i>and coincidences,</i>
+<i>creating a</i>
+
+955
+01:30:06,359 --> 01:30:10,395
+<i>spectacular result.</i>
+
+956
+01:30:10,463 --> 01:30:13,264
+<i>Each triumph and</i>
+<i>disaster is a step</i>
+
+957
+01:30:13,332 --> 01:30:18,635
+<i>leading to here,</i>
+<i>each and every one of</i>
+
+958
+01:30:18,703 --> 01:30:23,407
+<i>us, right now.</i>
+
+959
+01:30:23,475 --> 01:30:29,280
+<i>But the Earth's</i>
+<i>story isn't over.</i>
+
+960
+01:30:29,348 --> 01:30:33,018
+<i>This journey is only</i>
+<i>half the story.</i>
+
+961
+01:30:33,086 --> 01:30:38,023
+<i>A lot more is</i>
+<i>yet to come.</i>
+
+962
+01:30:38,091 --> 01:30:41,460
+<i>The Earth will live for</i>
+<i>at least another 4.5</i>
+
+963
+01:30:41,528 --> 01:30:50,735
+<i>billion years.</i>
+
+964
+01:30:53,272 --> 01:30:57,976
+<i>More wonders,</i>
+<i>more terrors,</i>
+
+965
+01:30:58,044 --> 01:31:00,578
+<i>and more strange</i>
+<i>creatures lie ahead for</i>
+
+966
+01:31:00,646 --> 01:31:08,120
+<i>our restless and</i>
+<i>creative planet.</i>
+
+967
+01:31:08,187 --> 01:31:11,156
+<i>The next chapter of</i>
+<i>Earth's story is still</i>
+
+968
+01:31:11,223 --> 01:31:17,829
+<i>to be written.</i>
+
+969
+01:31:17,854 --> 01:31:21,854
+-- sync, corrected by <font color=#00ff00>elderman</font> --

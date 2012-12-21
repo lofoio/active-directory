@@ -1,0 +1,30 @@
+# -*- mode: snippet -*-
+# name: mkf90
+# key: mkf90
+# --
+FC=gfortran
+FFLAGS=-O
+LIBS=-lm
+FOBJ=${1:`(replace-regexp-in-string "\\\([^.]+;\\\)\\\|\\\([^.]+$\\\)" "o" (mapconcat 'identity (directory-files (file-name-directory (buffer-file-name)) nil "\\\.[fch]\\\(..\\\)?$" nil) "; "))`}
+
+${2:`(third (reverse (split-string (buffer-file-name) "/" t)))`}: $(FOBJ)
+	$(FC) -o $@ $(FFLAGS) $(LDFLAGS) $(FOBJ) $(LIBS)
+
+%.o: %.f90
+	$(FC) $(FFLAGS) -c $<
+
+##############################################
+# Use following commands generate dependencies
+#  $: makedepf90 -o foobar *.f90 > .depend
+# OR
+#  $: gfortran   -cpp -MM  *.f90 > .depend
+##############################################
+
+$0
+.PHONY : debug
+debug: $(FOBJ)
+	$(FC) -g -o $@ $(FFLAGS) $(LDFLAGS) $(FOBJ) $(LIBS)
+
+.PHONY : clean
+clean:
+	-rm -f *.o *.mod core

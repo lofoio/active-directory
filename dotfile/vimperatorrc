@@ -1,0 +1,51 @@
+"3.5 (created: 2012/08/04 00:41:20)
+
+cnoremap <C-p> <Up>
+cnoremap <C-n> <Down>
+cnoremap <C-f> <Right>
+cnoremap <C-b> <Left>
+cnoremap <A-f> <C-Right>
+cnoremap <A-b> <C-Left>
+cnoremap <A-d> <C-Right><C-w>
+highlight Bell border: 0 none; background-color: #222222;
+highlight CmdLine background: #222222; color: #afafaf; font-size: 9pt;
+highlight CompDesc color: #c6c6c6; width: 50%; font-size: 9pt;
+highlight CompItem[selected] background: #666666; color: #afafaf; 
+highlight CompResult width: 45%; overflow: hidden;font-size: 10pt; font-family: monospace; font-weight: normal;
+highlight CompTitle color: #afafaf; background: #222222; font-weight: bold;
+highlight CompTitle>* padding: 0 .5ex;
+highlight ErrorMsg color: #ffffff; background: red; font-weight: bold;
+highlight Filter font-weight: bold;color: #afafaf;
+highlight FrameIndicator background-color: #222222; opacity: 0.5; z-index: 999; position: fixed; top: 0; bottom: 0; left: 0; right: 0;
+highlight Function color: lightgreen; background: #222222;
+highlight Hint font-family:Lucida Sans Typewriter; font-size:18px;font-weight:normal;line-height:1.4em; color:white;background-color:darkred
+highlight Hint::after content: attr(hintchar)
+highlight HintActive background: blue; color: #f6e9e9;
+highlight HintElem background-color: #222222; color: #f6e9e9;
+highlight InfoMsg color: #afafaf; background: #222222;
+highlight LineNr color: #afafaf; background: #222222;
+highlight ModeMsg color: #afafaf; background: #222222; "CmdLine when Not in Use
+highlight MoreMsg color: #afafaf; background: #222222;
+highlight NonText color: lightblue; min-height: 16px; padding-left: 2px;
+highlight Normal color: #afafaf; background: #222222;
+highlight Number color: tan; background: #222222
+highlight Question color: #ffffff; background: #222222; font-weight: bold;
+highlight StatusLine color: #ffffff; background: #000000; font-size: 8pt;
+highlight String color: #222222; background: #afafaf;
+highlight Tag color: #222222; background: #afafaf;
+highlight Title color: #222222; background: #afafaf; font-weight: bold;
+highlight URL text-decoration: none; color: lightblue; background: inherit;
+highlight WarningMsg color: red; background: #222222;
+inoremap <C-f> <Right>
+inoremap <C-b> <Left>
+inoremap <A-f> <C-Right>
+inoremap <A-b> <C-Left>
+inoremap <A-d> <C-Right><C-w>
+set editor=emacsclient
+style! -name=statusbar chrome://* <<EOF
+#status-bar statusbarpanel { padding: 0 1px !important; }
+statusbarpanel > * { margin: 0 !important; padding: 0 2px 0 0 !important; }
+EOF
+source! /home/wangdian/.vimperatorrc.local
+
+" vim: set ft=vimperator:

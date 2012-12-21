@@ -1,0 +1,1 @@
+cmd_/home/wangdian/hello-driver/hello.ko := ld -r -m elf_x86_64 -T /usr/src/linux-3.6.8-1-ARCH/scripts/module-common.lds --build-id  -o /home/wangdian/hello-driver/hello.ko /home/wangdian/hello-driver/hello.o /home/wangdian/hello-driver/hello.mod.o

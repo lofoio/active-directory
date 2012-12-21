@@ -1,0 +1,304 @@
+__foo : is private, call it by _moudle__foo
+everything else is public.
+__len__ is a special though. So you can len(foo) other than foo.__len__
+object.__doc__
+xrange (range) ; xrange is discarded in py3000
+for i in xrange([start],stop,[step]):
+    do_something(temp_list[i])
+for item in mylist:
+    do_something(item)
+
+def foo():
+    return 3, 5.5
+alpha, beta = foo()
+
+#字符串
+value = {'what': 'hello, world', 'language': 'python'}
+print '%(what)s, %(language)s' % value
+#也可以包含int的
+value = {'name': 'jianpx', 'age': 23}
+print '%(name)s 's age is  %(age)i' % value
+
+names = ['jianpx', 'yue']
+ages = [23, 40]
+m = dict(zip(names,ages))
+
+:swap values
+a,b = b,a
+
+右边的b,a 其实可以理解成一个tuple。
+
+
+#以前是这样写的
+fruits = ['apple', 'banana']
+result = ''
+for f in fruits:
+    result += f
+
+#现在可以这样：
+fruits = ['apple', 'banana']
+result = ''.join(fruits)
+
+if dict_example.has_key(key):
+    do something
+
+old_list = [1,1,1,3,4]
+new_list = list(set(old_list))
+
+
+from __future__ import with_statement
+with open('filename','r') as f:
+    for line in f:
+        print line
+
+l = [1,3, 4]
+for index, value in enumerate(l):
+    print '%d, %d' % (index, value)
+
+10.  关于使用map、filter、reduce的例子网上很多，这里不细说了，它们的使
+用也是pythonic的examples
+
+names = 'jianpx, yy, mm, , kk'
+result = [name.strip() for name in names.split(',') if name.strip()]
+
+value = True if a == 1 else False
+
+13 用Decorator抽离公用代码或者解耦
+
+例如要对一个函数做cache，对一个操作限制权限，如果需求随时可能变化，就是说有可能不需要做cache或者不需要做权限的时候，你如果把实现放到这些函数体里面，那么这时你必须把这些代码删除，而且要很小心。但是如果你用Decorator去做的话， 只要删除函数头顶上的@那一行就可以了。Django经常用这种方法做权限控制。
+
+熟悉decorator的应该都很容易理解。
+
+import this
+
+a = [1,2,3,4]
+c = 'abcdef'
+aa= a[::-1]
+cc = c[::-1]
+
+## 一切都是对象！
+def controlled_execution(callback):
+        set things up
+        try:
+            callback(thing)
+        finally:
+            tear things down
+
+    def my_function(thing):
+        do something
+
+    controlled_execution(my_function)
+
+Old: print x,           # Trailing comma suppresses newline
+New: print(x, end=" ")  # Appends a space instead of a newline
+
+Old: print              # Prints a newline
+New: print()            # You must call the function!
+
+Old: print >>sys.stderr, "fatal error"
+New: print("fatal error", file=sys.stderr)
+
+Old: print (x, y)       # prints repr((x, y))
+New: print((x, y))      # Not the same as print(x, y)!
+
+print("There are <", 2**32, "> possibilities!", sep="")
+
+1/2
+1//2
+you must use b"..." literals for binary data.
+
+ str.encode() to go from str to bytes, and bytes.decode() to go from bytes to str. You can also use bytes(s, encoding=...) and str(b, encoding=...), respectively.
+
+(a, *rest, b) = range(5)
+{k: v for k, v in stuff}
+{x for x in stuff}
+New octal literals, e.g. 0o720
+[... for var in (item1, item2, ...)]
+
+x = y = z = 0
+1j * 1J
+  (-1+0j)
+1j * complex(0, 1)
+>>> a=1.5+0.5j
+>>> a.real
+1.5
+>>> a.imag
+0.5
+abs(a)
+price + _ ; _ treated as readonly
+113.0625
+>>> round(_, 2)
+113.06
+
+'i don\'t.'
+"i don't"
+>>> '<' + word*5 + '>'
+'<HelpAHelpAHelpAHelpAHelpA>'
+a[0:2] = []
+>>> # Fibonacci series:
+... # the sum of two elements defines the next
+... a, b = 0, 1
+>>> while b < 10:
+...     print(b)
+...     a, b = b, a+b
+
+for x in a[:]: # make a slice copy of the entire list
+...    if len(x) > 6: a.insert(0, x)
+
+>>> list(range(5))
+[0, 1, 2, 3, 4]
+
+>>> while True:
+...     pass  # Busy-wait for keyboard interrupt (Ctrl+C)
+...
+
+return without an expression argument returns None
+
+def cheeseshop(kind, *arguments, **keywords):
+    print("-- Do you have any", kind, "?")
+    print("-- I'm sorry, we're all out of", kind)
+    for arg in arguments:
+        print(arg)
+    print("-" * 40)
+    keys = sorted(keywords.keys())
+    for kw in keys:
+        print(kw, ":", keywords[kw])
+
+def concat(*args, sep="/"):
+        return sep.join(args)
+
+args = [3, 6]
+>>> list(range(*args))            # call with arguments unpacked from a list
+[3, 4, 5]
+
+d = {"voltage": "four million", "state": "bleedin' demised", "action": "VOOM"}
+>>> parrot(**d)
+lambda a, b: a+b
+Lambda forms can be used wherever function objects are required. They are syntactically restricted to a single expression.
+>>> def make_incrementor(n):
+...     return lambda x: x + n
+...
+>>> f = make_incrementor(42)
+>>> f(0)
+42
+>>> f(1)
+43
+Lambda is like Macro in Lisp.
+Using Lists as Stacks
+>>> stack = [3, 4, 5]
+>>> stack.append(6)
+>>> stack.append(7)
+>>> stack.pop()
+>>> stack.pop()
+Using Lists as Queues
+>>> from collections import deque
+>>> queue = deque(["Eric", "John", "Michael"])
+>>> queue.append("Terry")           # Terry arrives
+>>> queue.append("Graham")          # Graham arrives
+>>> queue.popleft()                 # The first to arrive now leav
+>>> queue.popleft()                 # The second to arrive now lea
+squares = [x**2 for x in range(10)]
+squares = map(lambda x: x**2, range(10))
+>>> [num for elem in vec for num in elem]
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> [[row[i] for row in matrix] for i in range(4)]
+[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]
+In the real world, you should prefer built-in functions to complex flow statements.
+>>> list(zip(*matrix))
+[(1, 5, 9), (2, 6, 10), (3, 7, 11), (4, 8, 12)]
+>>> a = [-1, 1, 66.25, 333, 333, 1234.5]
+>>> del a[0]
+>>> t = 12345, 54321, 'hello!'
+>>> x, y, z = t
+>>> t[0]
+12345
+>>> t
+(12345, 54321, 'hello!')
+>>> empty = ()
+>>> singleton = 'hello',    # <-- note trailing comma
+>>> len(empty)
+0
+>>> len(singleton)
+1
+>>> singleton
+('hello',)
+
+>>> basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+>>> print(basket)                      # show that duplicates have been removed
+{'orange', 'banana', 'pear', 'apple'}
+>>> 'orange' in basket                 # fast membership testing
+True
+>>> 'crabgrass' in basket
+False
+
+>>> # Demonstrate set operations on unique letters from two words
+...
+>>> a = set('abracadabra')
+>>> b = set('alacazam')
+>>> a                                  # unique letters in a
+{'a', 'r', 'b', 'c', 'd'}
+>>> a - b                              # letters in a but not in b
+{'r', 'd', 'b'}
+>>> a | b                              # letters in either a or b
+{'a', 'c', 'r', 'd', 'b', 'm', 'z', 'l'}
+>>> a & b                              # letters in both a and b
+{'a', 'c'}
+>>> a ^ b                              # letters in a or b but not both
+{'r', 'd', 'b', 'm', 'z', 'l'}
+>>> a = {x for x in 'abracadabra' if x not in 'abc'}
+>>> a
+{'r', 'd'}
+Dictionary:
+sorted(d.keys())
+A module is a file containing Python definitions and statements.
+最简模块：名字.py
+import 名字
+Each module has its own private symbol table, which is used as the
+global symbol table by all functions defined in the module. Thus, the
+author of a module can use global variables in the module without
+worrying about accidental clashes with a user’s global variables.
+e.g. import imp; imp.reload(modulename).
+sys.path is a list of strings that determines the interpreter’s
+search path for modules.
+The __init__.py files are required to make Python treat the
+directories as containing packages;
+Luckily, Python has ways to convert any value to a string: pass it to
+the repr() or str() functions.
+>>> for x in range(1, 11):
+... print('{0:2d} {1:3d} {2:4d}'.format(x, x*x, x*x*x))
+x.ljust(n)[:n]
+>>> '-3.14'.zfill(7)
+'-003.14'
+>>> print('{0} and {1}'.format('spam', 'eggs'))
+spam and eggs
+>>> print('{1} and {0}'.format('spam', 'eggs'))
+eggs and spam
+>>> print('This {food} is {adjective}.'.format(
+... food='spam', adjective='absolutely horrible'))
+ import math
+>>> print('The value of PI is approximately {0:.3f}.'.format(math.pi))
+The value of PI is approximately 3.142.
+>>> table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 7678}
+>>> for name, phone in table.items():
+... print('{0:10} ==> {1:10d}'.format(name, phone))
+>>> f.read()
+'This is the entire file.\n'
+>>> f.read()
+''
+f.readlines()
+>>> for line in f:
+... print(line, end='')
+This is memory efficient, fast, and leads to simpler code:
+>>> value = ('the answer', 42)
+>>> s = str(value)
+>>> f.write(s)
+18
+string representation picking object.
+pickle.dump(x, f) ;;; persistent object
+x = pickle.load(f)
+A finally clause is always executed before leaving the try statement,
+whether an exception has occurred or not.
+In real world applications, the finally clause is useful for releasing external resources (such as files or network connections), regardless of whether the use of the resource was successful.
+with open("myfile.txt") as f:
+for line in f:
+print(line)

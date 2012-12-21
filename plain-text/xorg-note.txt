@@ -1,0 +1,7 @@
+xauth add :0 . `mcookie`
+xterm -display :0
+twm&
+xsetroot -solid "#000000" &
+## minimum X:
+## pacman -S xorg-server xorg-init xterm ## xorg-init contains
+xauth which is a must, the disk space required is below 40M

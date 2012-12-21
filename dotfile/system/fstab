@@ -1,0 +1,15 @@
+#
+# /etc/fstab: static file system information
+# Use 'blkid -o value -s UUID' to print the universally unique identifier
+#
+# <file system>	<dir>	<type>	<options>	<dump>	<pass>
+tmpfs		/tmp	tmpfs	nodev,nosuid	0	0
+/dev/sda6           	/         	ext4      	rw,relatime,data=ordered	0 2
+UUID=c8276e8c-f8f8-4b0a-822a-0ba62cc31cbc none            swap    sw              0       0
+/dev/sda3           	/boot     	ext3      	rw,relatime,data=ordered	0 2
+/dev/sda7            /media/sda7	ext4    defaults        0       2
+/dev/sda8            /var	ext4    defaults        0       2
+/dev/sda2	/media/winxp_D	ntfs-3g	dmask=022,fmask=111,auto,users,uid=1000,gid=1000	0	0
+#Entry for /dev/sda9 :
+UUID=d0dbaf42-d18c-41af-81a5-27c3bd271dd5	/home/wangdian/Videos	ext3	rw,auto,users	0	0
+#/home/wangdian/Videos/ubuntu-10.10-dvd.iso	/media/localiso	iso9660	loop,ro,auto	0	0

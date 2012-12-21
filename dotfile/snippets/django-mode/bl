@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: David Miller <david@deadpansincerity.com>
+# group: django
+# name : {% ... %}
+# key  : bl
+# --
+{% block ${1:name} %}
+   $0
+{% endblock %}

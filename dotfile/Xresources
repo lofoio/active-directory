@@ -1,0 +1,5 @@
+xpdf.reverseVideo : true
+xpdf*Background : black
+xterm*background:   black
+xterm*foreground:   white
+

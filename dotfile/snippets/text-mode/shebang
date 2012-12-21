@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+# name: shebang
+# key: env
+# --
+#!/usr/bin/env ${1:python2}
+# -*- coding:utf-8 -*-
+$0

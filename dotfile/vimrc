@@ -1,0 +1,189 @@
+" Maintainer:	Bram Moolenaar <Bram@vim.org>
+" Last change:	2006 Aug 12
+"字符设置，和中文显示有关
+set fileencodings=utf-8,gb18030,gbk,big5,latin1
+set guifont=YaHei\ Consolas\ Hybrid\ 28
+if has("gui_running")
+set go=
+colo elflord
+endif
+" When started as "evim", evim.vim will already have done these settings.
+if v:progname =~? "evim"
+  finish
+endif
+
+" Use Vim settings, rather then Vi settings (much better!).
+" This must be first, because it changes other options as a side effect.
+set nocompatible
+
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+set nobackup
+set history=50		" keep 50 lines of command line history
+set ruler		" show the cursor position all the time
+set showcmd		" display incomplete commands
+set incsearch		" do incremental searching
+
+" For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
+" let &guioptions = substitute(&guioptions, "t", "", "g")
+
+" Don't use Ex mode, use Q for formatting
+map Q gq
+
+" In an xterm the mouse should work quite well, thus enable it.
+set mouse=a
+
+" This is an alternative that also works in block mode, but the deleted
+" text is lost and it only works for putting the current register.
+"vnoremap p "_dp
+
+" Only do this part when compiled with support for autocommands.
+if has("autocmd")
+
+  " Enable file type detection.
+  " Use the default filetype settings, so that mail gets 'tw' set to 72,
+  " 'cindent' is on in C files, etc.
+  " Also load indent files, to automatically do language-dependent indenting.
+"打开对文件类型插件的支持
+"enable loading xxx.vim ":help plugin-on
+"should before syntax on,maybe one line enough
+  filetype plugin indent on
+
+  " Put these in an autocmd group, so that we can delete them easily.
+  augroup vimrcEx
+  au!
+
+  " For all text files set 'textwidth' to 78 characters.
+  autocmd FileType text setlocal textwidth=78
+  autocmd FileType make setlocal noexpandtab
+  " When editing a file, always jump to the last known cursor position.
+  " Don't do it when the position is invalid or when inside an event handler
+  " (happens when dropping a file on gvim).
+  autocmd BufReadPost *
+    \ if line("'\"") > 0 && line("'\"") <= line("$") |
+    \   exe "normal g`\"" |
+    \ endif
+
+  augroup END
+
+else
+
+  set autoindent		" always set autoindenting on
+
+endif " has("autocmd")
+
+" Convenient command to see the difference between the current buffer and the
+" file it was loaded from, thus the changes you made.
+command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
+	 	\ | wincmd p | diffthis
+"缩进线设置，可以把“|”改为“:”或者“.”只对 Tab 缩进有效
+"set list
+"set listchars=tab:\|\
+"设定文件浏览器目录为当前目录
+"set autochdir
+"设置不自动换行
+"set nowrap
+"Fortran 语言制表符设置
+let fortran_have_tabs=1
+"设置制表符宽度，默认为 8
+set tabstop=4
+set expandtab
+set sw=4
+"set cino=
+"允许 Fortran 代码折叠
+let fortran_fold=1
+"do loops will be indented
+let fortran_do_enddo=1
+"设置代码折叠的方式，这样每个 program、module、subroutine、function 都可以折叠了
+set fdm=syntax
+"如果前面启用了代码折叠，那么文件一打开代码全部是折叠的，需再按“zO”打开全部折 叠的代码 "如果想在文件打开后所有折叠都自动展开，请加入以下配置
+set foldlevelstart=99
+"显示行号
+set nu!
+"igorecase
+set ic
+"zc：折叠代码
+"zo：展开代码
+"zC：折叠所有代码
+"zO：展开所有代码
+""窗口最大化设置（如果不想打开 vim 后就自动最大化，把这行删去）
+"au GUIEnter * simalt ~x
+""配置主题，默认安装不包括 graywh 主题，大家可以使用 desert 主题
+"colorscheme graywh
+"
+" Switch syntax highlighting on, when the terminal has colors
+" Also switch on highlighting the last used search pattern.
+if &t_Co > 2 || has("gui_running")
+  syntax on
+  set hlsearch
+endif
+
+set cindent
+noremap <C-j> <C-W>j 
+noremap <C-k> <C-W>k 
+noremap <C-h> <C-W>h 
+noremap <C-l> <C-W>l 
+noremap <SPACE> <C-F>
+map! <A-b> <S-Left>
+map! <A-f> <S-Right>
+map! <A-d> <S-Right><C-w>
+map! <C-A>         <Home>
+map! <C-B>         <Left>
+map! <C-D>         <Del>
+map! <C-E>         <End>
+map! <C-F>         <Right>
+map! <C-N>         <Down>
+map! <C-P>         <Up>
+"map! <Esc><C-B>    <S-Left>
+"map! <Esc><C-F>    <S-Right>
+" gcw        - capitalize word (from cursor position to end of word)
+" gcW        - capitalize WORD (from cursor position to end of WORD)
+" gciw       - capitalize inner word (from start to end)
+" gciW       - capitalize inner WORD (from start to end)
+" gcis       - capitalize inner sentence
+" gc$        - capitalize until end of line (from cursor postition)
+" gcgc       - capitalize whole line (from start to end)
+" gcc        - capitalize whole line
+"{Visual}gc - capitalize highlighted text
+if (&tildeop)
+  nmap gcw guw~l
+  nmap gcW guW~l
+  nmap gciw guiw~l
+  nmap gciW guiW~l
+  nmap gcis guis~l
+  nmap gc$ gu$~l
+  nmap gcgc guu~l
+  nmap gcc guu~l
+  vmap gc gu~l
+else
+  nmap gcw guw~h
+  nmap gcW guW~h
+  nmap gciw guiw~h
+  nmap gciW guiW~h
+  nmap gcis guis~h
+  nmap gc$ gu$~h
+  nmap gcgc guu~h
+  nmap gcc guu~h
+  vmap gc gu~h
+endif
+function! Smart_TabComplete()
+  let line = getline('.')                         " current line
+  
+  let substr = strpart(line, -1, col('.')+1)      " from the start of the current
+                                                  " line to one character right
+                                                  " of the cursor
+  let substr = matchstr(substr, "[^ \t]*$")       " word till cursor
+  if (strlen(substr)==0)                          " nothing to match on empty string
+    return "\<tab>"
+  endif
+  let has_period = match(substr, '\.') != -1      " position of period, if any
+  let has_slash = match(substr, '\/') != -1       " position of slash, if any
+  if (!has_period && !has_slash)
+    return "\<C-X>\<C-P>"                         " existing text matching
+  elseif ( has_slash )
+    return "\<C-X>\<C-F>"                         " file matching
+  else
+    return "\<C-X>\<C-O>"                         " plugin matching
+  endif
+endfunction
+inoremap <tab> <c-r>=Smart_TabComplete()<CR>

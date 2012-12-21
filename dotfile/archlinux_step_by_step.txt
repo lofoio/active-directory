@@ -1,0 +1,42 @@
+sudo pacman-key -v archlinux-2012.11.01-dual.iso.sig ; must be where the iso image is
+cfdisk /dev/sdb ; type 83 ; bootable
+mkfs.ext4 /dev/sdb1
+mount /dev/sdb1 /mnt
+df -HT
+pacstrap /mnt base base-devel
+vi /etc/pacman.d/mirrorlist ; place the sources of China ahead
+arch-chroot /mnt pacman -S grub-bios
+genfstab -p /mnt >> /mnt/etc/fstab ; better check /mnt/etc/fstab then
+arch-chroot /mnt
+mkdir -pv boot
+vi /etc/hostname ; your hostname
+ln -sv /usr/share/zoneinfo/Zone/SubZone /etc/localtime
+echo LANG="en_US.UTF-8" >> /etc/locale.conf
+locale-gen ; for assurence
+# setxkbmap -layout dvorak ; set keymap for X session
+find /usr/share/kbd/keymaps/ -name "*[your desired keymap]*"
+loadkeys emacs ;
+mkinitcpio -p linux ; create vmlinuz-linux and initramfs-linux.img
+#configure the boot loader.
+## cat << EOF >> /etc/grub.d/40_custom
+## menuentry 'Archlinux working'  {
+## 	recordfail
+## 	set gfxpayload=$linux_gfx_mode
+## 	insmod part_msdos
+## 	insmod ext2
+## 	set root='(hd0,msdos3)'
+## 	search --no-floppy --fs-uuid --set=root 846859c3-130a-434d-bb39-b2afbc0b61c5
+## 	linux	/vmlinuz-linux root=/dev/sda8 ro
+## 	initrd	/initramfs-linux.img
+## } modification is a must
+## donnot forget to install grub in to MBR of /dev/sda
+## check info grub for details, piece of cake
+grub-install /dev/hda ; this will do the trick, usually though
+grub-mkconfig -o /boot/grub/grub.cfg
+passwd ; set the passwords for root
+adduser
+umount /mnt
+reboot ; or halt -p to umount the cd or put it backrward
+pacman -S sudo
+visudo ; find the line with, copy it to next line and replace root
+with a user name; in case there's a problem, chmod 755 /

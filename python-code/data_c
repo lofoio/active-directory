@@ -1,0 +1,25 @@
+42.675296     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+42.675338     s.connect((hostname, port))
+42.675802     s.sendall(launcelot.qa[0][0])
+42.675841     answer1 = launcelot.recv_until(s, '.')
+42.684191     s.sendall(launcelot.qa[1][0])
+42.684224     answer2 = launcelot.recv_until(s, '.')
+42.686669     s.sendall(launcelot.qa[2][0])
+42.686709     answer3 = launcelot.recv_until(s, '.')
+42.689426     s.close()
+42.689488     print answer1
+42.689551     print answer2
+42.689559     print answer3
+
+0 s
+0 s.connect((hostname,
+0 s.sendall(launcelot.qa[0][0])
+0 answer1
+8 s.sendall(launcelot.qa[1][0])
+8 answer2
+11 s.sendall(launcelot.qa[2][0])
+11 answer3
+14 s.close()
+14 print
+14 print
+14 print

@@ -1,0 +1,218 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Query_Cheat_Sheet</title>
+  </head>
+  <body>
+<script src="http://gestalt.ironpython.net/dlr-latest.js" type="text/javascript"></script>
+<input id="button" type="button" value="Say, Hello!" />
+<script type="text/python">
+  def button_onclick(s, e):
+      window.Alert("Hello from Python!")
+  document.button.events.onclick += button_onclick
+</script>
+
+    <script src="file:///usr/share/jquery/jquery-1.8.3.min.js">
+    </script>
+    <script>
+      $(document).ready(function(){
+      "teset".appendTo($('#mylastp'));
+//      $('#mylastp').append("help");
+      });
+    </script>
+    <ol id="myol1">
+      <li>alert('Page contains ' + $('a').length +' &lt;a&gt; elements!');</li>
+      <li>alert('Page contains ' + $(document.getElementsByTagName('a')).length +  ' <a> Elements, And has a '  + $(document.body).attr('bgcolor') + ' background');</li>
+      <li>alert($('a').filter('.external').length + ' external links');</li>
+      <li>alert($('a').filter(function(index){ return $(this).hasClass('external');}).length + ' external links'  );</li>
+      <li>alert('...' + $('p').find('em').length + 'italic words');</li>
+      <li>alert('...' + $('em',$('p')).length + ' italic words');</li>
+      <li>alert('...' + $('p em').length + ' italic words');</li>
+      <li>the difference is that .find() will operate/select the children of the  current set while .filter() will only operate on the current set of elements.</li>
+      <li>alert($('p').filter('.middle').length); alert($('p').filter('.middle').end().length);  alert($('p').filter('.middle').find('span') </li>
+      <li>jQuery('div').find('p').andSelf().css('border','1px solid #993300');</li>
+      <li>jQuery('<p><a>jQuery</a></p>').find('a').attr('href','http://www.jquery.com');</li>
+      <li>jQuery(document.createElement('p')).appendTo('body');</li>
+      <li>jQuery('ul#a li') = Select &lt;ul&gt; element with an id attribute of a and then select all the &lt;li&gt; elements inside of the &lt;ul&gt;</li>
+      <li>the starting point matters</li>
+      <li>jQuery('a:not(div.important a, a.nav)'); // comer means OR </Li>
+      <li>$('#nav a').not('a.active');</li>
+      <li>$("div").each(function(i) {  urls[i] = $(this).attr('href');  });</li>
+      <li>$('tr td:first-child').siblings().remove();</li>
+      <li>ANOTHER WAY to do is:$("tr").each(function(){$(this).children('td:gt(0)').remove();});</li>
+      <li>$('div.atl-item[id]').slice(1, 5)</li>
+    </ol>
+    <h1>this is table 1</h1>
+    <table class="reference" id="myid">
+      <tbody><tr>
+          <th align="left" width="25%">Syntax</th>
+          <th align="left" width="75%">Description</th>
+        </tr>
+        <tr>
+          <td>$("*")</td>
+          <td>Selects all elements</td>
+        </tr>
+        <tr>
+          <td>$(this)</td>
+          <td>Selects the current HTML element</td>
+        </tr>
+        <tr>
+          <td>$("p.intro")</td>
+          <td>Selects all &lt;p&gt; elements with class="intro"</td>
+        </tr>
+        <tr>
+          <td>$("p:first")</td>
+          <td>Selects the first &lt;p&gt; element</td>
+        </tr>
+        <tr>
+          <td>$("ul li:first")</td>
+          <td>Selects the first &lt;li&gt; element of the first &lt;ul&gt;</td>
+        </tr>
+        <tr>
+          <td>$("ul li:first-child")</td>
+          <td>Selects the first &lt;li&gt; element of every &lt;ul&gt;</td>
+        </tr>
+        <tr>
+          <td>$("[href]")</td>
+          <td>Selects all elements with an href attribute</td>
+        </tr>
+        <tr>
+          <td>$("a[target='_blank']")</td>
+          <td>Selects all &lt;a&gt; elements with a target attribute value equal to "_blank"</td>
+        </tr>
+        <tr>
+          <td>$("a[target!='_blank']")</td>
+          <td>Selects all &lt;a&gt; elements with a target attribute value NOT equal to "_blank"</td>
+        </tr>
+        <tr>
+          <td>$(":button")</td>
+          <td>Selects all &lt;button&gt; elements and &lt;input&gt; elements of type="button"</td>
+        </tr>
+        <tr>
+          <td>$("tr:even")</td>
+          <td>Selects all even &lt;tr&gt; elements</td>
+        </tr>
+        <tr>
+          <td>$("tr:odd")</td>
+          <td>Selects all odd &lt;tr&gt; elements</td>
+        </tr>
+    </tbody></table>
+    <hr />
+    <table class="reference">
+      <tbody><tr>
+          <th align="left" width="33%">Method</th>
+          <th align="left">Description</th>
+        </tr>
+        <tr>
+          <td>getElementById()</td>
+          <td>Returns the element that has an ID attribute with the a value</td>
+        </tr>
+        <tr>
+          <td>getElementsByTagName()</td>
+          <td>Returns a node list (collection/array of nodes) containing all elements with
+	    a specified tag name</td>
+        </tr>
+        <tr>
+          <td>getElementsByClassName()</td>
+          <td>Returns a node list containing all elements with a specified class</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>appendChild()</td>
+          <td>Adds a new child node to a specified node</td>
+        </tr>
+        <tr>
+          <td>removeChild()</td>
+          <td>Removes a child node</td>
+        </tr>
+        <tr>
+          <td>replaceChild()</td>
+          <td>Replaces a child node</td>
+        </tr>
+        <tr>
+          <td>insertBefore()</td>
+          <td>Inserts a new child node before a specified child node</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>createAttribute()</td>
+          <td>Creates an Attribute node</td>
+        </tr>
+        <tr>
+          <td>createElement()</td>
+          <td>Creates an Element node</td>
+        </tr>
+        <tr>
+          <td>createTextNode()</td>
+          <td>Creates a Text node</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>getAttribute()</td>
+          <td>Returns the specified attribute value</td>
+        </tr>
+        <tr>
+          <td>setAttribute()</td>
+          <td>Sets or changes the specified attribute, to the specified value</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+<p id='mylastp' ></p>
+  </body>
+</html>
+
+<!-- // <table class="tab-bbs-list tab-bbs-list-2" -->
+<!-- // <div class="short-pages-2 clearfix"> -->
+<!-- // var elmNewContent = document.createElement('div'); -->
+<!-- // 	document.body.appendChild(elmNewContent) -->
+<!-- // getElementById(id) -->
+<!-- // appendChild(node) - insert a new child node (element) -->
+<!-- // removeChild(node) - remove a child node (element) -->
+<!-- // innerHTML - the text value of a node (element) -->
+<!-- // parentNode - the parent node of a node (element) -->
+<!-- // childNodes - the child nodes of a node (element) -->
+<!-- // attributes - the attributes nodes of a node (element) -->
+<!-- // var telm = document.getElementById("ajaxtable"); -->
+<!-- // telm.removeChild(telm.childNodes[1]); -->
+<!-- // mytablebody = telm.getElementsByTagName("tbody")[0]; -->
+<!-- // for(var i = 0; i < 13; i++) { -->
+<!-- //     mytablebody.removeChild(mytablebody.childNodes[i]); -->
+<!-- // } -->
+<!-- // document.body = document.createElement("body"); -->
+<!-- // document.body.appendChild(telm); -->
+
+<!-- // $(this).hide() - hides the current element. -->
+<!-- // $("p").hide() - hides all <p> elements. -->
+<!-- // $(".test").hide() - hides all elements with class="test". -->
+<!-- // $("#test").hide() - hides the element with id="test". -->
+<!-- // $(document).ready(function(){ -->
+<!-- //   $("td").mouseleave(function(){ -->
+<!-- //     $(this).remove(); -->
+<!-- //   }); -->
+<!-- // }); -->
+<!-- // alert("here you go."); -->
+<!-- // var _div = document.createElement('div'); -->
+<!-- // var _text = document.createTextNode('Creating Div Element') -->
+<!-- // _div.appendChild(_text); -->
+<!-- // document.body.appendChild(_div); -->
+      <!-- $(document).ready(function(){ -->
+      <!-- $("h1").click(function(event){ -->
+      <!-- alert("Welcome."); -->
+      <!-- }); -->
+      <!-- }); -->
+      <!-- $("table:eq(0) td:eq(2)").remove(); -->
+<!-- //      $('#myid').remove(); -->
+<!-- //      $("table:eq(0) td:even").remove(); -->
+<!-- //      $('body > :not(#myid)').remove(); -->
+<!-- //      $('body '*':not('table')').hide(); -->
+<!-- //      $("body ").not(':head').hide(); -->

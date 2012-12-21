@@ -1,0 +1,347 @@
+# User specific aliases and functions
+# bug : when remaining image left on the desktop, try switch ptty.
+setterm -blength 0
+function cs() { cd "$1" && ls; }
+function tp() { tec360 '$1' > /dev/null 2>&1 ; }
+alias lss='ls -Slh'
+alias lst='ls -tlh'
+alias lsa='ls -A'
+alias df='df -h'
+alias du='du -sh --max-depth=0'
+alias dirs='dirs -p'
+alias sl='ls'
+alias s='ls'
+alias emnw='emacs -nw'
+alias psgrep='ps aux | grep'
+alias www='w3m -B'
+alias esf='espeak -v zh -f' ## ekho -s 60 -f postlist.txt
+alias lsd='ls -p | grep /$'
+alias stx='startx'
+alias ec='emacsclient'
+alias ntfs-3g='ntfs-3g -o fmask=111'
+alias man-local='man -l'
+alias man-where='man -w'
+alias rarx="rar x"    # rar e -y
+alias rpmqpl="rpm -pql"
+alias sox="sox -V3"
+alias cpn="cp -n" #do not override
+alias ue="umount /media/EC8F-D0FD/"
+alias movie="cd ~/Movies/english/ && ls"
+alias autoall="aclocal && autoconf && automake --add-missing"
+alias rdesktop-vmware="rdesktop -a 16 -u Administrator -p wangdian -r clipboard:PRIMARYCLIPBOARD -r disk:sunray=/home/badegg/Movies/english 192.168.1.5"
+alias listupnetuser="nmap -sP"
+alias cmx="chmod +x"
+alias briss="java -jar /home/wangdian/briss-0.9/briss-0.9.jar "
+alias lsorphans='sudo pacman -Qdt'
+alias rmorphans='sudo pacman -Rns $(pacman -Qtdq)'
+alias nocaps="/usr/bin/setxkbmap -option "ctrl:nocaps""
+PS1='\W\$ '
+PYTHONSTARTUP=$HOME/.pythonrc
+ALTERNATE_EDITOR=vi
+export PS1 PYTHONSTARTUP ALTERNATE_EDITOR
+export GOROOT=$HOME/go
+export GOARCH=386
+export GOOS=linux
+export PYTHONDOCS=/usr/share/doc/python/html/
+export EDITOR="vi"
+# export PYMACS_PYTHON=python2
+# export PYTHONDOCS=/usr/share/doc/python2/html/
+export PATH=/path/to/google_appengine:$PATH
+export PATH=/home/wangdian/bin:$PATH
+####file globs wildcards filename patterns
+## * ? (single character)
+##[!wd].txt w?d.txt
+#loop works on a commandline
+#for wd in *.rar ; do rar e|d "$wd" \*.txt \*.url ; done
+#ls -l | grep "^-" | wc -l
+#LC_ALL=C ls
+#find . -maxdepth 1  -type f ! -name ".*" -exec cp "{}" ./text/ \;
+#find . -maxdepth 1  -type f ! -name ".*" ! -name "findo" -exec mv -f "{}" ./text/ \;
+#find . -maxdepth 1  -type f ! -name ".*" | xargs cp "" ./text/
+#find . -name "file*" -print
+#find . -maxdepth 1  ! -type f
+#find ./ -maxdepth 1 -type f | wc -l
+#see man xargs, mainly examples
+#find / -type f -print0 | xargs -0 grep -liwZ GUI | xargs -0 rm -f
+#xargs: join arguments from std-in
+#xargs ls -l < temp.txt
+#xargs -t -i cp -v {} /media/F84E-1690/music/  < tempfile
+##"ls -I \*.cpp -I \*.h -I \*.am -I \*.ac -I \*.c | xargs rm -r"
+#ls -I \*.cpp -I \*.h -I \*.am -I \*.ac | xargs rm -r
+#for x in *pdf ; do y=`echo $x | sed s/[^-0-9a-zA-Z.]//g`;cp -v $x $y ; done
+#awk
+#   * Print the length of the longest line in `data':
+#          expand data | awk '{ if (x < length()) x = length() }
+#                        END { print "maximum line length is " x }'
+#cat gre-30-1.txt | awk '{ printf "%-20s %s\n", $1 , $2 }' > gre-30-1.bak
+#cat driving.txt | \
+#awk '{ if ( $0 ~ /答案/ ) { printf "%70s%s\n", "" , $1 , $2} else {print} }' > new.txt
+#bash test
+#integer eq ne lt gt
+#string = =! ==
+####sort -t [ -k 1,1n -k 2,2n -k 3,3u "$1" #> $1.tempfile
+#p-rename.perl 's/[^0-9a-zA-Z-.]//g' *pdf
+#count the words
+#cat  ~/words-memoir.txt | sed -e 's/ \+/\n/g' | sort -u | wc -w
+#reg regular expression
+#[:alnum:] [a-z A-Z 0-9] [:alpha:] [a-z A-Z] [:blank:] space/tab [:cntrl:]  [:digit:] [0-9] [:graph:] [:lower:] [a-z] [:print:]  [:punct:] [:space:] [:upper:] [A-Z] [:xdigit:] [0-9 a-f A-F]
+#sed grep awk
+#cat driving.txt | sed  '/答案/{s/^/                                    /}'
+#grep -o output only the matching part of the string
+#equient to sed s/.*\(PATTERN\).*/\1/
+#touch time stamp : three kinds of time-stamps. is
+#fully described in the info documentation. info 'touch' => -d then "Date input formats"
+#touch -a|m --date="-1 day" file
+#wget and curl
+#wget -r -p -np -k http://learn.tsinghua.edu.cn/homepage/015450/index.html
+#wget -r -p -np -k http://docs.huihoo.com/homepage/shredderyin/
+#wget --referer='down6.kekenet.com' -r -l1 --no-parent -nd -nc http://down6.kekenet.com/UploadSoft_1025/2011/08/16/
+#curl -e "down6.kekenet.com" -O http://down6.kekenet.com/UploadSoft_1025/2011/08/16/09303876.rar?play=131244
+#readline
+#bind -p | grep compl
+#mp3 to ogg
+#sox   1.mp3   1.ogg
+#convert from code GBK to code utf8
+#cat $wd | iconv -f gbk -t utf8 |
+#google::
+#search?hl=en&source=hp&ie=ISO-8859-1&q=something
+#search?hl=zh-CN&source=hp&ie=GB2312&q=something
+#system-wide proxy
+#etc file
+#/etc/environment
+#http_proxy=http://127.0.0.1:8086/
+#/etc/apt/apt.conf
+#Acquire::http::proxy "http://127.0.0.1:8000/";
+#Acquire::ftp::proxy "ftp://127.0.0.1:8000/";
+#Acquire::https::proxy "https://127.0.0.1:8000/";
+#command line:
+#sudo apt-get -c ~/apt_proxy.conf update
+#sudo apt-get -o Acquire::http::proxy="http://127.0.0.1:8086/" update
+#package management/manipulate/coltrol
+#show the list of already installed packages
+#database /var/lib/dpkg/status
+#dpkg --get-selections | grep
+#COLUMNS=130 dpke -l | grep
+#sudo  dpkg-query -Wf  '${Installed-Size}\t${Package}\n' | sort -n
+#find the locations of the files within a package
+#dpkg -L firefox
+#dpkg -S ip /etc/vim/gvimrc ##full path please
+#apt-file search missingfilename.pc
+#svn
+#svn checkout http://audacity.googlecode.com/svn/audacity-src/trunk/ audacity-read-only
+#random
+#$RANDOM
+#apt from ppa
+#add-apt-repository ppa:cassou/emacs
+#compile and install software from source
+#apt-file search missingfilename.pc
+# auto-apt run ./configure
+# make
+# sudo checkinstall
+#Note: If checkinstall fails you may need to run the command like
+#<sudo checkinstall --fstrans=0>
+# sudo dpkg -r packagename
+### startup applications
+# /etc/rc.local
+# /etc/init.d/myservice start !!!!! traditional
+# service myservice start     !!!!! recommended
+# service --status-all :show services in /etc/init.d [+-?]run/sop/unknonw
+# sudo initctl list : show something like above?
+#run certain programs after all system services have been started.
+#algorim:symbolic liks to it in /etc/rc?.d
+# Fedora: /etc/rc.d/rc.local
+# Ubuntu: /etc/rc.local
+# find /etc -name \*rc\.local -print0 | xargs -0 ls -l
+#xargs -t -i sudo apt-get -y purge {}  < purge.txt
+# cd /etc/ ; grep -r  rc.local rc*.d
+### list all groups and users
+# cat /etc/passwd
+# ubuntu runlevels
+# * 0 System Halt
+# * 1 Single user #append "single" - no quotes - to the kernel command line
+                  #in the initial boot loader menu
+# * 2 Full multi-user mode (Default)
+# * 3-5 Same as 2
+# * 6 System Reboot
+#ppa
+#sudo add-apt-repository ppa:a7x/multiseat
+#sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 72D340A3
+# standards.freedesktop: %f single file %F multiple  files
+# %u single url %U multiple
+# lspci | grep -i vga pci bus: 01:00.0  ==> PCI:1:0:0
+# git and mercurial
+# man hgrc (file as .hgrc); man git-config (file as .gitconfig)
+# r-jazc7-ggutv-643du-f7s3k-dpj3y
+# updatedb ; locate
+#su -c 'mount -o loop /Fedora.iso /home/badegg/Downloads/fedora_iso'
+#pdb
+#~/Documents/pdb.txt
+#latex
+#DISPLAY=:0.0 mplayer -fs 00202=70989=70989=70989.mpg
+#have been kept back
+#simply install it explicitly like apt-cache search XXX ; apt-get install XXX
+#golang
+#index is required should you need searh
+#godoc -index -write_index -index_files="index.html"
+#godoc -http=:6060 -index -index_files="index.html"
+#server
+#nc  (with bash)
+#python lang tips:
+#() after class, func (load args)
+#LL low case lang
+#self
+#more class (objects) than pure func
+#uninstall kernels
+#dpkg -S /boot/vmlinuz-3.2.0-33*
+#dpkg -l | grep 3.2.0-33
+# dd if=/dev/sda of=/home/wangdian/bootcode_backup bs=446 count=1
+# time
+# cat /proc/driver/rtc ; show the rtc time.
+# timedatectl status
+# timedatectl set-time "2012-10-30 18:17:16"
+# timedatectl status | grep local
+# timedatectl set-local-rtc 1|0 ; creating /etc/adjtime
+# /etc/xdg/xfce4/panel/default.xml
+# ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+# zcat /proc/config.gz ; kernel config file
+# demsg ; kernel control message
+# cat /proc/meminfo to see total swap, and free swap
+# cat /proc/swaps to see which swap devices are being used
+# swapon -s to see swap devices and sizes
+# vmstat for current virtual memory statistics
+#kernel module
+#depmod
+#if wireless is not usable, -a after -r
+#modprobe -a | grep ath5k
+#lsmod | | grep ath5k
+#modprobe -a ath5k
+#modprobe -r ath5k
+# disable modules
+# /etc/modprobe.d/modprobe.conf
+# black modules as followed:
+# /etc/modprobe.d/nobeep.conf
+# blacklist pcspkr ; not automaticly load or
+# install pcspkr /bin/false ; never load
+# or Simply add modprobe.blacklist=modname1,modname2,modname3 to your bootloader's kernel line
+##############
+# see man 5 modules-load.d for details
+# /etc/modules-load.d/<program>.conf ; autoload modules for program
+# virbualbox ; use right ctl key to escape from the guest OS
+# tee /etc/modules-load.d/virtualbox.conf <<< "vboxdrv"
+# cat /etc/modules-load.d/virtualbox.conf ; look like this
+# vboxguest
+# vboxsf
+# vboxvideo
+# ########### for guest
+# vboxdrv
+# vboxnetadp
+# vboxnetflt
+############ for host
+# depmod -a
+# to enable share dirs, there are two steps.
+# NO. 1, on the host part:
+# pacman -S virtualbox virtualbox-host-modules
+#### groupadd vboxsf ; warning: these two may not be needed
+#### gpasswd -a $USER vboxsf ; warning: these two may not be needed
+# mkdir -pv <my_share> ; remember to add it through settings
+# NO. 2, on the guest part:
+# pacman -S virtualbox-guest-utils virtualbox-guest-modules
+# how to mount
+# on the guest part:
+# mount -v vboxsf <my_share> /mnt
+# or automaticly:
+# add (share  /media/share  vboxsf uid=1000,gid=1000,rw,dmode=700,fmode=600, comment=systemd.automount 0 0)
+#to the fstab of the guest OS
+# how to find out the uid and Gid
+# id
+# users and groups
+# cat /etc/passwd ; list all users , x is for passwords
+# wangdian:x:1000:100::/home/wangdian:/bin/bash
+# username  password uid gid [info] homedir shell
+# password is stored in /etc/shadow ; harshed
+# who ; list all the users logged
+# to add a new user:
+# useradd -m -g [initial_group] -G [additional_groups] -s
+# [login_shell] [username] ; -m means to create /home/username
+# for example:
+# useradd -m -g users -s /bin/bash archie
+# or interactively:
+# adduser ; asking questing, recommanded
+# userdel -r [username] ; -r means his dir also be deleted
+# group management:
+# cat /etc/group ; for all groups
+# gname gpassword gid gmembers
+# groups ; display groups of the current user
+# id ; display  a lot more info than groups
+# groupadd [gname]
+# groupdel [gname]
+# add user to a group
+# gpasswd -a [user] [group]
+# remove user to a group
+# gpasswd -r [user] [group]
+# because systemd is not the default boot manager, so
+# /etc/vconsole.conf
+# KEYMAP=emacs ;;warning: add framebuffer driver to /etc/mkinitcpio.conf
+# FONT=ter-232b ;; this is a fb only font. To make sure this take effect. because font set by
+# loadkeys may not apply to non-fb console and fail. See below to
+# active framebuffer
+# GRUB_GFXMODE=1024x768x32
+# GRUB_GFXPAYLOAD_LINUX=keep ;these two lines for drivers support kms,
+# like nouveau, or try video=1024x768
+# setgfxpayload=1024x768x24,1024x768 for others,like vesafb,a kernel
+# built in driver
+# see logs
+# journalctl -b ; output the boot message, to debug above issues
+# Chinese support:
+# uncomment /etc/locale.gen(zh_CN.UTF-8). Do we need to do this?
+# get a truetype font of any kind and
+# fc-cache or logout and login.
+# makepkg -s ; pacman -U
+# pacman -Qi xfce4-wavelan-plugin ; show voberse information
+# sudo pacman -Rnu : safe remove ; pacman -h[SRQ]
+# pacman -Qdtq ; as dependencies, but not required, short form
+# pacman -Sc ; clear cache
+# network
+# pacman -S networkmanager network-manager-applet ; will do the job
+# for you. save you so much trouble then.
+# systemctl enable NetworkManager.service
+# systemctl start NetworkManager.service
+# query which package containing the file cerecord
+# site:archlinux.org inurl:packages/files cdrecord (for example)
+# texlive:
+# pacman -S texlive-bin texlive-langcjk texlive-core
+# texlive-latexextra ; should be enough for Chinese
+# set fonts: fc-list ; the second item(font name)  is required.
+# dumpkeys -l ; keysyms, alias for the keys, these aliases are used for keymaps used by loadkeys
+# ssh:
+# two kinds of ssh login: key pair or password(fallback, may be
+# disabled though)
+# systemctl enable sshd.socket ; this will start sshd on the first connetion.
+# key types: rsa dsa ecdsa
+# ssh-keygen -t ecdsa
+# ssh-copy-id [-i ~/.ssh/id_ecdsa.pub] [-p 22]  [username@]remote-server.org
+# fallback method: cat ~/id_ecdsa.pub >> ~/.ssh/authorized_keys
+# cat id_ecdsa.pub > /etc/ssh/user-keys/wangdian
+# /etc/ssh/sshd_config
+# AuthorizedKeysFile /etc/ssh/user-keys/%u
+# PasswordAuthentication no
+# ChallengeResponseAuthentication no
+# .ssh/known_hosts contains the server ip and its domainname
+# android quicksshd
+# ssh-keygen -t dsa -f id_dsa-huawei
+# cat id_dsa-huawei.pub >> /data/data/com.teslacoilsw.quicksshd/home/.ssh/authorized_keys
+# ssh -i path/to/id_dsa-huawei 192.168.x.x
+# awk
+# cat data_c | awk '{printf("%d", ($1-42.675296)*1000); $1=""; print}'
+# $ numerator=90; denominator=7
+# $ python -c "print (round(${numerator}.0 / ${denominator}.0))"
+# git020919
+# exec
+# exec 6<&0          # Link file descriptor #6 with stdin.
+#                    # Saves stdin.
+# exec < data-file   # stdin replaced by file "data-file"
+# read a1            # Reads first line of file "data-file".
+# read a2
+# exec 0<&6 6<&- #restore stdin from fd #6 and close fd #6
+# exec and xargs are totally different things.
+# xargs 重新排列命令行参数。

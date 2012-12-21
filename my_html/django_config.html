@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>django</title>
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css1.css" />
+<style type="text/css">
+li {
+   list-style-position:inside;
+   margin-bottom:.5em;
+}
+li span {
+   float:left;
+   margin-left: 2em;
+   margin-top:-1.25em;
+}
+</style>
+</head>
+<body>
+<h1>hwo to set up the programs</h1>
+  <ol type="1" padding-left="30px">
+    <li>&dollar; pacman -S django postgresql python2-psycopg2
+    <li>&dollar; systemctl start postgresql
+    <li>&dollar; journalctl -xn ;; for debuging
+    <li>&dollar; su - postgres -c "initdb --locale en_US.UTF-8 -D '/var/lib/postgres/data'"
+    <li>&dollar; createuser -s -U postgres --interactive
+    <li>&dollar; creatdb mydb0
+    <li>&dollar; psql mydb0
+    <li>&dollar; systemd-tmpfiles --create postgresql.conf (??)
+    <li>&dollar; django-admin.py startproject mysite
+    <li>&dollar; ./manage.py runserver 0.0.0.0:8000
+    <li>&dollar; python manage.py sqlall books | psql mydb ;; next command instead
+    <li>&dollar; python manage.py syncdb ;; you are to be asked to create a super user account to admin the site
+    <li>&dollar; python manage.py dbshell ;; check the database
+    <li>&dollar; gpasswd -a wangdian http
+    <li>&dollar; gpasswd -a http http
+    <li>&dollar; /etc/httpd/conf/httpd.conf
+    <li><pre>
+        LoadModule wsgi_module modules/mod_wsgi.so
+        WSGIScriptAlias / /var/mysite/mysite/wsgi.py
+        &lt;Directory /var/mysite/mysite/&gt;
+        &lt;Files wsgi.py&gt;
+          Order deny,allow
+          Allow from all
+        &lt;/Files&gt;
+        &lt;/Directory&gt;
+        </pre>
+  </ol>
+  <h1>django notes</h1>
+  <h2>httprequest and httpresponse</h2>
+<p>  When a page is requested, <b>Django creates</b> an HttpRequest object that contains metadata about the request. Then Django loads the appropriate view, passing the HttpRequest as the first argument to the view function. Each view is responsible for returning an HttpResponse object.</p>
+<p>In contrast to HttpRequest objects, which are created automatically by Django, HttpResponse objects are your responsibility. Each view you write is responsible for instantiating, populating and returning an HttpResponse.</p>
+<h3>httpresponse</h3>
+<pre>
+from django.http import HttpResponse
+response = HttpResponse("Text only, please.", content_type="text/plain")
+response.write("&lt;p&gt;Here's the text of the Web page.&lt;/p&gt;")
+response.write("&lt;p&gt;Here's another paragraph.&lt;/p&gt;")
+</pre>
+  <h2>template + context = webpage</h2>
+  <pre>
+    from django.template import Template, Context
+    t=Template("{{ someone }} is here.")
+    c=Context({"someone": "wangdian",})
+    t.render(c)
+  </pre>
+  <h2>why to use RequestContext</h2>
+  <p>If TEMPLATE_CONTEXT_PROCESSORS contains this processor, every RequestContext will contain a variable STATIC_URL, providing the value of the STATIC_URL setting.</p>
+  <h2>model and database</h2>
+  <p>A model class represents a database table, and an instance of that class represents a particular record in the database table.</p>
+  <pre class="literal-block">
+    &gt;&gt;&gt; print """This is a
+    ... string that spans
+    ... three lines."""
+    This is a
+    string that spans
+    three lines.
+    &gt;&gt;&gt; def my_function(value):
+    ...     print value
+    &gt;&gt;&gt; my_function('hello')
+    hello
+  </pre>
+  <h2>chaining filters</h2>
+  <pre>
+Entry.objects.filter(
+        headline__startswith='What'
+        ).exclude(
+        pub_date__gte=datetime.date.today()
+        ).filter(
+        pub_date__gte=datetime(2005, 1, 30)
+        )
+one_entry = Entry.objects.get(pk=1)
+  </pre>
+</body>
+
+</html>

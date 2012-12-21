@@ -1,0 +1,10 @@
+# name: bin and its dependencies
+# key:  binsrc
+# --
+bin_PROGRAMS=${1:`(third (reverse (split-string (buffer-file-name) "/" t)))`}
+$1_SOURCES=${2:`(directory-files (file-name-directory (buffer-file-name)) nil "\\\.[fch]\\\(..\\\)?$" nil)`}$0
+
+
+### WARNING:
+### NO.1 Delete parentheses and false files above.
+### NO.2 Module.f90 must be placed ahead if you are compiling Fortran.

@@ -1,0 +1,17 @@
+/etc/adjtime
+/etc/default/grub
+/etc/fstab
+/etc/group
+/etc/grub.d/40_custom
+/etc/hostname
+/etc/locale.conf
+/etc/locale.gen
+/etc/modprobe.d/nobeep.conf
+/etc/modules-load.d/virtualbox.conf
+/etc/pacman.d/mirrorlist
+/etc/passwd
+/etc/personal.map.gz
+/etc/ssh/ssh_config
+/etc/ssh/sshd_config
+/etc/vconsole.conf
+/etc/hosts

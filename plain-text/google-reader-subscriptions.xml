@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>Google 阅读器中 Wd 的订阅</title>
+    </head>
+    <body>
+        <outline text="虎扑体育论坛-中国篮球" title="虎扑体育论坛-中国篮球" type="rss"
+            xmlUrl="http://bbs.hupu.com/rss.php?fid=24" htmlUrl="http://bbs.hupu.com"/>
+        <outline text="虎扑体育论坛-开放区" title="虎扑体育论坛-开放区" type="rss"
+            xmlUrl="http://bbs.hupu.com/rss.php?fid=1594" htmlUrl="http://bbs.hupu.com"/>
+        <outline text="虎扑体育论坛-步行街" title="虎扑体育论坛-步行街" type="rss"
+            xmlUrl="http://bbs.hupu.com/rss.php?fid=34" htmlUrl="http://bbs.hupu.com"/>
+        <outline text="超级大本营军事论坛 - 军事畅谈" title="超级大本营军事论坛 - 军事畅谈"
+            type="rss"
+            xmlUrl="http://lt.cjdby.net/forum.php?mod=rss&amp;fid=112&amp;auth=656aNzGe3B9ZUdCNPjnYYrixn3sXj9vwK8Ea962JMu%2FjogyoD314yaRYkhrTFzdb" htmlUrl="http://lt.cjdby.net/forum-112-1.html"/>
+        <outline text="超级大本营军事论坛 - 海军版" title="超级大本营军事论坛 - 海军版"
+            type="rss"
+            xmlUrl="http://lt.cjdby.net/forum.php?mod=rss&amp;fid=5&amp;auth=76b5efuD4KqNedimekpj8sLCsv7z8Wx5ZzSsbm%2BpllywPgNnFQ35GwDc3mjsUw" htmlUrl="http://lt.cjdby.net/forum-5-1.html"/>
+        <outline text="超级大本营军事论坛 - 空军版" title="超级大本营军事论坛 - 空军版"
+            type="rss"
+            xmlUrl="http://lt.cjdby.net/forum.php?mod=rss&amp;fid=4&amp;auth=6efdESLAOLV7iV3vyxrkAVB4SIvzWz96zud2%2BtFdrCYJX1ohtNmSjFbQMGf5Zw" htmlUrl="http://lt.cjdby.net/forum-4-1.html"/>
+        <outline text="超级大本营军事论坛 - 陆军版" title="超级大本营军事论坛 - 陆军版"
+            type="rss"
+            xmlUrl="http://lt.cjdby.net/forum.php?mod=rss&amp;fid=6&amp;auth=aa16m6uikNJQIOuNmYC5AeWdYEryOXEmf7BswT3tqY6baVBY2V9dtzHTTE9Flw" htmlUrl="http://lt.cjdby.net/forum-6-1.html"/>
+        <outline text="飞扬军事" title="飞扬军事" type="rss"
+            xmlUrl="http://www.fyjs.cn/bbs/rss.php?fid=26" htmlUrl="http://www.fyjs.cn/bbs"/>
+        <outline text="飞扬军事" title="飞扬军事" type="rss"
+            xmlUrl="http://www.fyjs.cn/bbs/rss.php?fid=159" htmlUrl="http://www.fyjs.cn/bbs"/>
+        <outline text="飞扬军事" title="飞扬军事" type="rss"
+            xmlUrl="http://www.fyjs.cn/bbs/rss.php?fid=25" htmlUrl="http://www.fyjs.cn/bbs"/>
+        <outline text="飞扬军事" title="飞扬军事" type="rss"
+            xmlUrl="http://www.fyjs.cn/bbs/rss.php?fid=27" htmlUrl="http://www.fyjs.cn/bbs"/>
+    </body>
+</opml>

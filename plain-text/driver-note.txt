@@ -1,0 +1,26 @@
+1, mecanisim and policy
+2, kernel: process management, interprocess communication and shedule. memory management, virtual addressing space built by kernel(malloc/free). Filesystems. almost everything in Unix can be treated as a file. multiple filesystem types, different ways of organizing data on the physical medium. Networking. incoming packets are asynchronous
+events. The packets must be collected, identified, and dispatched before a process takes care of them.
+3, device type: char module, block module, or network module. decomposition is a key element of scalability and extendability.the filesystem
+type is instead a software driver, because it maps the low-level data structures to
+high-level data structures.useless if you are not able to run ls or cp on the data it hosts.
+3. after insmod has loaded it, the module is linked to the kernel and can access the kernel’s public symbols (functions and variables, as detailed in the next section).
+4, kernel is at the highest level where everything is allowed; apps are at the lowest level called user space.
+5, kernel building: obj-m := module.o
+module-objs := file1.o file2.o
+make -C ~/kernel-2.6 M=`pwd` modules
+# If KERNELRELEASE is defined, we've been invoked from the
+# kernel build system and can use its language.
+ifneq ($(KERNELRELEASE),)
+obj-m := hello.o
+# Otherwise we were called directly from the command
+# line; invoke the kernel build system.
+else
+KERNELDIR ?= /lib/modules/$(shell uname -r)/build
+PWD := $(shell pwd)
+default:
+$(MAKE) -C $(KERNELDIR) M=$(PWD) modules
+endif
+it links any unresolved symbol in the module to the symbol table of the kernel.
+Unlike the linker, however, the kernel doesn’t modify the module’s disk file, but
+rather an in-memory copy.
