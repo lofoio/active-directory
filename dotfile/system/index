@@ -15,3 +15,5 @@
 /etc/ssh/sshd_config
 /etc/vconsole.conf
 /etc/hosts
+/usr/lib/udev/domount
+/etc/udev/rules.d/automount.rules

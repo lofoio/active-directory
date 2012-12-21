@@ -345,3 +345,5 @@ export PATH=/home/wangdian/bin:$PATH
 # exec 0<&6 6<&- #restore stdin from fd #6 and close fd #6
 # exec and xargs are totally different things.
 # xargs 重新排列命令行参数。
+# sudoer
+# wangdian ALL=(ALL) NOPASSWD: /bin/umount,/bin/something

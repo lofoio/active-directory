@@ -1,0 +1,188 @@
+extra/alsa-utils 1.0.26-1
+extra/apache 2.2.23-1
+extra/aspell-en 7.1-2
+core/autoconf 2.69-1 (base-devel)
+core/automake 1.12.5-1 (base-devel)
+core/bash 4.2.039-1 (base)
+extra/bash-completion 2.0-3
+core/binutils 2.23.1-1 (base-devel)
+core/bison 2.6.5-1 (base-devel)
+core/bzip2 1.0.6-4 (base)
+extra/chromium 23.0.1271.97-1
+core/coreutils 8.20-1 (base)
+core/cronie 1.4.9-1 (base)
+core/cryptsetup 1.5.1-1 (base)
+core/device-mapper 2.02.98-1 (base)
+core/dhcpcd 5.6.3-2 (base)
+core/diffutils 3.2-1 (base)
+core/e2fsprogs 1.42.6-1 (base)
+local/ekho 4.8-1
+extra/emacs 24.2-3
+community/espeak 1.46.02-2
+extra/evince 3.6.1-1 (gnome-extra)
+extra/exo 0.10.1-1 (xfce4)
+core/fakeroot 1.18.4-1 (base-devel)
+community/fcitx 4.2.6.1-3
+community/fcitx-configtool 0.4.5.1-2
+community/fcitx-gtk2 4.2.6.1-3
+community/fcitx-gtk3 4.2.6.1-3
+community/fcitx-sunpinyin 0.3.9-2
+core/file 5.11-1 (base)
+core/filesystem 2012.12-1 (base)
+core/findutils 4.4.2-4 (base)
+extra/firefox 17.0.1-1
+extra/flashplugin 11.2.202.258-1
+core/flex 2.5.37-1 (base-devel)
+extra/garcon 0.2.0-1 (xfce4)
+core/gawk 4.0.1-1 (base)
+core/gcc 4.7.2-2 (base-devel)
+core/gcc-libs 4.7.2-2 (base)
+core/gettext 0.18.1.1-4 (base)
+extra/gimp 2.8.2-1
+extra/git 1.8.0.2-1
+core/glibc 2.16.0-5 (base)
+core/grep 2.14-1 (base)
+core/grub-bios 2.00-1
+extra/gtk2-xfce-engine 3.0.1-1 (xfce4)
+extra/gtk3-xfce-engine 3.0.1-1 (xfce4)
+core/gzip 1.5-1 (base)
+core/heirloom-mailx 12.5-3 (base)
+core/inetutils 1.9.1-4 (base)
+core/iproute2 3.6.0-2 (base)
+core/iputils 20121126-1 (base)
+core/iw 3.6-1
+core/jfsutils 1.1.15-3 (base)
+local/jquery 1.8.3-1
+extra/jre7-openjdk 7.u9_2.3.3-1
+core/less 451-1 (base)
+core/libtool 2.4.2-7 (base-devel)
+core/licenses 2.9-1 (base)
+core/linux 3.6.10-1 (base)
+core/logrotate 3.8.2-2 (base)
+core/lvm2 2.02.98-1 (base)
+core/m4 1.4.16-2 (base-devel)
+core/make 3.82-5 (base-devel)
+core/man-db 2.6.3-1 (base)
+core/man-pages 3.44-1 (base)
+core/mdadm 3.2.6-1 (base)
+extra/mercurial 2.4.1-1
+core/mlocate 0.26-1
+community/mod_wsgi2 3.4-2
+extra/mplayer 35421-1
+core/nano 2.2.6-2 (base)
+core/netcfg 3.0-1 (base)
+extra/network-manager-applet 0.9.6.4-1
+extra/networkmanager 0.9.6.4-1
+extra/nouveau-dri 9.0.1-1
+core/nss-myhostname 0.3-3 (base)
+extra/ntfs-3g 2012.1.15-4
+core/openssh 6.1p1-4
+extra/orage 4.8.3-2 (xfce4-goodies)
+local/package-query 1.1-2
+core/pacman 4.0.3-5 (base)
+core/patch 2.7.1-1 (base-devel)
+core/pciutils 3.1.10-1 (base)
+core/pcmciautils 018-5 (base)
+core/perl 5.16.2-2 (base)
+core/pkg-config 0.27.1-1 (base-devel)
+core/ppp 2.4.5-5 (base)
+core/procps-ng 3.3.5-1 (base)
+core/psmisc 22.19-1 (base)
+extra/python 3.3.0-2
+community/python-beautifulsoup4 4.1.3-2
+community/python-docs 3.3.0-2
+local/python-jswebkit 0.0.3-3
+extra/python-pip 1.2.1-2
+extra/python2 2.7.3-3
+community/python2-beautifulsoup4 4.1.3-2
+community/python2-docs 2.7.3-1
+extra/python2-pip 1.2.1-2
+community/python2-psycopg2 2.4.5-2
+extra/pywebkitgtk 1.1.8-2
+extra/qt 4.8.4-1
+core/reiserfsprogs 3.6.21-4 (base)
+community/ristretto 0.6.3-3 (xfce4-goodies)
+community/sdcv 0.4.2-6
+core/sed 4.2.1-4 (base)
+core/shadow 4.1.5.1-2 (base)
+extra/sox 14.4.0-3
+extra/stardict 3.0.3-2
+core/sudo 1.8.6.p3-1
+core/sysfsutils 2.1.0-8 (base)
+core/systemd-sysvcompat 196-2 (base)
+core/tar 1.26-2 (base)
+extra/terminal 0.4.8-2 (xfce4)
+community/terminus-font 4.36-2
+core/texinfo 4.13a-7 (base)
+extra/texlive-core 2012.28273-1 (texlive-most)
+extra/texlive-langcjk 2012.28079-2 (texlive-lang)
+extra/texlive-latexextra 2012.28272-1 (texlive-most)
+extra/thunar 1.6.1-1 (xfce4)
+extra/thunar-archive-plugin 0.3.0-2 (xfce4-goodies)
+extra/thunar-media-tags-plugin 0.2.0-2 (xfce4-goodies)
+extra/thunar-volman 0.8.0-1 (xfce4)
+extra/tk 8.5.13-1
+extra/ttf-dejavu 2.33-3
+extra/tumbler 0.1.26-1 (xfce4)
+extra/unrar 4.2.4-1
+extra/unzip 6.0-6
+core/usbutils 006-1 (base)
+core/util-linux 2.22.1-3 (base)
+core/vi 1:050325-3 (base)
+community/virtualbox 4.2.4-2
+extra/w3m 0.5.3-3
+community/wgetpaste 2.20-1
+core/which 2.20-5 (base)
+community/xcursor-neutral 1.13a-6
+extra/xf86-input-synaptics 1.6.2-2 (xorg-drivers xorg)
+extra/xf86-video-nouveau 1.0.4-1 (xorg-drivers xorg)
+extra/xf86-video-vesa 2.3.2-2 (xorg-drivers xorg)
+extra/xfburn 0.4.3-6 (xfce4-goodies)
+extra/xfce4-appfinder 4.10.0-1 (xfce4)
+extra/xfce4-artwork 0.1.1a_git20110420-2 (xfce4-goodies)
+extra/xfce4-battery-plugin 1.0.5-1 (xfce4-goodies)
+extra/xfce4-clipman-plugin 1.2.3-2 (xfce4-goodies)
+extra/xfce4-cpufreq-plugin 1.0.0-3 (xfce4-goodies)
+extra/xfce4-cpugraph-plugin 1.0.5-1 (xfce4-goodies)
+extra/xfce4-datetime-plugin 0.6.1-3 (xfce4-goodies)
+extra/xfce4-dict 0.6.0-3 (xfce4-goodies)
+extra/xfce4-diskperf-plugin 2.5.4-1 (xfce4-goodies)
+extra/xfce4-eyes-plugin 4.4.1-3 (xfce4-goodies)
+extra/xfce4-fsguard-plugin 1.0.1-1 (xfce4-goodies)
+extra/xfce4-genmon-plugin 3.4.0-1 (xfce4-goodies)
+extra/xfce4-mailwatch-plugin 1.1.0-5 (xfce4-goodies)
+extra/xfce4-mixer 4.10.0-1 (xfce4)
+extra/xfce4-mount-plugin 0.6.4-1 (xfce4-goodies)
+extra/xfce4-mpc-plugin 0.4.4-1 (xfce4-goodies)
+extra/xfce4-netload-plugin 1.2.0-1 (xfce4-goodies)
+extra/xfce4-notes-plugin 1.7.7-4 (xfce4-goodies)
+extra/xfce4-notifyd 0.2.2-3 (xfce4-goodies)
+extra/xfce4-panel 4.10.0-1 (xfce4)
+extra/xfce4-power-manager 1.2.0-3 (xfce4)
+extra/xfce4-quicklauncher-plugin 1.9.4-7 (xfce4-goodies)
+extra/xfce4-screenshooter 1.8.1-1 (xfce4-goodies)
+extra/xfce4-sensors-plugin 1.2.5-1 (xfce4-goodies)
+extra/xfce4-session 4.10.0-6 (xfce4)
+extra/xfce4-settings 4.10.0-3 (xfce4)
+extra/xfce4-smartbookmark-plugin 0.4.4-4 (xfce4-goodies)
+extra/xfce4-systemload-plugin 1.1.1-1 (xfce4-goodies)
+extra/xfce4-taskmanager 1.0.0-3 (xfce4-goodies)
+extra/xfce4-time-out-plugin 1.0.1-2 (xfce4-goodies)
+extra/xfce4-timer-plugin 0.6.4-2 (xfce4-goodies)
+extra/xfce4-verve-plugin 1.0.0-3 (xfce4-goodies)
+extra/xfce4-wavelan-plugin 0.5.11-1 (xfce4-goodies)
+extra/xfce4-weather-plugin 0.8.2-1 (xfce4-goodies)
+extra/xfce4-xkb-plugin 0.5.4.3-3 (xfce4-goodies)
+extra/xfconf 4.10.0-2 (xfce4)
+extra/xfdesktop 4.10.0-5 (xfce4)
+core/xfsprogs 3.1.8-2 (base)
+extra/xfwm4 4.10.0-2 (xfce4)
+extra/xfwm4-themes 4.10.0-1 (xfce4)
+extra/xorg-server 1.13.1-1 (xorg)
+extra/xorg-server-utils 7.6-3
+extra/xorg-twm 1.0.7-1
+extra/xorg-xclock 1.0.6-1
+extra/xorg-xinit 1.3.2-3
+extra/xpdf 3.03-2
+extra/xterm 287-2
+local/yaourt 1.2.2-1
