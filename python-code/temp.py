@@ -1,14 +1,13 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-import socket, sys, os
-infile = sys.argv[1]
-if not os.path.isfile(os.path.join(os.path.abspath('.'), infile)):
-    print "file dose not exist."
-    sys.exit()
-tp = open(infile, 'r')
-ts = tp.read()
-tp.close()
-sc = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-sc.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
-sc.sendto(ts, ('<broadcast>', 1230))
-#ssh -N -L 1061:192.168.5.130:1060 kenaniah
+from bs4 import BeautifulSoup as BSoup
+from urllib.request import urlopen
+import sys, re
+html = "<p id='1' >hello</p><h1>hello</h1>"
+def f(tag, *args):
+    if "id" in tag.attrs:
+        print(tag)
+a = BSoup(html)
+# c = a(f)
+code = compile("lambda tag: tag.name == 'p'", '<string>', 'exec')
+c = a(lambda tag: tag.name == "p")
