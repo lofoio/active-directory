@@ -3,23 +3,16 @@
 // @namespace   wangdian.wdsl400.com
 // @description lt.cjdby.net
 // @require     http://code.jquery.com/jquery-latest.js
-// @include     http://lt.cjdby.net/forum-112-1.html
+// @include     http://lt.cjdby.net/forum*
 // @version     1
 // ==/UserScript==
 $(document).ready(function(){
-    // $('.listinline').css("text-align", "center");
-    // $('#toptool ul li:gt(5)').remove();
-    // var tptl = $('#toptool');
-    alert($("tr").length);
-    alert("hello");
-    var telm = $('#threadlist');
-    // var tpgs = $('.pages:last');
-    $('body').empty();
-    // $('body').append(tptl);
+    var telm = $('table[summary^="forum_"]');
+    var tpgs = $('.pg:last');
+    $('body').html($('#cd_nav a:lt(4)'));
     $('body').append(telm);
-    // $('body').append(tpgs);
-    // $('tbody:eq(0)').remove();
-    // $('tr:lt(14)').remove();
-    // $('td:not([id])').remove();
+    $('tbody:lt(6)').remove();
+    $('td').remove();
+    $('body').append(tpgs);
 });
 // $('body > :not(#myid)').remove();

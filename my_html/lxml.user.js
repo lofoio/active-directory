@@ -3,9 +3,11 @@
 // @namespace   lxml-no-css
 // @description lxml-no-css
 // @require     http://code.jquery.com/jquery-latest.js
-// @include     http://lxml.de/index.html
+// @include     *
+// @exclude     http://lt.cjdby.net/*
 // @version     1
 // ==/UserScript==
 $(document).ready(function(){
     $('head link').remove();
 });
+    // alert("css remove");
