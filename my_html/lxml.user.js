@@ -5,6 +5,7 @@
 // @require     http://code.jquery.com/jquery-latest.js
 // @include     *
 // @exclude     http://lt.cjdby.net/*
+// @exclude     http://www.youtube.com/*
 // @version     1
 // ==/UserScript==
 $(document).ready(function(){

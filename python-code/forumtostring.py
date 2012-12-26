@@ -4,21 +4,22 @@ from lxml import etree
 from urllib.request import urlopen
 import sys, re
 
-class ForumClipper(object):
-    def __init__(self, forumn="cjdby"):
-        self.headlines = []
-        with open( forumn + ".xml", 'r') as pathfile:
-            self.pathlist = [ li for li in pathfile.readlines()
-                                if not li.startswith("#") and
-                                li.strip()]
-        self.forumurl = self.pathlist[0]
-        self.hpath    = self.pathlist[1]
-        self.compath  = self.pathlist[2]
-        self.cathpth  = self.pathlist[3]
-        self.forumstring = ""
+class ForumClipper:
+    def __init__(self, turl=""):
+        self.forumurl = turl
         self.comreg   = re.compile("\s+")
+        self.headlines = []
+        self.forumstring = ""
 
-    def popen(self, turl):
+    def setup(self, forumn="cjdby"):
+        with open( forumn + ".xml", 'r') as pathfile:
+                self.config = etree.fromstring(pathfile.read())
+        self.forumurl = self.config.xpath("/domain/text()")[0]
+        self.hpath    = self.config.xpath("/domain/headlinelist/text()")[0]
+        self.compath  = self.config.xpath("/domain/posts/comments/text()")[0]
+        self.cathpth  = self.config.xpath("/domain/posts/authors/text()")[0]
+
+    def __open(self, turl):
         with urlopen(turl) as mypage:
             return etree.HTML(mypage.read())
 
@@ -26,12 +27,12 @@ class ForumClipper(object):
         return treeobj.xpath(objpath)
 
     def getheadlines(self):
-        treeobj = self.popen(self.forumurl)
+        treeobj = self.__open(self.forumurl)
         myas = self.__objfond(treeobj, self.hpath)
         self.headlines = [ (t.text, t.attrib["href"]) for t in myas[7:] ]
 
     def getcomments(self, turl):
-        treeobj = self.popen(turl)
+        treeobj = self.__open(turl)
         comments = self.__objfond( treeobj, self.compath)
         comauths = self.__objfond( treeobj, self.cathpth)
         return comauths, comments
@@ -52,13 +53,22 @@ class ForumClipper(object):
         with open('/home/wangdian/cjdby.txt', 'w', encoding='utf-8') as tfile:
             tfile.write(re.sub(self.comreg, " ", self.forumstring))
 
+    def calcxpath(self, turl):
+        self.elobj = self.__open(turl)
+        tree = etree.ElementTree(self.elobj)
+        tstrg = input("请输入搜索内容:")
+        e = self.elobj.xpath("//*[text()='{}']".format(tstrg))[0]
+        tpath = tree.getpath(e)
+        txt = self.elobj.xpath(tpath)[0].text
+        print("{}\n{}".format(tpath, txt))
+
 # wd = ForumClipper()
 # wd.getheadlines()
 # purl = wd.headlines[10][1]
 # a, b = wd.getcomments(purl)
 # wd.alltofile()
-# for a, c in zip(self.getcomments(t[1])):
 if __name__ == '__main__':
     wd = ForumClipper()
+    wd.setup()
     wd.getheadlines()
     wd.alltofile()

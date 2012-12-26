@@ -1,3 +1,26 @@
+lxml:
+etree.HTML : fix a string by adding <html><body>
+return an element
+etree.fromstring : leave the string alone
+return an element
+tree = etree.ElementTree() : set up the tree
+return a tree
+tree.getpath("element")
+class tc:
+    def __init__(self, tv="wang"):
+        self.a = tv
+    b = "b is here" # namespace tc/function
+    def f(self):    #          a, b/c
+        print(self.a)
+        print(self.b)
+        c = "dd"
+        self.d      # won't exist until f() is called
+class c:
+    __init__(self, arg):
+        self.a = xxx
+        self.b = xxx
+import c # a , b don't setup AKA no c.a c.b
+w = c()  # a, b exist AKA w.a w.b
 __foo : is private, call it by _moudle__foo
 everything else is public.
 __len__ is a special though. So you can len(foo) other than foo.__len__
@@ -5,8 +28,6 @@ object.__doc__
 xrange (range) ; xrange is discarded in py3000
 for i in xrange([start],stop,[step]):
     do_something(temp_list[i])
-for item in mylist:
-    do_something(item)
 
 def foo():
     return 3, 5.5
@@ -302,3 +323,12 @@ In real world applications, the finally clause is useful for releasing external 
 with open("myfile.txt") as f:
 for line in f:
 print(line)
+pip install funkload
+export LAUNCELOT_SERVER=192.168.5.130
+fl-run-test launcelot_tests.py TestLauncelot.test_dialog
+fl-run-bench launcelot_tests.py TestLauncelot.test_dialog
+fl-build-report --html bench.xml
+tuple:
+t = "hello", "there"[, OBJECT]
+singlet = "one",
+index: t[0]
