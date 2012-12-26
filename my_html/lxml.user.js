@@ -6,6 +6,12 @@
 // @include     *
 // @exclude     http://lt.cjdby.net/*
 // @exclude     http://www.youtube.com/*
+// @exclude     http://tv.cntv.cn/live/*
+// @exclude     http://*youku.com/*
+// @exclude     http://www.dbz.tv/*
+// @exclude     http://www.dbz.tv/*
+// @exclude     http://www.animeget.com/*
+// @exclude     http://www.soku.com/*
 // @version     1
 // ==/UserScript==
 $(document).ready(function(){

@@ -1,0 +1,46 @@
+ 2. Add import pdb
+ 3. Add pdb.set_trace()
+OR
+ 1. Write your program in file 'program.py' with a main function 'main'.
+ 2. Add pdb.set_trace() wherever you want to set a breakpoint
+ 3. >>>  import pdb.
+ 4. >>>  import program.
+ 5. >>>  pdb.run('program.main()')
+ 6. PDB takes over the interactive prompt. Press c (continue) to run
+        your program to the first breakpoint. Or single-step with s.
+Command:
+  * s : step. Execute the next line of code.
+  * n : next. Execute the next line of code in this function. If the
+    next line of execution would be a function call, the whole function
+    is run and the result returned before you stop again.
+  * p : print. Print the value of some variable.
+  * r : return from function. Run until the current function returns,
+    then resume single-stepping.
+  * c : continue running until next breakpoint. Also used to start your
+    program running.
+  * b n : set a break point.
+  * clear n : clear breakpoint at line n.
+
+If your program is crashing and the exception doesn't provide enough
+detail, PDB also provides post-mortem debugging.
+
+   1 >>> import pdb
+   2 >>> import crashy
+   3 >>> crashy.main()
+   4 KeyError: 'foo'
+   5 Traceback (most recent call last):
+   6   File "crashy.py", line 10, in main
+   7     print d['foo']
+   8 KeyError: 'foo'
+   9 # Oh no! A KeyError! Why???
+  10 >>> pdb.pm()
+  11 > /Users/ncsander/src/crashy.py(10)main()
+  12 ->     print d['foo']
+  13 (Pdb) p d
+  14 {}
+  15 #Oh. d is empty
+PDB behaves strangely with generators. It appears to run the generator
+to completion, then return the values. While stepping through the vacuum
+cleaner reviews running part, you can not inspect the generator's bound
+variables. You can only do so during the return phase. (This is a
+preliminary observation, and probably wrong.) A common use of generators is something like sum(x*y for x,y in zip(list1,list2)).

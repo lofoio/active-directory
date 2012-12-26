@@ -1,1 +1,1 @@
-<domain>http://lt.cjdby.net/forum-112-1.html<headlinelist>//a[@class="xst"]</headlinelist><posts><comments>//td[@class="t_f" and @id]</comments><authors>//a[@class="xw1"]</authors></posts></domain>
+<domain>http://www.fyjs.cn/bbs/thread.php?fid=159<headlinelist>/html[1]/body/div[2]/div[2]/div[11]/table/tbody/tr/td[2]/h3/a<hbase>http://www.fyjs.cn/bbs/</hbase><nthds>7</nthds></headlinelist><posts><comments>/html[1]/body/div[2]/div[2]/div/table/tr[1]/th[2]/div[2]/div[2]</comments><authors>/html[1]/body/div[2]/div[2]/div/table/tr[1]/th[1]/div/b</authors></posts></domain>

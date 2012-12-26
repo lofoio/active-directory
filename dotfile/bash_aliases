@@ -175,7 +175,9 @@ export PATH=/home/wangdian/bin:$PATH
 # updatedb ; locate
 #su -c 'mount -o loop /Fedora.iso /home/badegg/Downloads/fedora_iso'
 #pdb
-#~/Documents/pdb.txt
+# python -m pdb forumtostring.py
+# no need to set breakpoint if the program will crash
+#~/active-dir/plain-txt/pdb.txt
 #latex
 #DISPLAY=:0.0 mplayer -fs 00202=70989=70989=70989.mpg
 #have been kept back
