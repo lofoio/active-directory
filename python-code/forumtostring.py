@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-from lxml import etree
+try:
+    from lxml import etree
+except ImportError:
+    import xml.etree.ElementTree as etree
 from urllib.request import urlopen
 import sys, re
 class ForumClipper:
@@ -10,16 +13,20 @@ class ForumClipper:
         self.headlines = []
         self.forumstring = ""
 
-    def setup(self, forumn="cjdby"):
-        self.forumn = forumn
+    def setup(self, forumn):
+        self.forumn = forumn or "cjdby"
         with open( self.forumn + ".xml", 'r') as pathfile:
                 self.config = etree.fromstring(pathfile.read())
         self.forumurl = self.config.xpath("/domain")[0].text
         self.hpath    = self.config.xpath("/domain/headlinelist")[0].text
         self.hbase    = self.config.xpath("/domain/headlinelist/hbase")[0].text or ""
         self.ntheads  = int(self.config.xpath("/domain/headlinelist/nthds")[0].text or "0")
+        self.lzcom    = self.config.xpath("/domain/posts/lzcom")[0].text or ""
+        self.lzauth   = self.config.xpath("/domain/posts/lzauth")[0].text or ""
         self.compath  = self.config.xpath("/domain/posts/comments")[0].text
         self.cathpth  = self.config.xpath("/domain/posts/authors")[0].text
+        self.trash = ""
+        self.spams = ""
         print(self.forumurl)
 
     def __open(self, turl):
@@ -36,8 +43,10 @@ class ForumClipper:
 
     def getcomments(self, turl):
         treeobj = self.__open(turl)
-        comments = self.__objfond( treeobj, self.compath)
-        comauths = self.__objfond( treeobj, self.cathpth)
+        comments = self.__objfond( treeobj, self.lzcom)  if self.lzcom else []
+        comauths = self.__objfond( treeobj, self.lzauth) if self.lzcom else []
+        comments += self.__objfond( treeobj, self.compath)
+        comauths += self.__objfond( treeobj, self.cathpth)
         return comauths, comments
 
     def alltostring(self):
@@ -60,9 +69,14 @@ class ForumClipper:
     def calcxpath(self, turl):
         self.elobj = self.__open(turl)
         tree = etree.ElementTree(self.elobj)
-        for i in range(2):
+        while True:
             tstrg = input("请输入搜索内容:")
-            e = self.elobj.xpath("//*[text()='{}']".format(tstrg))[0]
+            if tstrg == "EOF":
+                break
+            for e in self.elobj.xpath("//*"):
+                t = "".join(e.xpath("text()"))
+                if tstrg in t:
+                    break
             tpath = tree.getpath(e)
             txt = "".join(self.elobj.xpath(tpath + "/text()"))
             print("{}\n{}".format(tpath, txt))
@@ -70,9 +84,7 @@ class ForumClipper:
 if __name__ == '__main__':
     wd = ForumClipper()
     cfg = sys.argv[-1] if len(sys.argv) == 2 else ''
-    if cfg:
-        wd.setup(cfg)
-    else:
-        wd.setup()
+    wd.setup(cfg)
     wd.getheadlines()
     wd.alltofile()
+# e = self.elobj.xpath("//*[text()='{}']".format(tstrg))[0]

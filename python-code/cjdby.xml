@@ -1,1 +1,1 @@
-<domain>http://lt.cjdby.net/forum-112-1.html<headlinelist>//a[@class="xst"]<hbase></hbase><nthds>7</nthds></headlinelist><posts><comments>//td[@class="t_f" and @id]</comments><authors>//a[@class="xw1"]</authors></posts></domain>
+<domain>http://lt.cjdby.net/forum-112-1.html<headlinelist>//a[@class="xst"]<hbase></hbase><nthds>7</nthds></headlinelist><posts><lzauth></lzauth><lzcom></lzcom><comments>//td[@class="t_f" and @id]</comments><authors>//a[@class="xw1"]</authors></posts></domain>

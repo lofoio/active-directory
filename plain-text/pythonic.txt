@@ -1,4 +1,26 @@
+__str__(self): : make obj printable
+x.f() == MyClass.f(x)
+_varible : a convention in order to avoid name conflict
+ns builtin : interpreter starting : outermost scope
+ns global  : import module : the next-to-last scope
+ns local   : function being called : innermost scope
+del(obj.attr) do the trick because attr in obj.__dict__
+the global names in a module
+the local names in a function invocation.
+print(n, end=' ')
+__iter__() is called by for automatically
+if a object has __iter__, it can be looped.
+iter(obj)
+__next__()
+if re.search('[sxz]$', noun):             ①
+        return re.sub('$', 'es', noun)        ②
+a = [1, 2 ,1 ,3 ,4 ,3 ,2]
+a = set(a) #remove duplicated item
+a = sorted(list(a))
+glob.glob('*test*.py')
 lxml:
+doc.xpath("//a[re:match(text(), 'some text')]",
+        namespaces={"re": "http://exslt.org/regular-expressions"})
 etree.HTML : fix a string by adding <html><body>
 return an element
 etree.fromstring : leave the string alone
