@@ -44,10 +44,10 @@ export GOARCH=386
 export GOOS=linux
 export PYTHONDOCS=/usr/share/doc/python/html/
 export EDITOR="vi"
-# export PYMACS_PYTHON=python2
-# export PYTHONDOCS=/usr/share/doc/python2/html/
-export PATH=/path/to/google_appengine:$PATH
+# export PATH=/path/to/google_appengine:$PATH
 export PATH=/home/wangdian/bin:$PATH
+export SAGE_ROOT=/opt/sage/
+export PYTHONPATH=/opt/sage/local/lib/python2.7/site-packages/sage/:$PYTHONPATH
 ####file globs wildcards filename patterns
 ## * ? (single character)
 ##[!wd].txt w?d.txt

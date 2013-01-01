@@ -1,3 +1,12 @@
+Writing a full-on CPython module from scratch would probably offer better performance than Cython if you know the quirks and are disciplined. But to someone who doesn't already drip CPython C modules, Cython is a godsend.
+
+Ultimately, there's 5 commonly used ways (CPython [C-API], Boost::Python, SWIG, Cython, ctypes) to integrate C into Python, and right now you'd be crazy not to give Cython a shot, if that's your need. It's very easy to learn for anyone familiar with both C and Python.« → ashika
+@interact
+def _(a=(1,4), b=(0,10)):
+    show(plot(sin(a*x+b)^2+a*cos(a*x^2), (x,0,6)), figsize=[8.5,3.5])
+sage
+parametric_plot((t, 8/(t*t+4)), (t, -4 ,4))
+plot
 __str__(self): : make obj printable
 x.f() == MyClass.f(x)
 _varible : a convention in order to avoid name conflict
