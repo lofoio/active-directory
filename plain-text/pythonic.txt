@@ -1,3 +1,10 @@
+# def Bar1D2Node_Assembly(k,i,j):
+#     DOF = vector([i,j])
+#     KK = matrix(2,2)
+#     for n1 in range(2):
+#         for n2 in range(2):
+#             KK[DOF[n1],DOF[n2]] += k[n1,n2]
+#     return KK
 Writing a full-on CPython module from scratch would probably offer better performance than Cython if you know the quirks and are disciplined. But to someone who doesn't already drip CPython C modules, Cython is a godsend.
 
 Ultimately, there's 5 commonly used ways (CPython [C-API], Boost::Python, SWIG, Cython, ctypes) to integrate C into Python, and right now you'd be crazy not to give Cython a shot, if that's your need. It's very easy to learn for anyone familiar with both C and Python.« → ashika
