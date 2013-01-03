@@ -8,13 +8,15 @@ def Bar2D2Node_Stiffness(E,A,x1,y1,x2,y2,alpha):
                              -C*C,-C*S,C*C,C*S,
                              -C*S,-S*S,C*S,S*S))
 
-def Bar2D2Node_Assembly(KK,k,n1,n2):
-    for i in range(2):
-        for j in range(2):
-            KK[2*n1+i,2*n1+j] += k[i,j]
-            KK[2*n1+i,2*n2+j] += k[i,2+j]
-            KK[2*n2+i,2*n1+j] += k[2+i,j]
-            KK[2*n2+i,2*n2+j] += k[2+i,2+j]
+def Assembly(dof,KK,k,ns):
+    noe = len(ns)
+    for a in range(noe):
+        for b in range(noe):
+            l = ns[a]*dof
+            r = ns[b]*dof
+            for i in range(dof):
+                for j in range(dof):
+                    KK[l+i,r+j] += k[i,j]
 
 def Bar2D2Node_Forces():
     pass
@@ -39,10 +41,10 @@ k3=Bar2D2Node_Stiffness(E,A,x1,y1,x3,y3,alpha3)
 k4=Bar2D2Node_Stiffness(E,A,x4,y4,x3,y3,alpha1)
 
 KK = matrix(RR,2*nodes,2*nodes)
-Bar2D2Node_Assembly(KK,k1,0,1)
-Bar2D2Node_Assembly(KK,k2,1,2)
-Bar2D2Node_Assembly(KK,k3,0,2)
-Bar2D2Node_Assembly(KK,k4,3,2)
+Assembly(2,KK,k1,[0,1])
+Assembly(2,KK,k2,[1,2])
+Assembly(2,KK,k3,[0,2])
+Assembly(2,KK,k4,[3,2])
 var('u1,v1,u2,v2,u3,v3,u4,v4', domain=RR)
 var('Rx1,Ry1,Rx2,Ry2,Rx3,Ry3,Rx4,Ry4', domain=RR)
 Rx2=2e4

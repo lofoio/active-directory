@@ -19,7 +19,7 @@
 // @exclude     http://www.soku.com/*
 // @exclude     http://bbs.hupu.com/*
 // @exclude     http://*:8080/*
-// @exclude     http://tieba.baidu.com.cn/*
+// @exclude     http://tieba.baidu.*
 // @version     1
 // ==/UserScript==
 $(document).ready(function(){
