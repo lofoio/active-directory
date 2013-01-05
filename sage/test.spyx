@@ -1,0 +1,5 @@
+cdef extern from "test.c":
+    int add_one(int n)
+
+def test(n):
+    return add_one(n)

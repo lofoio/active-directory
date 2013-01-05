@@ -1,3 +1,10 @@
+#!/usr/bin/env sage
+# -*- coding:utf-8 -*-
+
+if __name__ == '__main__':
+    import sys
+    from sage.all import *
+
 def Triangle2D3Node_Stiffness(E,NU,thick,ID,ic,celdes,xyz):
     """
     弹性模量 E,泊松比 NU,厚度 thick
@@ -56,7 +63,8 @@ def bcsolver(dof,bcsf):
             ps.append(float(p))
     return ns, ps
 
-with open("tri.txt", 'r') as infile:
+fname = sys.argv[-1] if len(sys.argv) == 2 else "tri.txt"
+with open(fname, 'r') as infile:
     cells,nodes,bcs = [int(x) for x in infile.readline().split()]
     celdes = []
     xyz    = []
@@ -89,3 +97,4 @@ P = KK*vector(U)
 energy = 0.5*vector(U)*KK*vector(U)
 work = vector(U)*P
 poten = energy - work
+print work,poten
