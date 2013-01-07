@@ -51,9 +51,7 @@ class ForumClipper:
 
     def alltostring(self):
         self.forumstring = "\n".join([ t[0] for t in self.headlines]) + "\n"
-        i = 0
-        for t in self.headlines:
-            i += 1
+        for i, t in enumerate(self.headlines):
             print("{}:: {}".format(i, t[0]))
             for a, c in zip(*self.getcomments(t[1])):
                 ath = "\n作者: " # + a.text

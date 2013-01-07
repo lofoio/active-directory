@@ -20,6 +20,7 @@
 // @exclude     http://bbs.hupu.com/*
 // @exclude     http://*:8080/*
 // @exclude     http://tieba.baidu.*
+// @exclude     http://www.azhibo.com/*
 // @version     1
 // ==/UserScript==
 $(document).ready(function(){

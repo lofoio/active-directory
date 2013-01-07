@@ -1,3 +1,4 @@
+google: 用Python做科学计算
 # def Bar1D2Node_Assembly(k,i,j):
 #     DOF = vector([i,j])
 #     KK = matrix(2,2)

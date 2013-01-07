@@ -1,90 +1,44 @@
-# 用节点插值单元。
-def Quad2D4Node_Stiffness(E,NU,thick,ID,ic,celdes,xyz):
-    """弹性模量 E,泊松比 NU,厚度 h
-     4 个节点 i、j、m、p 的坐标 xi,yi,xj,yj,xm,ym,xp,yp
-    平面问题性质指示参数 ID(1 为平面应力,2 为平面应变)
-    单元刚度矩阵 k(8X8)"""
-    i,j,k,l = celdes[ic]
-    xi,yi = xyz[i]
-    xj,yj = xyz[j]
-    xk,yk = xyz[k]
-    xp,yp = xyz[l]
-    ks = [1,-1,-1,1]
-    yt = [1,1,-1,-1]
-    a = 0.5*abs(xi-xj)
-    b = 0.5*abs(yj-yk)
-    noe = len(celdes[ic])
-    ents = []
-    for r in range(noe):
-        for s in range(noe):
-            krs = ks[r]*ks[s]
-            yrs = yt[r]*yt[s]
-            k1 = b*b*krs*(1+yrs/3.)+(1-NU)*0.5*a*a*yrs*(1+krs/3.)
-            k2 = a*b*(NU*yt[r]*ks[s]+(1-NU)*0.5*ks[r]*yt[s])
-            k3 = a*b*(NU*yt[s]*ks[r]+(1-NU)*0.5*ks[s]*yt[r])
-            k4 = a*a*yrs*(1+krs/3.)+(1-NU)*0.5*b*b*krs*(1+yrs/3.)
-            ents.append(matrix(RR,2,2,[k1,k3,k2,k4])*E*thick*0.25/((1-NU*NU)*a*b))
-    return block_matrix(4,4,ents)
+def noisy_line(m, b, x):
+    return m * x + b + 0.5 * (random() - 0.5)
 
-def Assembly(dof,KK,k,ns):
-    noe = len(ns)
-    for a in range(noe):
-        for b in range(noe):
-            l  = a*dof
-            ll = ns[a]*dof
-            r  = b*dof
-            rr = ns[b]*dof
-            for i in range(dof):
-                for j in range(dof):
-                    KK[ll+i,rr+j] += k[l+i,r+j]
+slope = 1.0
+intercept = -0.5
+x_coords = [random() for t in range(50)]
+y_coords = [noisy_line(slope, intercept, x) for x in x_coords]
+sp = scatter_plot(zip(x_coords, y_coords))
+sp += line([(0.0, intercept), (1.0, slope+intercept)], color='red')
+sp.show()
+# Use list_plot to visualize digital signals
+# Undersampling and oversampling a cosine signal
+sample_times_1 = srange(0, 6*pi, 4*pi/5)
+sample_times_2 = srange(0, 6*pi, pi/3)
+data1 = [cos(t) for t in sample_times_1]
+data2 = [cos(t) for t in sample_times_2]
 
-def bcsolver(dof,bcsf):
-    ns = []
-    ps = []
-    for t in bcsf:
-        tt = (len(t)-1)/2
-        for i in range(tt):
-            if t[i*dof+1] == "x":
-                n = int(t[0])*dof
-                p = t[i*dof+2]
-            elif t[i*dof+1] == "y":
-                n = int(t[0])*dof+1
-                p = t[i*dof+2]
-            ns.append(n)
-            ps.append(float(p))
-    return ns, ps
+plot1 = list_plot(zip(sample_times_1, data1), color='blue')
+plot1.axes_range(0, 18, -1, 1)
+plot1 += text("Undersampled", (9, 1.1), color='blue', fontsize=12)
+plot2 = list_plot(zip(sample_times_2, data2), color='red')
+plot2.axes_range(0, 18, -1, 1)
+plot2 += text("Oversampled", (9, 1.1), color='red', fontsize=12)
 
-with open("quad.txt", 'r') as infile:
-    cells,nodes,bcs = [int(x) for x in infile.readline().split()]
-    celdes = []
-    xyz    = []
-    bcsf   = []
-    for i in range(cells):
-        celdes += [[int(x)-1 for x in infile.readline().split()]]
-    for i in range(nodes):
-        xyz += [[float(x) for x in infile.readline().split()]]
-    for i in range(bcs):
-        bcsf += [infile.readline().split()]
-    dof = int(infile.readline().split()[1])
-    thick = float(infile.readline().split()[1])
-    E = float(infile.readline().split()[1])
-    NU = float(infile.readline().split()[1])
+g = graphics_array([plot1, plot2], 2, 1) # 2 rows, 1 column
+g.show(gridlines=["minor", False])
+import numpy
+import matplotlib.pyplot as plt
 
-KK = matrix(RR,dof*nodes,dof*nodes)
+x = numpy.arange(-2 * numpy.pi, 2 * numpy.pi, 0.1)
+func1 = numpy.sin(x)
+func2 = numpy.cos(x)
 
-for i in range(cells):
-    print i
-    k = Quad2D4Node_Stiffness(E,NU,thick,1,i,celdes,xyz)
-    Assembly(dof,KK,k,celdes[i])
-
-sub_k,sub_p = bcsolver(dof,bcsf)
-KKs = KK.matrix_from_rows_and_columns(sub_k,sub_k)
-sub_u = vector(sub_p)/KKs
-U = [0.0]*nodes*dof
-for i in range(len(sub_k)):
-    U[sub_k[i]]=sub_u[i]
-P = KK*vector(U)
-# ## no need to transpose vectors
-energy = 0.5*vector(U)*KK*vector(U)
-work = vector(U)*P
-poten = energy - work
+plt.figure(figsize=(5.5, 3.7)) # size in inches
+plt.plot(x, func1, linewidth=2.0, color=(0.5, 1,0),
+label='$f(x)=sin(x)$')
+plt.plot(x, func2, linewidth=3.0, color='purple', alpha=0.5,
+label='$f(x)=cos(x)$')
+plt.xlabel('$x$')
+plt.ylabel('$f(x)$')
+plt.title('Plotting with matplotlib')
+plt.legend(loc='lower left')
+plt.savefig('demo1.png')
+plt.close()
