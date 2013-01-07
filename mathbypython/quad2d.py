@@ -76,7 +76,7 @@ with open("quad.txt", 'r') as infile:
     E = float(infile.readline().split()[1])
     NU = float(infile.readline().split()[1])
 
-KK = np.empty([dof*nodes,dof*nodes])
+KK = np.zeros([dof*nodes,dof*nodes])
 
 for i in range(cells):
     k = Quad2D4Node_Stiffness(E,NU,thick,1,i,celdes,xyz)
