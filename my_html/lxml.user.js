@@ -20,7 +20,13 @@
 // @exclude     http://bbs.hupu.com/*
 // @exclude     http://*:8080/*
 // @exclude     http://tieba.baidu.*
+// @exclude     http://wow.178.com/*
+// @exclude     http://*google*
 // @exclude     http://www.azhibo.com/*
+// @exclude     http://www.wyzxsd.com/*
+// @exclude     http://www.cctvdream.com.cn/*
+// @exclude     http://*taobao.com/*
+// @exclude     http://*.tmall.com/*
 // @version     1
 // ==/UserScript==
 $(document).ready(function(){

@@ -40,3 +40,13 @@ reboot ; or halt -p to umount the cd or put it backrward
 pacman -S sudo
 visudo ; find the line with, copy it to next line and replace root
 with a user name; in case there's a problem, chmod 755 /
+dhcpd
+ip link set xxx up
+pacman -S xorg-server terminus-font networkmanager
+systemctl enable NetworkManager
+# /etc/mkinitcpio.conf
+# MODULES="i915"
+# or
+# MODULES="radeon"
+# or
+# MODULES="nouveau"
