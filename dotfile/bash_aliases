@@ -288,6 +288,12 @@ export PATH=/home/wangdian/bin:$PATH
 # FONT=ter-232b ;; this is a fb only font. To make sure this take effect. because font set by
 # loadkeys may not apply to non-fb console and fail. See below to
 # active framebuffer
+# /etc/mkinitcpio.conf
+# MODULES="i915"
+# or
+# MODULES="radeon"
+# or
+# MODULES="nouveau"
 # GRUB_GFXMODE=1024x768x32
 # GRUB_GFXPAYLOAD_LINUX=keep ;these two lines for drivers support kms,
 # like nouveau, or try video=1024x768

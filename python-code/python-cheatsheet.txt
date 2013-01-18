@@ -1,4 +1,0 @@
-tuple:
-t = "hello", "there"[, OBJECT]
-singlet = "one",
-index: t[0]
