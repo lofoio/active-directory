@@ -1,0 +1,10 @@
+hg cat a.txt
+hg cat -r 0 a.txt
+hg diff -r 0:1 a.txt
+hg update -r 0
+hg up ## go to the latest version
+###working flow
+set up a central repo at google
+hg clone
+hg pull
+hg merge
