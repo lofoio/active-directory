@@ -2,7 +2,6 @@
 // @name        fyjs
 // @namespace   wangdian.wdsl400.com
 // @description fyjs.cn
-// @require file:///usr/share/jquery/jquery-1.8.3.min.js
 // @require http://code.jquery.com/jquery-latest.js
 // @include     http://www.fyjs.cn/bbs/thread.php?fid=*
 // @version     1

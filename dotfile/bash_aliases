@@ -334,6 +334,8 @@ export PATH=/home/wangdian/bin:$PATH
 # ssh-keygen -t dsa -f id_dsa-huawei
 # cat id_dsa-huawei.pub >> /data/data/com.teslacoilsw.quicksshd/home/.ssh/authorized_keys
 # ssh -i path/to/id_dsa-huawei 192.168.x.x
+# x11 forwording:
+# ssh -X xxx.xxx.xxx.xx
 # awk
 # cat data_c | awk '{printf("%d", ($1-42.675296)*1000); $1=""; print}'
 # $ numerator=90; denominator=7

@@ -18,6 +18,7 @@
                       go-mode
                       auctex
                       python-mode
+                      pony-mode
                       yasnippet)
   "A list of packages to ensure are installed at launch.")
 
@@ -313,12 +314,12 @@
 ;;c-u M-! cmd insert output at point
 ;;emacs -batch -f batch-byte-compile filename.el
 ;; (setq browse-url-default-browser 'w3m-browse-url)
-(add-to-list 'load-path (expand-file-name "/opt/sage/local/share/emacs"))
-(require 'sage "sage")
-(setq sage-command "/opt/sage/sage")
-(require 'sage-view "sage-view")
-(add-hook 'sage-startup-hook 'sage-view
-          'auto-complete-mode)
+;; (add-to-list 'load-path (expand-file-name "/opt/sage/local/share/emacs"))
+;; (require 'sage "sage")
+;; (setq sage-command "/opt/sage/sage")
+;; (require 'sage-view "sage-view")
+;; (add-hook 'sage-startup-hook 'sage-view
+;;           'auto-complete-mode)
 ;; You can use commands like
 ;; (add-hook 'sage-startup-hook 'sage-view
 ;; 'sage-view-disable-inline-output 'sage-view-disable-inline-plots)
