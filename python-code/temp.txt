@@ -1,5 +1,0 @@
-pip install funkload
-export LAUNCELOT_SERVER=192.168.5.130
-fl-run-test launcelot_tests.py TestLauncelot.test_dialog
-fl-run-bench launcelot_tests.py TestLauncelot.test_dialog
-fl-build-report --html bench.xml
