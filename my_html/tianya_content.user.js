@@ -22,10 +22,7 @@ $('div.atl-item[id]').each(function(){
 $('#mylastp').append(myvstg);
 $('#mylastp').siblings().remove();
 $('body').append(mypg);
-var exec = require('child_process').exec;
-exec('pwd', function callback(error, stdout, stderr){
-    // result
-});
+$('#mylastp').css("font-size", "150%");
 });
 // alert($('div.atl-info span:eq(12)').text());
 // $('#mylastp').append($('h1 span:first').text());
