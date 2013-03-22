@@ -1,2 +1,2 @@
 #!/bin/bash
-mplayer -vf screenshot -loop 0 "$1" > /dev/null 2>&1
+mplayer -alang en -vf screenshot -loop 0 "$1" > /dev/null 2>&1
