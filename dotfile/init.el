@@ -18,7 +18,7 @@
                       go-mode
                       auctex
                       python-mode
-                      pony-mode
+                      ;;pony-mode
                       yasnippet)
   "A list of packages to ensure are installed at launch.")
 
@@ -115,7 +115,7 @@
  'backward-kill-word)
 (require 'iswitchb)
 (require 'python-mode)
-(require 'pony-mode)
+;;(require 'pony-mode)
 ;; (load "/home/wangdian/Downloads/nxhtml/autostart.el")
 ;; (require 'smart-operator)
 (add-hook 'iswitchb-make-buflist-hook 'iswitchb-summaries-to-end)
