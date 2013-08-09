@@ -7,7 +7,6 @@
 (package-initialize)
 (when (not package-archive-contents)
   (package-refresh-contents))
-;; Add in your own as you wish:
 (defvar my-packages '(starter-kit
                       smart-operator
                       starter-kit-lisp
@@ -115,6 +114,7 @@
  'backward-kill-word)
 (require 'iswitchb)
 (require 'python-mode)
+(require 'dired-x)
 ;;(require 'pony-mode)
 ;; (load "/home/wangdian/Downloads/nxhtml/autostart.el")
 ;; (require 'smart-operator)
@@ -325,6 +325,6 @@
 ;; 'sage-view-disable-inline-output 'sage-view-disable-inline-plots)
 ;; to have some combination of features.  In future, the customize interface
 ;; will make this simpler... hint, hint!
-(global-unset-key (kbd "C-\\"))
+;; (global-unset-key (kbd "C-\\"))
 (desktop-save-mode t)
 (desktop-load-default)

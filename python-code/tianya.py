@@ -34,7 +34,7 @@ for t in myas:
         myvstg += ts + re.sub( pat, "", tq )
 
 myvstg = re.sub(re.compile('\s+'), '', myvstg)
-with open('/home/wangdian/tianya.txt', 'w', encoding='utf-8') as tfile:
+with open('/home/lofoio/tianya.txt', 'w', encoding='utf-8') as tfile:
     tfile.write(myvstg)
 
 # mycmd = '/usr/bin/ekho'

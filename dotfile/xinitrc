@@ -12,9 +12,6 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
 fi
 #usermodmap=$HOME/.Xmodmap
 userresources=$HOME/.Xresources
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS="@im=fcitx"
 if [ -f $userresources ]; then  xrdb -merge $userresources;  fi
 #if [ -f $usermodmap ]; then  xmodmap $usermodmap;  fi
 /usr/bin/xset -b
@@ -22,6 +19,7 @@ if [ -f $userresources ]; then  xrdb -merge $userresources;  fi
 /usr/bin/xset fp rehash
 /usr/bin/setxkbmap -option "ctrl:nocaps"
 # Make sure above commands before the 'exec' command.
+# LANG="zh_CN.UTF-8"
 exec startxfce4
 # exec gnome-session
 # exec startkde

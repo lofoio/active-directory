@@ -1,5 +1,6 @@
 # User specific aliases and functions
 # bug : when remaining image left on the desktop, try switch ptty.
+VBOX_USB=usbfs
 setterm -blength 0
 function cs() { cd "$1" && ls; }
 function tp() { tec360 '$1' > /dev/null 2>&1 ; }
@@ -44,7 +45,7 @@ export GOARCH=386
 export GOOS=linux
 export PYTHONDOCS=/usr/share/doc/python/html/
 export EDITOR="vi"
-export PATH=/home/wangdian/bin:$PATH
+export PATH=/home/lofoio/bin:$PATH
 # export PATH=/path/to/google_appengine:$PATH
 # export SAGE_ROOT=/opt/sage/
 # export PATH=$SAGE_ROOT:$PATH
@@ -358,3 +359,6 @@ export PATH=/home/wangdian/bin:$PATH
 # xargs 重新排列命令行参数。
 # sudoer
 # wangdian ALL=(ALL) NOPASSWD: /bin/umount,/bin/something
+# linux (hd0,msdos3)/vmlinuz-linux root=/dev/sda6
+# initrd (hd0,msdos3)/vmlinuz.img
+# boot

@@ -60,7 +60,7 @@ class ForumClipper:
 
     def alltofile(self):
         self.alltostring()
-        outfile = '/home/wangdian/' + self.forumn + '.txt'
+        outfile = '/home/lofoio/' + self.forumn + '.txt'
         with open(outfile, 'w', encoding='utf-8') as tfile:
             tfile.write(re.sub(self.comreg, " ", self.forumstring))
 
