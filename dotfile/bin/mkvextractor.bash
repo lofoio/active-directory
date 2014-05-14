@@ -17,7 +17,7 @@ awk -v lopt="$whatlang" -v vusl="$vdadst" \
 END{if (myflag == "0" ) {print tnum, ttyp, lgug}}
 /A track/ {tnum = ""; ttyp = ""; lgug = ""}
 /Language|(Track (number|type))/ {
-if ( $(NF-1) == "number:" )   {tnum = $NF}
+if ( $4 == "number:" )   {tnum = $5}
 if ( $(NF-1) == "type:" )     {ttyp = $NF}
 if ( $(NF-1) == "Language:" ) {lgug = $NF}
 if (ttyp == vusl  && lgug == lopt ) {myflag = "1"; print tnum, ttyp, lgug; exit 0}}'`

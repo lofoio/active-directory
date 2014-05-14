@@ -17,7 +17,6 @@
                       go-mode
                       auctex
                       python-mode
-                      ;;pony-mode
                       yasnippet)
   "A list of packages to ensure are installed at launch.")
 
@@ -115,7 +114,6 @@
 (require 'iswitchb)
 (require 'python-mode)
 (require 'dired-x)
-;;(require 'pony-mode)
 ;; (load "/home/wangdian/Downloads/nxhtml/autostart.el")
 ;; (require 'smart-operator)
 (add-hook 'iswitchb-make-buflist-hook 'iswitchb-summaries-to-end)
@@ -178,11 +176,11 @@
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
 (ac-config-default)
-(add-hook 'python-mode-hook
-          '(lambda ()
-             (local-set-key [(control tab)] 'completion-at-point)
-             ;; (local-set-key "tab" 'completion-at-point)
-             ))
+;; (add-hook 'python-mode-hook
+;;           '(lambda ()
+;;              (local-set-key [(control tab)] 'completion-at-point)
+;;              ;; (local-set-key "tab" 'completion-at-point)
+;;              ))
 (add-hook 'shell-mode-hook
           '(lambda ()
              (local-unset-key (kbd "ESC RET"))
@@ -191,6 +189,9 @@
 (add-hook 'eshell-mode-hook
           '(lambda ()
              (local-set-key " " 'comint-magic-space)))
+(add-hook 'w3m-mode-hook
+          '(lambda ()
+             (local-unset-key (kbd "ESC n"))))
 (defun spcorstrollup (&optional n)
   "selfinsert SPACE or scroll up"
   (interactive "p")

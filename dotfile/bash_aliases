@@ -313,7 +313,7 @@ export PATH=/home/lofoio/bin:$PATH
 # pacman -Sc ; clear cache
 # network
 # pacman -S networkmanager network-manager-applet ; will do the job
-# for you. save you so much trouble then.
+# for you. save your trouble then.
 # systemctl enable NetworkManager.service
 # systemctl start NetworkManager.service
 # query which package containing the file cerecord
