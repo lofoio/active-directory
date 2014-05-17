@@ -72,6 +72,7 @@ export PATH=/home/lofoio/bin:$PATH
 #ls -I \*.cpp -I \*.h -I \*.am -I \*.ac | xargs rm -r
 #for x in *pdf ; do y=`echo $x | sed s/[^-0-9a-zA-Z.]//g`;cp -v $x $y ; done
 #awk
+# rm $(du *.mp4 | awk '/^4\./ {print $2}')
 #   * Print the length of the longest line in `data':
 #          expand data | awk '{ if (x < length()) x = length() }
 #                        END { print "maximum line length is " x }'
