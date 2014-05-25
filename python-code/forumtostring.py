@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
+# import pdb
+# pdb.set_trace()
 try:
-    from lxml import etree
+    from lxml import etree, html
 except ImportError:
     import xml.etree.ElementTree as etree
 from urllib.request import urlopen
@@ -16,7 +18,7 @@ class ForumClipper:
     def setup(self, forumn):
         self.forumn = forumn or "cjdby"
         with open( self.forumn + ".xml", 'r') as pathfile:
-                self.config = etree.fromstring(pathfile.read())
+                self.config = etree.parse(pathfile)
         self.forumurl = self.config.xpath("/domain")[0].text
         self.hpath    = self.config.xpath("/domain/headlinelist")[0].text
         self.hbase    = self.config.xpath("/domain/headlinelist/hbase")[0].text or ""
@@ -31,7 +33,7 @@ class ForumClipper:
 
     def __open(self, turl):
         with urlopen(turl) as mypage:
-            return etree.HTML(mypage.read())
+            return html.parse(mypage)
 
     def __objfond(self, treeobj, objpath):
         return treeobj.xpath(objpath)
@@ -64,9 +66,8 @@ class ForumClipper:
         with open(outfile, 'w', encoding='utf-8') as tfile:
             tfile.write(re.sub(self.comreg, " ", self.forumstring))
 
-    def calcxpath(self, turl):
+    def getpathbytext(self, turl):
         self.elobj = self.__open(turl)
-        tree = etree.ElementTree(self.elobj)
         while True:
             tstrg = input("请输入搜索内容:")
             if tstrg == "EOF":
@@ -75,12 +76,12 @@ class ForumClipper:
                 t = "".join(e.xpath("text()"))
                 if tstrg in t:
                     break
-            tpath = tree.getpath(e)
+            tpath = self.elobj.getpath(e)
             txt = "".join(self.elobj.xpath(tpath + "/text()"))
             print("{}\n{}".format(tpath, txt))
 
 if __name__ == '__main__':
-    wd = ForumClipper()
+    wd = ForumClipper() ## Note () here.
     cfg = sys.argv[-1] if len(sys.argv) == 2 else ''
     wd.setup(cfg)
     wd.getheadlines()
