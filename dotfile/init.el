@@ -287,7 +287,7 @@
 ;;c-x a e
 ;;c-m b
 ;;;;chmod root permission
-;;e /sudo::/boot/grub/menu.list
+;;c-x c-f /sudo::/boot/grub/menu.list
 ;;;;regular expression
 ;;M-x replace-regexp \[[0-9:.]+\]$  ~~  [02:15:51.393]
 ;;egrep option 'regexp' file1 file2

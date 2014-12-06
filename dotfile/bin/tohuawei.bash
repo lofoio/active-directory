@@ -2,7 +2,8 @@
 # -*- coding:utf-8 -*-
 if [ -z "$1" ]
 then
-    sftp -i /home/wangdian/.ssh/id_dsa_hw  root@huawei:/sdcard
+#    ssh -p 2222 -i /home/lofoio/.ssh/id_dsa_fhd 192.168.0.101
+    sftp -P 2222 -i /home/lofoio/.ssh/id_dsa_fhd 192.168.0.101:/sdcard
 else
-    scp  -i /home/wangdian/.ssh/id_dsa_hw  "$1"  root@huawei:/sdcard
+    scp -P 2222 -i /home/lofoio/.ssh/id_dsa_fhd  "$1"  192.168.0.101:/sdcard
 fi

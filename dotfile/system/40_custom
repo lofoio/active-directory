@@ -3,41 +3,9 @@ exec tail -n +3 $0
 # This file provides an easy way to add custom menu entries.  Simply type the
 # menu entries you want to add after this comment.  Be careful not to change
 # the 'exec tail' line above.
-# menuentry "Ubuntu 12.04 ISO" {
-# set isofile="/ubuntu-12.10-desktop-amd64.iso"
-# loopback loop (hd0,7)$isofile
-# linux (loop)/casper/vmlinuz boot=casper iso-scan/filename=$isofile noprompt noeject toram
-# initrd (loop)/casper/initrd.lz
-# }
-# menuentry 'archlinux-2012.11.01-dual' {
-# set isofile="archlinux-2012.11.01-dual.iso"
-# loopback loop (hd0,7)/$isofile
-# linux (loop)/arch/boot/x86_64/vmlinuz img_dev=/dev/sda7 img_loop=$isofile
-# initrd (loop)/arch/boot/x86_64/archiso.img
-# }
-# menuentry 'Archlinux'  {
-# 	set gfxpayload=$linux_gfx_mode
-# 	insmod part_msdos
-# 	insmod ext2
-# 	set root='(hd0,msdos3)'
-# 	search --no-floppy --fs-uuid --set=root 846859c3-130a-434d-bb39-b2afbc0b61c5
-# 	linux	/vmlinuz-linux root=/dev/sda8 ro video=1280x800
-# 	initrd	/initramfs-linux.img
-# }
-menuentry "Microsoft Windows XP Professional" --class windows --class os {
+menuentry "Microsoft Windows" --class windows --class os {
 	insmod part_msdos
 	insmod ntfs
 	set root='(hd0,msdos1)'
-	search --no-floppy --fs-uuid --set=root 06D07950D07946C9
-	drivemap -s (hd0) ${root}
 	chainloader +1
 }
-# menuentry 'Ubuntu, with Linux 2.6.38-16-generic' --class ubuntu --class gnu-linux --class gnu --class os {
-# 	set gfxpayload=$linux_gfx_mode
-# 	insmod part_msdos
-# 	insmod ext2
-# 	set root='(hd0,msdos3)'
-# 	search --no-floppy --fs-uuid --set=root 846859c3-130a-434d-bb39-b2afbc0b61c5
-# 	linux	/vmlinuz-2.6.38-16-generic root=UUID=20e5ee5b-0c84-4458-bbc8-512152752109 ro
-# 	initrd	/initrd.img-2.6.38-16-generic
-# }

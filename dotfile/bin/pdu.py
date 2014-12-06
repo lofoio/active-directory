@@ -6,5 +6,7 @@ import os, sys
 #         a = os.stat(t).st_size/(1024*1024)
 #         print("{:.1f}M".format(a),t)
 for t in sys.argv[1:]:
-    a = os.stat(t).st_size/(1024*1024)
-    print("{:.1f}M".format(a),t)
+    a = os.stat(t).st_size
+    print("{:.1f}M".format(a/(1024*1024)),t)
+    if a<6000:
+        os.remove(t)

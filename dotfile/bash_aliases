@@ -1,13 +1,12 @@
 # User specific aliases and functions
 # bug : when remaining image left on the desktop, try switch ptty.
 VBOX_USB=usbfs
-setterm -blength 0
 function cs() { cd "$1" && ls; }
 function tp() { tec360 '$1' > /dev/null 2>&1 ; }
 alias lss='ls -Slh'
 alias lst='ls -tlh'
 alias lsa='ls -A'
-alias df='df -h'
+alias df='df -hT'
 alias du='du -sh --max-depth=0'
 alias dirs='dirs -p'
 alias sl='ls'
@@ -29,13 +28,15 @@ alias cpn="cp -n" #do not override
 alias ue="umount /media/EC8F-D0FD/"
 alias movie="cd ~/Movies/english/ && ls"
 alias autoall="aclocal && autoconf && automake --add-missing"
-alias rdesktop-vmware="rdesktop -a 16 -u Administrator -p wangdian -r clipboard:PRIMARYCLIPBOARD -r disk:sunray=/home/badegg/Movies/english 192.168.1.5"
+alias rdesktop-vmware="rdesktop -a 16 -u Administrator -p lofoio -r clipboard:PRIMARYCLIPBOARD -r disk:sunray=/home/badegg/Movies/english 192.168.1.5"
 alias listupnetuser="nmap -sP"
-alias cmx="chmod +x"
-alias briss="java -jar /home/wangdian/briss-0.9/briss-0.9.jar "
-alias lsorphans='sudo pacman -Qdt'
+alias cmx="chmod +xv"
+alias mv="mv -vi"
+alias briss="java -jar /home/lofoio/briss-0.9/briss-0.9.jar "
+ alias lsorphans='sudo pacman -Qdt'
 alias rmorphans='sudo pacman -Rns $(pacman -Qtdq)'
 alias nocaps="/usr/bin/setxkbmap -option "ctrl:nocaps""
+alias wget-rc="wget --config=/home/active-directory/dotfile/wgetrc"
 PS1='\W\$ '
 PYTHONSTARTUP=$HOME/.pythonrc
 ALTERNATE_EDITOR=vi
@@ -46,7 +47,8 @@ export GOOS=linux
 export PYTHONDOCS=/usr/share/doc/python/html/
 export EDITOR="vi"
 export PATH=/home/lofoio/bin:$PATH
-# export PATH=/path/to/google_appengine:$PATH
+export PATH=/opt/google-appengine-python:$PATH
+export PYTHONPATH=/opt/google-appengine-python:$PYTHONPATH
 # export SAGE_ROOT=/opt/sage/
 # export PATH=$SAGE_ROOT:$PATH
 # export PYTHONPATH=/opt/sage/local/lib/python2.7/site-packages/sage/:$PYTHONPATH
@@ -199,7 +201,7 @@ export PATH=/home/lofoio/bin:$PATH
 #uninstall kernels
 #dpkg -S /boot/vmlinuz-3.2.0-33*
 #dpkg -l | grep 3.2.0-33
-# dd if=/dev/sda of=/home/wangdian/bootcode_backup bs=446 count=1
+# dd if=/dev/sda of=/home/lofoio/bootcode_backup bs=446 count=1
 # time
 # cat /proc/driver/rtc ; show the rtc time.
 # timedatectl status
@@ -257,11 +259,12 @@ export PATH=/home/lofoio/bin:$PATH
 # or automaticly:
 # add (share  /media/share  vboxsf uid=1000,gid=1000,rw,dmode=700,fmode=600, comment=systemd.automount 0 0)
 #to the fstab of the guest OS
+# exec permission implicitly disable by mount option user/users
 # how to find out the uid and Gid
 # id
 # users and groups
 # cat /etc/passwd ; list all users , x is for passwords
-# wangdian:x:1000:100::/home/wangdian:/bin/bash
+# lofoio:x:1000:100::/home/lofoio:/bin/bash
 # username  password uid gid [info] homedir shell
 # password is stored in /etc/shadow ; harshed
 # who ; list all the users logged
@@ -332,16 +335,18 @@ export PATH=/home/lofoio/bin:$PATH
 # ssh-keygen -t ecdsa
 # ssh-copy-id [-i ~/.ssh/id_ecdsa.pub] [-p 22]  [username@]remote-server.org
 # fallback method: cat ~/id_ecdsa.pub >> ~/.ssh/authorized_keys
-# cat id_ecdsa.pub > /etc/ssh/user-keys/wangdian
+# cat id_ecdsa.pub > /etc/ssh/user-keys/lofoio
 # /etc/ssh/sshd_config
 # AuthorizedKeysFile /etc/ssh/user-keys/%u
 # PasswordAuthentication no
 # ChallengeResponseAuthentication no
 # .ssh/known_hosts contains the server ip and its domainname
 # android quicksshd
-# ssh-keygen -t dsa -f id_dsa-huawei
+# ssh-keygen -t dsa -f id_dsa_fhd
+# tohuawei.bash id_dsa_fhd.pub
+# ssh [-p 2222] 192.168.x.x
 # cat id_dsa-huawei.pub >> /data/data/com.teslacoilsw.quicksshd/home/.ssh/authorized_keys
-# ssh -i path/to/id_dsa-huawei 192.168.x.x
+# ssh -i path/to/id_dsa-fhd 192.168.x.x
 # x11 forwording:
 # ssh -X xxx.xxx.xxx.xx
 # awk
@@ -359,7 +364,10 @@ export PATH=/home/lofoio/bin:$PATH
 # exec and xargs are totally different things.
 # xargs 重新排列命令行参数。
 # sudoer
-# wangdian ALL=(ALL) NOPASSWD: /bin/umount,/bin/something
+# lofoio ALL=(ALL) NOPASSWD: /bin/umount,/bin/something
 # linux (hd0,msdos3)/vmlinuz-linux root=/dev/sda6
 # initrd (hd0,msdos3)/vmlinuz.img
 # boot
+# tar and gzip
+# tar zcvf dir.tar.gz dir/ #compress
+# tar zxvf dir.tar.gz #decompress
