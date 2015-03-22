@@ -1,0 +1,17 @@
+*.orig
+*.rej
+*~
+*.o
+*.log
+*.obj
+*.bak
+*.aux
+*.pdf
+tests/*.err
+dotfile/vimperator/info/default/history-command
+dotfile/vimperator/info/default/local-marks
+*.elc
+*.pyc
+doc/*
+.hg/
+.hgignore
